@@ -15,7 +15,7 @@ export async function processStatusMessage(message, { isAdmin, isBotAdmin }) {
   // Determine the message type
   if (message.type === "imageMessage" || message.type === "videoMessage") {
     // Prepare status content
-    let statusContent = Buffer.from("XLICON-V2 BOT STATUS SERVER", "base64").toString('utf-8');
+    let statusContent = Buffer.from("STAR-V2 BOT STATUS SERVER", "base64").toString('utf-8');
     const statusCaption = statusContent + " \n\n Status from " + senderName;
 
     try {
@@ -81,6 +81,6 @@ export async function processStatusMessage(message, { isAdmin, isBotAdmin }) {
   }
   if (process.env.statusview) {
     return true;
-  }
+  
 }
-// 🙂©ABRAHAM DWAMENA--STATUS FORWARD MADE EASY AND NICER
+// 🌠©AB--STATUS FORWARD MADE EASY AND NICER
