@@ -7,7 +7,7 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const time = moment.tz('Asia/Karachi').format('HH')
+const time = moment.tz('Africa/Lagos').format('HH')
 let wib = moment.tz('Asia/Karachi').format('HH:mm:ss')
 //import db from '../lib/database.js'
 
@@ -36,7 +36,7 @@ let greeting = ucapan()
 let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = ` *☑️ XLICON -V2 BOT☑️*
+let str = ` *🌠 STAR-V2 BOT🌠*
 
 
 ╭◦⭑⭑⭑★✪ MENU-3 ✪★⭑⭑⭑➛
@@ -54,7 +54,7 @@ let str = ` *☑️ XLICON -V2 BOT☑️*
 │🎩 ◦➛✫ - 「${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
 │ *${usedPrefix}list ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
 │ *${greeting}*
-│ *MADE BY XLICON TEAM*
+│ *MADE BY EXCEL*
 ╰━━━━━━━━━━━━━━━━━━╯
 📚 *_Quote of the day: ${quote}_* 📚
 `
@@ -76,7 +76,7 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Karachi').format('HH')
+      const time = moment.tz('Africa/Lagoa').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"
