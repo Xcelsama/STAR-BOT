@@ -156,7 +156,7 @@ NOW Deploy👇
 
   
 
-  ## ``Support INTEL``
+  ## ``Support INFO``
   
    
 </p>
