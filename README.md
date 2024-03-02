@@ -157,12 +157,7 @@ NOW Deploy👇
   
 
   ## ``Support Group``
-   <p align="center">
-  <a href="https://wa.me/2347045035241">
-    <img alt="STAR-MD" height="300" src=https://i.imgur.com/D0ZPh8f.jpg">
-  </a>
-<h1 align="center"> 💫ՏፕᎪᎡ-ᎷᎠ💫
-</p>
+  
       <p align="center">
   <a href="https://wa.me//+2347045035241" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
