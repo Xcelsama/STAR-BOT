@@ -8,8 +8,8 @@ let handler = async (m, { conn }) => {
     if (!json.news) throw json;
 
     let techNews = `•───── ୨❀୧ ─────•
-    ❖ 𝑺𝑻𝑨𝑻𝑼𝑺: Active
-    ㋡ 𝑪𝑹𝑬𝑨𝑻𝑶𝑹: XLICON TEAM 
+    ❖ 𝑺𝑻𝑨𝑻𝑼𝑺: Online... 
+    ㋡ 𝑪𝑹𝑬𝑨𝑻𝑶𝑹: EXCEL
     ☞ 𝑵𝑬𝑾𝑺: ${json.news}
       •───── ୨❀୧ ─────•
     `;
