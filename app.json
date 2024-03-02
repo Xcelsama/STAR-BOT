@@ -1,10 +1,11 @@
 {
-    "name": "whatsapp-bot (X-BOT)",
-  "description": "A WhatsApp bot with Rich functions Created by Excel",
+  "name": "whatsapp-bot (X-BOT)",
+  "description": " Whatsapp bot.",
+    "logo": "https://i.imgur.com/D0ZPh8f.jpg",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Xcelsama/STAR-MD-V2",
+  "repository": "https://github.com/Xcelsama/STAR-MD-V2/main",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
@@ -27,12 +28,12 @@
       "required": false,
       "value": "*"
     },
-     "HEROKU API": {
+     "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
       "value": ""
     },
-     "APP NAME": {
+     "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
       "value": ""
@@ -40,12 +41,12 @@
     "statusview": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "autoRead": {
-      "description": "make it true if you want bot to read messages or false",
+      "description": "make it true if you want bot to read messages",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
