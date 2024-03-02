@@ -30,7 +30,7 @@
 If you find XLICON-V2-MD helpful, consider giving it a star ⭐ to show your appreciation.
 
 Thanks to all contributors! 🚀
-
+𝙵𝙴𝙰𝚃𝚄𝚃𝙴𝚂
 ◉ Multi-Device Support  
 ◉ AI Photo Enhancement  
 ◉ Downloader Commands  
@@ -40,7 +40,7 @@ Thanks to all contributors! 🚀
 ◉ Economy Menu  
 ◉ Various Games  
 ◉ Audio/Video Editor Commands
-
+✰ Others...... 
 
 ## 🛠️ `Installation Methods`
 1. Fork the repo
