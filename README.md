@@ -158,7 +158,7 @@ NOW Deploy👇
 
   ## ``Support Group``
   
-     <h1 align="center"> 💫ՏፕᎪᎡ-ᎷᎠ💫
+   
 </p>
       <p align="center">
   <a href="https://wa.me//+2347045035241" target="_blank">
