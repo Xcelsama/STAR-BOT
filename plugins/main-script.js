@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/salmanytofficial/XLICON-V2-MD';
+  const githubRepoURL = 'https://github.com/Xcelsama/STAR-MD-V2';
 
   try {
   
@@ -16,10 +16,10 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-╭⭑⭑⭑★✪ *XLICON* ✪★⭑⭑⭑
+╭⭑⭑⭑★✪ *STAR-MD-V2* ✪★⭑⭑⭑
 │ 📂 *BOT Name:* _${repoData.name}_
 │ 📝 *Description:* _${repoData.description}_
-│ 👤 *Owner:* _Salman Ahmad_
+│ 👤 *Owner:* _EXCEL AMADI_
 │ ⭐ *Stars:* _${repoData.stargazers_count}_
 │ 🍴 *Forks:* _${repoData.forks_count}_
 │ 🌐 *URL:* ${repoData.html_url}
