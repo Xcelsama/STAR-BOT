@@ -15,17 +15,16 @@ import {
  
  const defaultMenu = {
   before: `
-  「 ${botname} 🎁XMD 」\n
+  「 ${botname} 🎁MD 」\n
   *%ucpn*
 ⍟────────────────⍟
-*REMEMBER THIS BOT IS FOR*
-*EDUCATIONAL PERPOSES*
+https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
 ⍟────────────────⍟
-*©Salman Ahmand*
+*©Excel Amadi*
 ⍟────────────────⍟
-*_Konnichiwa! Its XLICON-MD A_* 
+*_Salutations! Its STAR-MD A_* 
 *_Multi-Device Whatsapp BOT_*
-*_Recoded By Salman Ahmad And Abraham Dwamena_*
+*_Recoded By EXCEL_*
 ⍟────────────────⍟
                                     
  ▀▄▀ █░░ █ █▀▀ █▀█ █▄░█  
@@ -39,11 +38,11 @@ import {
 ╰┬────────────────⦿
 ┌┤
 ┃
-┃ *_Founder_*: Salman Ahmad 
+┃ *_Developer_*: Excel Amadi
 ┃ *_Bot Name_*: ${botname}
 ┃ *_Mode_*: %mode
-┃ *_HOST_*: kali Linix
-┃ *_Type_*: NodeJs
+┃ *_HOST_*: I-CLOUD☁
+┃ *_Type_*: LINUX
 ┃ *_Baileys_*: Multi Device
 ┃ *_Prefix_*: [ *%_p* ]
 ┃ *_Uptime_*: %muptime
@@ -57,7 +56,7 @@ import {
 ┃
 ┃ *_Name_*: %name
 ┃ *_Gold_*: %credit
-┃ *_Role_*: XLICON-MD-TESTER
+┃ *_Role_*: 
 ┃ *_Level_*: %level [ %xp4levelup Xp For Levelup]
 ┃ *_Xp_*: %exp / %maxexp
 ┃ *_Total Xp_*: %totalexp
@@ -85,7 +84,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "⏳",
+ text: "🌠",
  key: m.key,
    }
   })
@@ -253,7 +252,7 @@ import {
  }
  
  function ucapan() {
-  const time = moment.tz("Asia/Kolkata").format("HH")
+  const time = moment.tz("Africa/Lagos").format("HH")
   let res = "Good morning ☀️"
   if (time >= 4) {
    res = "Good Morning 🌄"
