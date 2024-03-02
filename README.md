@@ -14,7 +14,8 @@
 
 ##  🌠```Bot Intro```🌠
 [![STAR-MD-V2](https://i.ibb.co/x8RVYs5/20240302-120657.jpg)](https://wa.me/2347045035241)
-</a>   <p align="center">
+</p>
+      <p align="center">
   <a href="https://wa.me//+2347045035241" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
@@ -34,6 +35,7 @@
 </p>
 
   </a>
+
 
 <h1 align="center"> 🌠𝗦𝗧𝗔𝗥-𝗠𝗗-𝗩𝟮🌠
 </p>
