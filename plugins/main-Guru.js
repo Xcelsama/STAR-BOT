@@ -8,22 +8,19 @@ let handler = async m => m.reply(`
 
 Group1:
 _____________________
-https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk
+https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
 _______________________
 
 Group2:
 _______________________
-https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW
+https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08"
 _________________________
 
-*DEVELOPERS*/
-1:___________________🔰 *MOD'S* 🔰_
-wa.me/923184070915
-𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 -𝘼𝙝𝙢𝙢𝙞
+*DEVELOPER*/
 
-2:__________________🔰 *MOD'S* 🔰_
-wa.me/233533763772
-*ABRAHAM DWAMENA*
+1:__________________🔰 *MOD'S* 🔰_
+wa.me/2347045035241
+*AMADI EXCEL*
 _______________________
 𝐋ᶦᵏᵉ  𝐂ᵒᵐᵐᵉⁿᵗ   𝐒ᵃᵛᵉ   𝐒ʰᵃʳᵉ
 💫   🍷   🎊   🍁   🌙   🪄 
@@ -35,10 +32,10 @@ _______________________
 ┊   💛
 ❤️
 *_▬▭▬▭▬▭▬▭▬▭_*
-*╰─ ➤XLICON V2*                    
+*╰─ ➤STAR V2*                    
                      ☟︎︎︎
- *̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊╰─☞︎︎︎TEAM XLICON
-Salman amand & Abraham Dwamena
+ *̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊̊╰─☞︎︎︎STAR-MD-V2
+ Excel...... AMADI... .. 
  ♥️     ✍🏻ㅤ   📩     📤 
  *_ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ   ˢᵃᵛᵉ    ˢʰᵃʳᵉ_*
 `.trim())
