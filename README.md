@@ -12,7 +12,7 @@
 
  
 
-## 🌟 `Bot Intro and Features`
+## 🌠 ***Bot Intro***
 [![STAR-MD-V2](https://i.ibb.co/g3H2qY0/20240302-113028-2.png)](https://wa.me/2347045035241)
 </a>
 <h1 align="center"> 🌠𝗦𝗧𝗔𝗥-𝗠𝗗-𝗩𝟮🌠
