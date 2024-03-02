@@ -12,8 +12,8 @@ handler.all = async function (m, conn) {
     let url = "https://github.com/salmanytofficial"
     let murl = "https://www.instagram.com/ahmmikun/"
     let hash = global.botname
-    let img = "https://i.imgur.com/kQJHMAe.jpg"
-    let num = ["923184070915","923184474176","233533763772","94789481495"]
+    let img = "https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg"
+    let num = ["2347045035241"]
 
     let doc = {
         audio: {
@@ -28,7 +28,7 @@ handler.all = async function (m, conn) {
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "↺ |◁   II   ▷|   ♡",
-          body: hash,
+          body: 𝚂𝚃𝙰𝚁-𝙼𝙳-𝚟𝟸,
           thumbnailUrl: img,
           sourceUrl: url,
           mediaType: 2,
