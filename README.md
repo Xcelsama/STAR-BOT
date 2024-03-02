@@ -27,7 +27,7 @@
 
 
 ## ⭐ `Star This Repo`
-***If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appreciation.***
+If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appreciation.
 
 
 
@@ -43,7 +43,7 @@
 ◉ Economy Menu  
 ◉ Various Games  
 ◉ Audio/Video Editor Commands
-
+    &
 ◉ Others...... 
 
 ## 🛠️ `Installation Procedure`
