@@ -46,7 +46,7 @@ If you find XLICON-V2-MD helpful, consider giving it a star ⭐ to show your app
 
 ◉ Others...... 
 
-## 🛠️ `Installation Methods`
+## 🛠️ `Installation Procedure`
 1. Fork the repo
     <br>
 <a href='https://github.com/salmanytofficial/XLICON-V2-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
