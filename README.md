@@ -13,7 +13,7 @@
  
 
 ## 🌟 `Bot Intro and Features`
-[![XLICON](https://i.ibb.co/6XcTCBN/20240302-113028.pnghttps://i.ibb.co/HnJ2K1d/20240302-113028-1.png)](https://wa.me/2347045035241)
+[![XLICON](https://i.ibb.co/HnJ2K1d/20240302-113028-1.png)](https://wa.me/2347045035241)
 
 ### ℹ️ **About XLICON-V2**
 XLICON-V2 is a versatile Multi-Device WhatsApp bot developed by [Salman Ahamed](https://github.com/salmanytofficial). It offers a wide range of features, making it an advanced and user-friendly bot for various purposes.
