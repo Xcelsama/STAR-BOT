@@ -27,7 +27,7 @@
 
 
 ## ⭐ `Star This Repo`
-If you find XLICON-V2-MD helpful, consider giving it a star ⭐ to show your appreciation.
+***If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appreciation.***
 
 
 
