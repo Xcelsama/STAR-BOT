@@ -151,31 +151,11 @@ NOW Deploy👇
 ## DEPLOY IN KOYEB    
 [![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/auth/signup)  
 
-## `CREDITS` 
-<div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
-<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
-<div><button id="boton" type="button">Base  - By GURU-BOT</button></div>
-<a href="https://github.com/Guru322"><img src="https://github.com/Guru322.png" width="150" height="150" alt="Guru"/></a>
 
 ## `OWNER` 
-<a href="https://github.com/salmanytofficial"><img src="https://github.com/salmanytofficial.png" width="250" height="250" alt="Salman Ahmad"/></a>
+<a href="https://github.com/Xcelsama"><img src="https://github.com/Xcelsama.png" width="250" height="250" alt="Xcelsama"/></a>
   
-**XLICON-V2** - By `salmanytofficial`
-<br>
-`Development , Maintainence , Bot Updates`
 
-## `Main Dev` 
-<a href="https://github.com/abrahamdw882"><img src="https://i.imgur.com/100UXHy.jpg" width="250" height="250" alt="Abraham Dwamena"/></a>
-  
-**XLICON-V2** - By `abrahamdw882`
-<br>
-`Development , Features Enhancement , Plugin Debbuging`
-
-## 🌈 `Support Us`
-- **Mail Us:** [salmansheikh2500@gmail.com](mailto:salmansheikh2500@gmail.com)
-- **Join Our Support Group:**
- <p align="center">
-   
   ## ``Support Group``
    
    [![WHATSAPP](https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)]( https://chat.whatsapp.com/Lda5nx04JZJJsKsibu0KFR)
@@ -192,18 +172,6 @@ NOW Deploy👇
 
 ## 🔒 `Reminder`
 Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
-
-## 🙌 `Bot Developers and Contributors`
-| [![Mzn King](https://github.com/mznking.png)](https://github.com/mznking) | [![Suhail Tech Info](https://github.com/SuhailTechInfo.png)](https://github.com/SuhailTechInfo.) | [![Maher Zubair](https://github.com/Maher-Zubair.png)](https://github.com/Maher-Zubair) | [![VENOX](https://github.com/V-E-N-O-X.png)](https://github.com/V-E-N-O-X) | [![Syntax-king](https://github.com/syntax-king.png)](https://github.com/syntax-king) |
-| -------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------------- |
-| **Mzn King**<br>`Contributor`<br>`Bot Development`<br>`Bot Testing` | **Suhail Tech Info**<br>`Contributor`<br>`Feature Testing` |**Maher Zubair**<br>`Contributor`<br>`Bot Testing` | **VENOX**<br>`Menu Designs`<br>`Xlicon Web`<br>`Bot Testing` | **Syntax king**<br>`Contributor`<br>`Bot Testing` |
-
-## 📊 `GitHub Stats of Bot Contributors`
-[![Salman Ahmad's GitHub stats](https://github-readme-stats.vercel.app/api?username=salmanytofficial&show_icons=true&theme=radical)](https://github.com/salmanytofficial)
-[![Abraham Dwamena's GitHub stats](https://github-readme-stats.vercel.app/api?username=abrahamdw882&show_icons=true&theme=radical)](https://github.com/abrahamdw882)
-[![Suhail Tech Info's GitHub stats](https://github-readme-stats.vercel.app/api?username=SuhailTechInfo&show_icons=true&theme=radical)](https://github.com/SuhailTechInfo)
-[![Mzn King's GitHub stats](https://github-readme-stats.vercel.app/api?username=mznking&show_icons=true&theme=radical)](https://github.com/mznking)
-[![Maher Zubair's GitHub stats](https://github-readme-stats.vercel.app/api?username=Maher-Zubair&show_icons=true&theme=radical)](https://github.com/Maher-Zubair)
 
 
 ## `Reminder`
