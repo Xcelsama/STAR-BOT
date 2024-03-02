@@ -4,7 +4,7 @@
 
 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Protest+Strike&size=25&duration=600&pause=600&color=BBFFFB&random=false&width=435&lines=+Hi++%E1%95%95(+%D5%9E+%E1%97%9C+%D5%9E+)%E1%95%97+I'm+STAR-MD................+;A+Multi-fuctional+WhatsApp+Bot;+++++BY+EXCEL+AMADI" alt="Typing SVG" /></a>  
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Protest+Strike&size=25&duration=600&pause=700&color=BBFFFB&random=false&width=435&lines=+Hi++%E1%95%95(+%D5%9E+%E1%97%9C+%D5%9E+)%E1%95%97+I'm+STAR-MD................+;A+Multi-fuctional+WhatsApp+Bot;+++++BY+EXCEL+AMADI" alt="Typing SVG" /></a>  
 
 
 [`ℹ️IN CASE OF HELP CONCERNING DEPLOYMENT
