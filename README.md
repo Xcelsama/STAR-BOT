@@ -3,8 +3,13 @@
 <br>
 
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its%20STAR-MD-V2;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20EXCEL%20AMADI)
-<p align="center">
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Protest+Strike&size=25&duration=600&pause=600&color=BBFFFB&random=false&width=435&lines=+Hi++%E1%95%95(+%D5%9E+%E1%97%9C+%D5%9E+)%E1%95%97+I'm+STAR-MD................+;A+Multi-fuctional+WhatsApp+Bot;+++++BY+EXCEL+AMADI" alt="Typing SVG" /></a>  
+
+
+[`ℹ️IN CASE OF HELP CONCERNING DEPLOYMENT
+`](https://wa.me/+2347045035241)
+
   
 >XLICON-V2-MD is based on :
 >- [GURU BOT](https://github.com/Guru322/GURU-BOT) by [Guru](https://github.com/Guru322) (License: Apache License 2.0)
