@@ -31,9 +31,16 @@ If you find XLICON-V2-MD helpful, consider giving it a star ⭐ to show your app
 
 Thanks to all contributors! 🚀
 
-. .. 
-...
-... 
+◉ Multi-Device Support  
+◉ AI Photo Enhancement  
+◉ Downloader Commands  
+◉ Hidden NSFW Commands  
+◉ Logo Commands  
+◉ Anime Commands  
+◉ Economy Menu  
+◉ Various Games  
+◉ Audio/Video Editor Commands
+
 
 ## 🛠️ `Installation Methods`
 1. Fork the repo
