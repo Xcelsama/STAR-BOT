@@ -196,4 +196,4 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
 
-[`📡Credits`](https://github.com/)
+[`📡Credits`](https://github.com/salmanytofficial)
