@@ -16,7 +16,7 @@
 [![STAR-MD-V2](https://i.ibb.co/g3H2qY0/20240302-113028-2.png)](https://wa.me/2347045035241)
 
 ### ℹ️ **ABOUT STAR-MD-V2**
-
+***STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 crafted by the talented [Excel Amadi](https://github.com/salmanytofficial). It offers a wide array of features, making it an advanced and user-friendly bot for various purposes. 🎉📱 With its intuitive interface and robust capabilities, users can unlock endless possibilities 🚀 and streamline their communication across devices with ease. ✨***
 
 <p align="center"><img src="https://profile-counter.glitch.me/{XLICON-V2}/count.svg" alt="SALMAN AHMAD :: Visitor's Count" /></p>
 
