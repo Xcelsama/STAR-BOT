@@ -20,7 +20,8 @@ let handler = async function (m, { conn, __dirname }) {
 │ 📂 *BOT Name:* _${repoData.name}_
 │ 📝 *Description:* _${repoData.description}_
 │ 👤 *Owner:* _EXCEL AMADI_
-│ ⭐ *Stars:* _${repoData.stargazers_count}_
+│ ⭐ *Stars:* _${repoData.stargazers_count}_    
+  📡 *ScanQR:*https://session.guruapi.tech/
 │ 🍴 *Forks:* _${repoData.forks_count}_
 │ 🌐 *URL:* ${repoData.html_url}
 ╰━━━━━━━━━━━━━━━━━╯
