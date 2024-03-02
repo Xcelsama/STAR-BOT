@@ -48,7 +48,7 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 ## 🛠️ `Installation Procedure`
 
 
-➤FORK THE REPOSITORY (Repo) 
+☉FORK THE REPOSITORY 
     <br>
 <a href="https://github.com/Xcelsama/STAR-MD-V2/fork"><img title="STAR-V2" src="https://img.shields.io/badge/FORK STAR-MD?color=blue&black=for-the-badge&logo=stackshare"></a>
 
