@@ -77,8 +77,7 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 
 
 
-◔Get Session ID (PAIR-CODE)
-
+◔Get Session ID (PAIR-CODE)                     
 <a href='https://replit.com/@HopeAmadi/STAR-MD-V2-PAIR-CODE?s=app' target="_blank"><img alt='PAIR-CODE' src='https://img.shields.io/badge/PAIR-CODE100000?style=for-the-badge&logo=scan&logoColor=blue&labelColor=blue&color=black'/></a>
 
 
