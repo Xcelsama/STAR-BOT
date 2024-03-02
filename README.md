@@ -163,7 +163,7 @@ NOW Deploy👇
 <a href='https://wa.me/+2347045035241' 
   <a aria-label="Owner" href="https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08" target="_blank">
 
-   <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+   <img alt="whatsapp" src="https://img.shields.io/badge/OWNER-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
      
 
