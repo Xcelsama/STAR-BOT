@@ -46,9 +46,12 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 ◉ Others...... 
 
 ## 🛠️ `Installation Procedure`
-1. Fork the repo
+
+
+➤FORK THE REPOSITORY (Repo) 
     <br>
-<a href='https://github.com/salmanytofficial/XLICON-V2-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href="https://github.com/Xcelsama/STAR-MD/fork"><img title="STAR-V2" src="https://img.shields.io/badge/FORK STAR-MD?color=blue&style=for-the-badge&logo=stackshare"></a>
+
 
 
 
