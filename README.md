@@ -15,8 +15,8 @@
 ## 🌟 `Bot Intro and Features`
 [![STAR-MD-V2](https://i.ibb.co/g3H2qY0/20240302-113028-2.png)](https://wa.me/2347045035241)
 
-### ℹ️ **About STAR-MD-V2**
-XLICON-V2 is a versatile Multi-Device WhatsApp bot developed by [Salman Ahamed](https://github.com/salmanytofficial). It offers a wide range of features, making it an advanced and user-friendly bot for various purposes.
+### ℹ️ **ABOUT STAR-MD-V2**
+
 
 <p align="center"><img src="https://profile-counter.glitch.me/{XLICON-V2}/count.svg" alt="SALMAN AHMAD :: Visitor's Count" /></p>
 
