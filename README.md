@@ -42,8 +42,7 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 ◉ Anime Commands  
 ◉ Economy Menu  
 ◉ Various Games  
-◉ Audio/Video Editor Commands
-    &
+◉ Audio/Video Editor Commands                   
 ◉ Others...... 
 
 ## 🛠️ `Installation Procedure`
