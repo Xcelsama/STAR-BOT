@@ -20,7 +20,7 @@ let handler = async (m, { conn, text }) => {
 乂 *Duration* : ${firstResult.timestamp}
 乂 *Published :* ${firstResult.ago}
 乂 *Views:* ${firstResult.views}
-
+乂 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴛᴀʀ-ᴍᴅ-ᴠ2
     `;
 
     conn.sendFile(m.chat, firstResult.thumbnail, 'yts.jpeg', message, m);
