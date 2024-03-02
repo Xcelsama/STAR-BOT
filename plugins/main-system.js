@@ -53,21 +53,21 @@ let handler = async (m, { conn }) => {
   let user = global.db.data.users[who];
 
   try {
-    let repo_Data = await axios.get('https://api.github.com/repos/salmanytofficial/XLICON-V2-MD');
+    let repo_Data = await axios.get('https://api.github.com/repos/Xcelsama/STAR-MD-V2');
     let { stargazers_count, forks, owner, created_at, html_url } = repo_Data.data;
 
     let infobt = `
-🔰 *I'm XLICON-V2.* *A WhatsApp chuddy buddy bot with rich features* *Created By SALMAN AMAD and Abraham Dwamena*. 🔰
+🔰 *I'm STAR-V2.* *A WhatsApp Advanced bot with Rich Exciting features* *Created By Excel*. 🔰
 
- *❲❒❳ Stars:* ${stargazers_count} Stars ⭐
- *❲❒❳ Forks:* ${forks} Forks 🍴
- *❲❒❳ Author:* *Salman Ahmad* 😎
- *❲❒❳ Create:* ${created_at} 
- *❲❒❳ Repo:* ${html_url}
- *❲❒❳ Scan:* https://replit.com/@S4SalmanYt/XLICON-V2-PAIRING
- *❲❒❳ Visit For Tutorial:* www.youtube.com/@s4salmanyt
+ *✪  Stars:* ⭐stars ${stargazers_count} 
+ *✪  Forks:* Forks 🍽 ${forks}  
+ *✪  Author:*EXCEL AMADI* 😎
+ *✪  Deploy:*${created_at} 
+ *✪  Repo:*  ${html_url}
+ *✪  Scan:*  https://replit.com/@HopeAmadi*/STAR-MD-V2-PAIR-CODE?s=app
+ *✪ Visit For Help:* https://wa.me/+2347045035241
   
-🔰 *Created ʙʏ XLICON TEAM* 🔰
+🔰 *ƈʀɛǟȶɛɖ ႦႸ Excel* 🔰
 
 *🕣 S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
