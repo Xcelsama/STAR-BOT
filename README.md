@@ -1,5 +1,5 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-{STAR-MD-V2}(https://wa.me/+2347045035241)
+[STAR-MD-V2](https://wa.me/+2347045035241)
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Protest+Strike&size=25&duration=600&pause=700&color=BggB&random=false&width=435&lines=+Hi++%E1%95%95(+%D5%9E+%E1%97%9C+%D5%9E+)%E1%95%97+I'm+STAR-MD-V2................+;A+Multi-fuctional+WhatsApp+bot........;+++++BY+EXCEL+AMADI............." alt="Typing SVG" /></a>  
