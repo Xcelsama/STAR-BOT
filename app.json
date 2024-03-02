@@ -1,16 +1,16 @@
 {
-  "name": "whatsapp-bot (X-BOT)",
+  "name": "STAR-MD-V2",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/salmanytofficial/XLICON-V2-MD/main",
+  "repository": "https://github.com/Xcelsama/STAR-MD-V2",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
-      "value": ""
+      "value": "mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority"
     },
     "SESSION_ID": {
       "description": "your session id",
@@ -25,14 +25,14 @@
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "*"
     },
-     "HKEY": {
+     "HEROKU API": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
       "value": ""
     },
-     "HAPP": {
+     "APP NAME": {
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
       "value": ""
@@ -43,7 +43,7 @@
       "value": ""
     },
     "autoRead": {
-      "description": "make it true if you want bot to read messages",
+      "description": "make it true if you want bot to read messages or false",
       "required": false,
       "value": ""
     },
