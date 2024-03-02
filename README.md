@@ -13,7 +13,7 @@
  
 
 ##  🌠```Bot Intro```🌠
-[![STAR-MD-V2](https://ibb.co/Vtr1n6Fhttps://ibb.co/n85hB0k)](https://wa.me/2347045035241)
+[![STAR-MD-V2](https://i.ibb.co/x8RVYs5/20240302-120657.jpg)](https://wa.me/2347045035241)
 </a>
 <h1 align="center"> 🌠𝗦𝗧𝗔𝗥-𝗠𝗗-𝗩𝟮🌠
 
