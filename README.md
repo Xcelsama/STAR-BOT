@@ -164,11 +164,6 @@ NOW Deploy👇
     <img alt="whatsapp" src="https://img.shields.io/badge/Owner%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
-- **Buy Me a Coffee:** `Your support will help me stay motivated and continue working on exciting projects like this one.`
-
-<a href="https://www.buymeacoffee.com/ahmmikun">
-<img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
-</a>
 
 ## 🔒 `Reminder`
 Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
@@ -181,13 +176,4 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
 
-## `NOTICE`
-   
-## 
-- Not For Sale
-- Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
-- Have A Good Day Ahead
-- Don't Use This Script As Your Bot Base 
----
 
- <br><br>
