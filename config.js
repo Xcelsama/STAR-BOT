@@ -7,7 +7,7 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['+2347045035241','Excel Amadi',]
+  ['+2347045035241','Excel Amadi',true]
   
 ] //Number of owners
 
