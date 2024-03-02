@@ -159,36 +159,6 @@ NOW Deploy👇
   ## ``Support Group``
   
      
-<p align="center">
-<a href='https://wa.me/+2347045035241' 
-  <a aria-label="Owner" href="https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08" target="_blank">
-
-   <img alt="whatsapp" src="https://img.shields.io/badge/OWNER-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-     
-
-   
- 
-<p align="center">
-<a href='https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08' 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08" target="_blank">
-
-   <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
-  <a
- href="https://wa.me//+2347045035241"></a>
-</p>
-
-  </a>
-
-
-
- </a>
-   <a aria-label="Excel-MdV2 is free to use" href="https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X" target="_blank">
- <p align="center"><img src="https://profile-counter.glitch.me/{xcelsama}/count.svg" alt="xcelsama:: Visitor's Count" /></p>
-
-
 
    
 
