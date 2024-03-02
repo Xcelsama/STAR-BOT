@@ -158,7 +158,30 @@ NOW Deploy👇
 
   ## ``Support Group``
   
-     
+     <h1 align="center"> 💫ՏፕᎪᎡ-ᎷᎠ💫
+</p>
+      <p align="center">
+  <a href="https://wa.me//+2347045035241" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a aria-label="STAR-MD is free to use" href="https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08" "target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-GC-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
+
+   
+ 
+<p align="center">
+<a href='https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08' 
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08" target="_blank">
+
+   <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+  <a
+ href="https://wa.me//+2347045035241"></a>
+</p>
+
+  </a>
+
+
 
    
 
