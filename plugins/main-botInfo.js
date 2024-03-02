@@ -58,7 +58,7 @@ let infobt = `
 │ ➫ *Phone   :* wa.me/2347045035241
 │ ➫ *YouTube :* youtube.com/@s4salmanyt 
 │ ➫ *GitHub  :* https://github.com/Xcelsama
-│ ➫ *TT  :* 
+│ ➫ *TT *:- https://tiktok.com/@xcelsama
 │ ➫ *Channel* :https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
 │ ➫ *Status  :* Debugging
  Code._
