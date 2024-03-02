@@ -76,8 +76,6 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 <a href="https://github.com/Xcelsama/STAR-MD-V2/fork"><img title="STAR-V2" src="https://img.shields.io/badge/FORK STAR-MD?color=blue&black=for-the-badge&logo=stackshare"></a>
 
 ◔Get Session ID (PAIR-CODE)
-
-    <br>
 <a href='https://replit.com/@HopeAmadi/STAR-MD-V2-PAIR-CODE?s=app' target="_blank"><img alt='PAIR-CODE' src='https://img.shields.io/badge/PAIR-CODE100000?style=for-the-badge&logo=scan&logoColor=blue&labelColor=blue&color=black'/></a>
 
 ◔ Get Session ID (SCAN QR)
