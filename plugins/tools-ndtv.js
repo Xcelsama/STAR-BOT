@@ -17,8 +17,8 @@ let handler = async (m, { conn }) => {
     let newsItem = articles[randomArticleIndex];
 
     let newsInfo = `•───── ୨❀୧ ─────•
-    ❖ 𝑺𝑻𝑨𝑻𝑼𝑺: Active
-    ㋡ 𝑪𝑹𝑬𝑨𝑻𝑶𝑹: XLICON-TEAM
+    ❖ 𝑺𝑻𝑨𝑻𝑼𝑺: Online.... 
+    ㋡ 𝑪𝑹𝑬𝑨𝑻𝑶𝑹: EXCEL
     ☞ 𝑯𝑬𝑨𝑫𝑳𝑰𝑵𝑬: ${newsItem.headline}
     ${newsItem.description}
     🔗 𝑹𝑬𝑨𝑫 𝑴𝑶𝑹𝑬: ${newsItem.url}
@@ -28,7 +28,7 @@ let handler = async (m, { conn }) => {
 
     conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', newsInfo, m);
 
-    m.react('✅'); 
+    m.react('📰'); 
   } catch (e) {
     console.error(e);
     m.react('❌'); 
