@@ -85,7 +85,7 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 <a href='https://session.guruapi.tech/qr' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/SCAN_QR_2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=blue&color=black'/></a>
  
 
-⚙︎Use this if You don't have replit            
+⚙︎USE THIS IF YOU DON'T HAVE REPLIT                     
 <a href="https://session.guruapi.tech/qr" target="_blank">
   <img src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
