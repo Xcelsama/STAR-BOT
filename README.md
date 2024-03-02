@@ -29,8 +29,9 @@
 ## ⭐ `Star This Repo`
 If you find XLICON-V2-MD helpful, consider giving it a star ⭐ to show your appreciation.
 
-Thanks to all contributors! 🚀
-𝙵𝙴𝙰𝚃𝚄𝚃𝙴𝚂
+
+
+🚀𝙵𝙴𝙰𝚃𝚄𝚃𝙴𝚂🚀
 ◉ Multi-Device Support  
 ◉ AI Photo Enhancement  
 ◉ Downloader Commands  
