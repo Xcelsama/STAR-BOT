@@ -2,7 +2,7 @@
 
 let handler = async (m, { conn }) => {
     conn.reply(m.chat, `
-*LIST  COMANDOS*
+*STAR LIST COMMANDS*
 
 ▢ *Info:* If it is in *bold* it is blocked
 
