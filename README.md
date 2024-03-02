@@ -43,7 +43,8 @@ If you find XLICON-V2-MD helpful, consider giving it a star ⭐ to show your app
 ◉ Economy Menu  
 ◉ Various Games  
 ◉ Audio/Video Editor Commands
- ◉ Others...... 
+
+◉ Others...... 
 
 ## 🛠️ `Installation Methods`
 1. Fork the repo
