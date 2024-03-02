@@ -24,7 +24,7 @@ let handler = async (m, { conn, text }) => {
     
         contextInfo: {
           mentionedJid: [m.sender],
-          externalAdReply: {
+          externalAdReply: {STAR-V2
             title: "↺ |◁   II   ▷|   ♡",
             body: `Now playing: ${text}`,
             thumbnailUrl: pp,
