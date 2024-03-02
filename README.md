@@ -18,7 +18,7 @@
 <h1 align="center"> 🌠𝗦𝗧𝗔𝗥-𝗠𝗗-𝗩𝟮🌠
 
 ### ℹ️ **ABOUT STAR-MD-V2**
-***STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 crafted by the talented [Excel Amadi](https://github.com/Xcelsama) It offers a wide array of features, making it an advanced and user-friendly bot for various purposes. 🎉📱 With its intuitive interface and robust capabilities, users can unlock endless possibilities 🚀 and streamline their communication across devices with ease.***
+***STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the talented [Excel Amadi](https://github.com/Xcelsama) It offers a wide array of features, making it an advanced and user-friendly bot for various purposes. 🎉📱 With its intuitive interface and robust capabilities, users can unlock endless possibilities 🚀 and streamline their communication across devices with ease.***
 
 </a>
    <a aria-label="STAR-MD-V2 is free to use" href="https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X" target="_blank">
