@@ -24,6 +24,7 @@ let handler = async function (m, { conn, __dirname }) {
   📡 *ScanQR:*https://session.guruapi.tech/
 │ 🍴 *Forks:* _${repoData.forks_count}_
 │ 🌐 *URL:* ${repoData.html_url}
+| 🌠 *NOW DEPLOY*:-https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD-V2' 
 ╰━━━━━━━━━━━━━━━━━╯
       `.trim();
 
