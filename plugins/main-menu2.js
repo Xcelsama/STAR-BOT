@@ -7,8 +7,8 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const time = moment.tz('Asia/Kolkata').format('HH')
-let wib = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+const time = moment.tz('Africa/Lagos').format('HH')
+let wib = moment.tz('Africa/Lagos').format('HH:mm:ss')
 //import db from '../lib/database.js'
 
 let handler = async (m, { conn, usedPrefix, command}) => {
@@ -39,12 +39,12 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
 
-🌠 *_Xlicon team quote of the day: ${quote}_* 🌠
+🌠 *_STAR-MD-V2 quote of the day: ${quote}_* 🌠
 
 ┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Founder:* Salman Ahmad
+┃ 🏮  *Developer:* Excel Amadi
 ┃ 🤡  *Bot Name:* ${botname} 
-┃ 💻  *Host:* Kali Linix
+┃ 💻  *Host:* I-CLOUD 
 ┃ 📣  *Prefix:* ${usedPrefix} 
 ┃ 🕓  *Uptime:* ${uptime}
 ┃ 💌  *Database:* ${rtotalreg} of ${totaluser} 
@@ -84,7 +84,7 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Kolkata').format('HH')
+      const time = moment.tz('Africa/Lagod').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"
