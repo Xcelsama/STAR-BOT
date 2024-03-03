@@ -546,8 +546,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
-                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
+                  pp = 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg'; // Assign default image URL
+                  ppgp = 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg'; // Assign default image URL
                 } finally {
                   let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
                     .replace('@group', await this.getName(id))
