@@ -1,4 +1,4 @@
 /**
- * @XLICON_V2
- * https://github.com/salmanytofficial/XLICON-V2-MD
+ * @STAR
+ * https://github.com/Xcelsama/STAR-MD-V2
  */
