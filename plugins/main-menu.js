@@ -15,17 +15,18 @@ import {
  
  const defaultMenu = {
   before: `
-  「 ${botname} 🎁MD 」\n
+  「 ${botname} 🌠MD 」\n
   *%ucpn*
 ⍟────────────────⍟
-Join↓↓↓↓
+ᎫϴᏆΝ
+
 -https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
 ⍟────────────────⍟
-*©Excel Amadi*
+*©ᎬХᏟᎬᏞ ᎪᎷᎪᎠᏆ*
 ⍟────────────────⍟
-*_Salutations! Its STAR-MD A_* 
-*_Multi-Device Whatsapp BOT_*
-*_Recoded By EXCEL_*
+*_ՏᎪᏞႮͲᎪͲᏆϴΝՏ! ᏆͲՏ ՏͲᎪᎡ-ᎷᎠ Ꭺ_* 
+*_ᎷႮᏞͲᏆ-ᎠᎬᏙᏆᏟᎬ ᏔᎻᎪͲՏᎪᏢᏢ ᏴϴͲ_*
+*_ᎡᎬᏟϴᎠᎬᎠ ᏴᎽ ᎬХᏟᎬᏞ_*
 ⍟────────────────⍟
                                     
  ▄▀▀ ▀█▀  ▄▀▄ █▀▀▄ ░░
@@ -40,15 +41,15 @@ Join↓↓↓↓
 ╰┬────────────────⦿
 ┌┤
 ┃
-┃ *_Developer_*: *Excel Amadi*
-┃ *_Bot Name_*: ${botname}
-┃ *_Mode_*: *%mode*
-┃ *_HOST_*: I-CLOUD☁
-┃ *_Type_*: LINUX
-┃ *_Baileys_*: Multi Device
-┃ *_Prefix_*: [ *%_p* ]
-┃ *_Uptime_*: %muptime
-┃ *_Database_*:  %totalreg
+┃ *_ᎠᎬᏙᎬᏞϴᏢᎬᎡ_*: *Excel Amadi*
+┃ *_ᏴϴͲ ΝᎪᎷᎬ_*: ${botname}
+┃ *_ᎷϴᎠᎬ_*: *%mode*
+┃ *_ᎻϴՏͲ_*: I-CLOUD☁
+┃ *_ͲᎽᏢᎬ_*: LINUX
+┃ *_ᏴᎪᏆᏞᎬᎽՏ_*: Multi Device
+┃ *_ᏢᎡᎬҒᏆХ_*: [ *%_p* ]
+┃ *_ႮᏢͲᏆᎷᎬ_*: %muptime
+┃ *_ᎠᎪͲᎪᏴᎪՏᎬ_*:  %totalreg
 ┃
 ╰──────────────────⦿
 ╭──────────────────⦿
@@ -56,16 +57,16 @@ Join↓↓↓↓
 ╰┬─────────────────⦿
 ┌┤     
 ┃
-┃ *_Name_*: %name
-┃ *_Gold_*: %credit
-┃ *_GC_*:  https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X
-┃ *_Level_*: %level [ %xp4levelup Xp For Levelup]
-┃ *_Xp_*: %exp / %maxexp
-┃ *_Total Xp_*: %totalexp
+┃ *_ΝᎪᎷᎬ_*: %name
+┃ *_ᏀϴᏞᎠ_*: %credit
+┃ _ՏႮᏢᏢϴᎡͲ_:  https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X
+┃ *_ᏞᎬᏙᎬᏞ_*: %level [ %xp4levelup Xp For Levelup]
+┃ *_ХᏢ_*: %exp / %maxexp
+┃ *_ͲϴͲᎪᏞ ХᏢ_*: %totalexp
 ┃
 ╰──────────────────⦿
 ╭──────────────────⦿
-┃  🌠〘 𝑰𝑵𝑭𝑶 𝑪𝑴𝑫 〙🌠
+┃  🌠〘 ͲϴͲᎪᏞ ᏟᎷᎠ〙🌠
 ╰┬─────────────────⦿
 ┌┤ 
 ┃ *_%totalfeatures_* Commands
