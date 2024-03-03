@@ -77,7 +77,7 @@ break;
 ╰───𝙎𝙏𝘼𝙍─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓🤖
-┃➣👾_${usedPrefix}kick *<@tag>*_
+┃➣👾_${usedPrefix}kick_
 ┃➣👾_${usedPrefix}promote *<@tag>*_
 ┃➣👾 _${usedPrefix}demote *<@tag>*_
 ┃➣👾 _${usedPrefix}infogroup_
