@@ -1,1 +1,1 @@
-web: npm start
+Professional: npm start
