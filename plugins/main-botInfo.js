@@ -57,17 +57,14 @@ let infobt = `
 │➫ *Age     :* _15
 │ ➫ *Phone   :* wa.me/2347045035241
 │ ➫ *TT      :*  https://tiktok.com
-┃/@xcelsama
+/@xcelsama
 │ ➫ *GitHub  :* https://github.com/Xcelsama
 │ ➫ *TT *:- https://tiktok.com/@xcelsama
 │ ➫ *Channel* :https://whatsapp.com/
-┃channel/0029Va9wmuz8F2pGIURwmo0m
+channel/0029Va9wmuz8F2pGIURwmo0m
 │ ➫ *Status  :* ᎠᎬᏴႮᏀᏀᏆΝᏀ ᏟϴᎠᎬ._
 ┃ 
 ┃© STAR-MD-V2 BY EXCEL
-┃
-┃
-┃
 ⚡ *STATE* ⚡
 ➫ *${groupsIn.length}* GROUP CHATS
 ➫  *${groupsIn.length}* united groups
@@ -76,7 +73,7 @@ let infobt = `
 ➫  *${chats.length}* Total Chats
 
 
- *🕣 S E R V E R*
+ *🕣 ＳＴＡＲ-ＳＥＲＶＥＲ*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 
