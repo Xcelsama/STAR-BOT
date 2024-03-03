@@ -1,5 +1,5 @@
 services:
-  - type: professional
+  - type: web
     name: STAR-V2-MD
     env: docker
     region: Frankfurt
