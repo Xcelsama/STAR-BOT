@@ -56,7 +56,7 @@ let infobt = `
   *❲❒❳ 
   *❲❒❳ 
   *❲❒❳ 
-🔰 *Created ʙʏ XLICON TEAM* 🔰
+🔰 *Created ʙʏ Excel* 🔰
 `
 
 conn.sendMessage(m.chat,{video : {url :"https://telegra.ph/file/21db634495279e155c37c.mp4",}, caption:infobt,gifPlayback:true },{quoted:m})
