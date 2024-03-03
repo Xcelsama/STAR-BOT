@@ -7,8 +7,8 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['2347045035241', 'Excel', true],
-  ['2348021779696', 'STAR-MD', true], 
+  ['2348021779696', 'STAR-MD', true],
+  ['2347045035241', 'Excel', true], 
   [''] 
 ] //Number of owners
 
@@ -64,7 +64,8 @@ global.fglog = 'XLICON.jpg'
 global.thumb = fs.readFileSync('./XLICON.jpg')
 
 
-global.wait = '*🔜 _Charging..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*🔜 _
+STAR is Loading...._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '🔜'
 global.dmoji = '🤭'
 global.done = '☑️'
