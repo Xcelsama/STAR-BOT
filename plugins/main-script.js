@@ -16,16 +16,19 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-╭⭑⭑⭑★✪ *STAR-MD-V2* ✪★⭑⭑⭑
-│ 📂 *BOT Name:* _${repoData.name}_
-│ 📝 *Description:* _${repoData.description}_
-│ 👤 *Owner:* _EXCEL AMADI_
-│ ⭐ *Stars:* _${repoData.stargazers_count}_    
-  📡 *ScanQR:*https://session.guruapi.tech/
-│ 🍴 *Forks:* _${repoData.forks_count}_
-│ 🌐 *URL:* ${repoData.html_url}
-| 🌠 *NOW DEPLOY*:-https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD-V2' 
-╰━━━━━━━━━━━━━━━━━╯
+⭑⭑⭑★✪ *STAR-MD-V2* ✪★⭑⭑⭑
+📂 *ᏴϴͲ ΝᎪᎷᎬ:* _${repoData.name}_
+📝 *Description:* _${repoData.description}_👤 *ϴᏔΝᎬᎡ:* _EXCEL AMADI_
+⭐ *ՏͲᎪᎡՏ:* _${repoData.stargazers_count}_    
+🔍 *ᎦᏟᎯ𐒐-ϘᏒ:*https://session.guruapi.tech/
+⚔️ *ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs
+📡 *ᑭᑌᗷᒪIᑕ ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
+💻 *ᑕᕼᗩᑎᑎᗴᒪ ᒪIᑎK:* https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
+🍴 *ҒϴᎡᏦՏ:* _${repoData.forks_count}_
+🌐 *ႮᎡᏞ:* ${repoData.html_url}
+🌠 *ΝϴᏔ ᎠᎬᏢᏞϴᎽ*:-https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD-V2' 
+
+
       `.trim();
 
       // Send the formatted information as a message
