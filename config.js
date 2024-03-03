@@ -66,11 +66,11 @@ global.thumb = fs.readFileSync('./XLICON.jpg')
 
 global.wait = '*🔜 _
 STAR is Loading...._*\n*▰▰▰▱▱▱▱▱*'
-global.rwait = '🌠'
+global.rwait = '⌛'
 global.dmoji = '🤭'
-global.done = '☑️'
-global.error = '❎' 
-global.xmoji = '🌠' 
+global.done = '✔️'
+global.error = '❌' 
+global.xmoji = '🔥' 
 
 global.multiplier = 69 
 global.maxwarn = '3' 
