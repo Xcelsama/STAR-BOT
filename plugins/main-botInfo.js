@@ -59,7 +59,8 @@ let infobt = `
 │ ➫ *YouTube :* youtube.com/@s4salmanyt 
 │ ➫ *GitHub  :* https://github.com/Xcelsama
 │ ➫ *TT *:- https://tiktok.com/@xcelsama
-│ ➫ *Channel* :https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
+│ ➫ *Channel* :https://whatsapp.com/
+┃channel/0029Va9wmuz8F2pGIURwmo0m
 │ ➫ *Status  :* Debugging
  Code._
 © STAR-MD-V2 BY EXCEL
