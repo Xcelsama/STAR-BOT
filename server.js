@@ -31,7 +31,7 @@ function connect(conn, PORT) {
         console.log('App listened on port', PORT)
         if (opts['keepalive']) keepAlive()
     })
-}
+ }
 
 function pipeEmit(event, event2, prefix = '') {
     let old = event.emit
