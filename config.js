@@ -60,8 +60,8 @@ global.dygp = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
 global.Channel2 = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m'
 global.Wa = 'https://wa.me/2347045035241'
-global.fglog = 'XLICON.jpg' 
-global.thumb = fs.readFileSync('./XLICON.jpg')
+global.fglog = 'STAR.jpg' 
+global.thumb = fs.readFileSync('./STAR.jpg')
 
 
 
