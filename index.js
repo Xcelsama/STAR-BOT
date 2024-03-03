@@ -10,7 +10,7 @@ import fsModule from 'fs';
 import chalk from 'chalk';
 import cfonts from 'cfonts';
 
-const { say } = cfonts;
+const { say } =  cfonts;
 
 say("STAR - V2", {
   'font': "block",
