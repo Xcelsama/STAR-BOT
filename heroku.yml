@@ -1,6 +1,6 @@
 build:
   docker:
-    Professional: Dockerfile
+    professional: Dockerfile
     
 run:
-  Professional: npm start
+  professional: npm start
