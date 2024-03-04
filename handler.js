@@ -135,7 +135,7 @@ export async function handler(chatUpdate) {
                 if (!("antiSticker" in chat)) chat.antiSticker = false
                 if (!("antiToxic" in chat)) chat.antiToxic = false
                 if (!("detect" in chat)) chat.detect = false
-                if (!("getmsg" in chat)) chat.getmsg = true
+                if (!("getmsg" in chat)) chat.getmsg = false
                 if (!("isBanned" in chat)) chat.isBanned = false
                 if (!("nsfw" in chat)) chat.nsfw = false
                 if (!("sBye" in chat)) chat.sBye = ""
@@ -157,7 +157,7 @@ export async function handler(chatUpdate) {
                     antiToxic: false,
                     detect: false,
                     expired: 0,
-                    getmsg: true,
+                    getmsg: false,
                     isBanned: false,
                     nsfw: false, 
                     sBye: "",
@@ -259,8 +259,7 @@ export async function handler(chatUpdate) {
                     for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
-                            m.reply(`*🗂️ Plugin:* ${name}\n*👤 Sender:* ${m.sender}\n*💬 Chat:* ${m.chat}\n*💻 Command:* ${m.text}\n\n\${format(e)}`.trim(), data.jid)
-                    }
+                            
                 }
             }
             if (!opts["restrict"])
