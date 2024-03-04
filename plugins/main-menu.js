@@ -77,7 +77,6 @@ https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X
 ┃ *_%totalfeatures_* Commands
 ╰──────────────────⦿
 
-
  `.trimStart(),
  header: "┌─⦿『 *_%category_* 』⦿",
  body: "┃⬡▸ %cmd %isPremium %islimit",
