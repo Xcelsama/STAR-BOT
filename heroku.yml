@@ -1,6 +1,6 @@
 build:
   docker:
-    : Dockerfile
-    
+    web: Dockerfile
+
 run:
-: npm start
+  web: npm start
