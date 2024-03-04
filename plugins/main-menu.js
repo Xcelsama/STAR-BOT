@@ -63,8 +63,6 @@ import {
 ┃
 ┃ *_ΝᎪᎷᎬ_*: %name
 ┃ *_ᏀϴᏞᎠ_*: %credit
-┃ _ՏႮᏢᏢϴᎡͲ_:  https://whatsapp.com/channel
-/0029VaBcXo4JJhzW9c1uVD2X
 ┃ *_ᏞᎬᏙᎬᏞ_*: %level [ %xp4levelup Xp For 
 ┃Levelup]
 ┃ *_ХᏢ_*: %exp / %maxexp
@@ -76,6 +74,7 @@ import {
 ╰┬─────────────────⦿
 ┌┤ 
 ┃ *_%totalfeatures_* Commands
+_ՏႮᏢᏢϴᎡͲ_:  https://whatsapp.com/channel      /0029VaBcXo4JJhzW9c1uVD2X
 ╰──────────────────⦿
 
 
