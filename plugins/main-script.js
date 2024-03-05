@@ -16,10 +16,10 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-⭑⭑⭑★✪ *STAR-MD-V2* ✪★⭑⭑⭑
-📂 *ᏴϴͲ ΝᎪᎷᎬ:* _${repoData.name}_
-📝 *ᎠᎬՏᏟᎡᏆᏢͲᏆϴΝ:* _𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸: ᴛʀᴀɴsғᴏʀᴍ ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴇxᴘᴇʀɪᴇɴᴄᴄ ᴡɪᴛʜ sᴛᴀʀ-ᴍᴅ-ᴠ2! ᴛʜɪs ᴜʟᴛɪᴍᴀᴛᴇ ᴍᴇssᴀɢɪɴɢ ᴄᴏᴍᴘᴀɴɪᴏɴ ʙʀɪɴɢs ᴇxᴄɪᴛᴇᴍᴇɴᴛ ᴀɴᴅ ᴀ ᴘʟᴇᴛʜᴏʀᴀ ᴏғ ᴛʜʀɪʟʟɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛs_
-👤 *ϴᏔΝᎬᎡ:* _EXCEL AMADI_
+    ─────《 𝐒𝐓𝐀𝐑-𝐌𝐃-𝐕𝟐 》─────⊷
+ 📂 *ᏴϴͲ ΝᎪᎷᎬ:* _${repoData.name}_
+📝 *ᎠᎬՏᏟᎡᏆᏢͲᏆϴΝ:* _Ꭺ ᏔᎻᎪͲՏᎪᏢᏢ ᏴϴͲ ᎡᎬᏟϴᎡᎠᎬᎠ ᏴᎽ ᎬХᏟᎬᏞ... ᏔᏆͲᎻ ᏞϴͲՏ ϴҒ ᎡᏆᏟᎻ ҒႮΝᏟͲᏆϴΝՏ.... 
+👤 *ᎠᎬᏙᎬᏞϴᏢᎬᎡ:* _EXCEL AMADI_
 ⭐ *ՏͲᎪᎡՏ:* _${repoData.stargazers_count}_ 
 🍴 *ҒϴᎡᏦՏ:* _${repoData.forks_count}_   
 🔍 *ᎦᏟᎪΝ-ϘᎡ:*https://session.guruapi.tech/
@@ -29,8 +29,7 @@ let handler = async function (m, { conn, __dirname }) {
 🌐 *ႮᎡᏞ:* ${repoData.html_url}
 🌠 *ΝϴᏔ ᎠᎬᏢᏞϴᎽ*:-https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD-V2' 
 
-
-      `.trim();
+ `.trim();
 
       // Send the formatted information as a message
       await conn.relayMessage(m.chat,  {
