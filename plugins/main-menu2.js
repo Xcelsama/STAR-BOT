@@ -72,8 +72,8 @@ let str = `
     m.react(done)
 
 }
-handler.help = ['menu2']
-handler.tags = ['main']
+handler.help = ['main']
+handler.tags = ['group']
 handler.command = ['menu2','help2'] 
 
 export default handler
