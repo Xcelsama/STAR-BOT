@@ -7,7 +7,7 @@ let handler = async (m, { conn, isOwner }) => {
     return conn.reply(m.chat, '❌ Only the owner can use this command.', m);
   }
 
-  const repositoryURL = 'https://api.github.com/repos/salmanytofficial/XLICON-V2-MD';
+  const repositoryURL = 'https://api.github.com/repos/Xcelsama/STAR-MD-V2';
 
   try {
     const command = m.text.toLowerCase();
