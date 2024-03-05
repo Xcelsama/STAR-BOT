@@ -72,9 +72,9 @@ let str = `
     m.react(done)
 
 }
-handler.help = ['main']
-handler.tags = ['group']
-handler.command = ['menu2', 'help2'] 
+handler.help = ['menu2']
+handler.tags = ['main']
+handler.command = ['menu2','help2'] 
 
 export default handler
 function clockString(ms) {
