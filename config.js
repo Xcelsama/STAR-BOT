@@ -55,13 +55,13 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'XLICON-V2'
+global.botname = 'STAR-MD-V2'
 global.premium = 'true'
-global.packname = 'XLICON TEAM' 
-global.author = '@XLICON-V2' 
-global.menuvid = 'https://telegra.ph/file/325630f66abc968eda8e2.mp4'
+global.packname = 'STAR-MD' 
+global.author = '@Excel' 
+global.menuvid = 'https://i.ibb.co/HtT3vjm/goku-gif-3.gif'
 global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
-global'
+global.dygp='▢✓ Follow My channel\nhttps://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs\n'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
 global.fgyt = 'https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK'
 global.fgpyp = 'https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK'
