@@ -10,7 +10,7 @@ global.owner = [
   ['234802519696', 'STAR-MD', true],
   ['2347045065241', 'Excel', true], 
   [''] 
-Number of owners
+//Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 
