@@ -16,16 +16,16 @@ import {
  const defaultMenu = {
   before: ` ┤────《 丂ㄒ卂尺 》─────⊷  
 ╽     𖠧ᎷᎬΝႮ-ᏆͲᎬᎷՏ𖠧
-╽🔹 _${usedPrefix}ownermenu_
-╿🔹 _${usedPrefix}botmenu_
-╏🔹_${usedPrefix}groupmenu_
-╏🔹_${usedPrefix}dlmenu_
-╏🔹_${usedPrefix}animemenu_
-╏🔹_${usedPrefix}funmenu_
-╏🔹_${usedPrefix}gamemenu_
-╏🔹_${usedPrefix} stickermenu_
-╏🔹 _${usedPrefix}animemenu2_
-┇🔹 _${usedPrefix}toolmenu_
+╽🔹_[Your prefix]ownermenu_
+╿🔹_[Your prefix]botmenu_
+╏🔹_[Your prefix]groupmenu_
+╏🔹_[Your prefix]dlmenu_
+╏🔹_[Your prefix]animemenu_
+╏🔹_[Your prefix]funmenu_
+╏🔹_[Your prefix]gamemenu_
+╏🔹_[Your prefix] stickermenu_
+╏🔹_[Your prefix]animemenu2_
+┇🔹_[Your prefix]toolmenu_
     ╔══════════════╗
      *%ucpn*.......... 
     ╚══════════════╝
