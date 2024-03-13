@@ -77,8 +77,8 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 
 ❏GET SESSION ID 
 (PAIR-CODE)           
-      
-<a href="='https://replit.com/@HopeAmadi/STAR-MD-V2-PAIR-CODE?s=app" target="_blank">
+ 
+<a href="https://replit.com/@HopeAmadi/STAR-MD-V2-PAIR-CODE?s=app="_blank">
   <img src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
 
