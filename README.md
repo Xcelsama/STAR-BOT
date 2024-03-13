@@ -70,8 +70,10 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 
 
 ❏FORK THE REPOSITORY 
-    <br>
-<a href="https://github.com/Xcelsama/STAR-MD-V2/fork"><img title="STAR-V2" src="https://img.shields.io/badge/FORK STAR-MD?color=blue&black=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Xcelsama/STAR-MD-V2/fork" target="_blank">
+  <img src="https://img.shields.io/badge/FORK STAR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
+</a>
+
 
 
 
