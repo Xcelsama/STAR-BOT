@@ -44,16 +44,16 @@ import {
 ┃©ՏTᗩᖇ-ᗰᗪ-ᐯ2
 ╰─────────────────❖
 ┌─❖『ᏆΝͲᎬᏞ-ᏟϴᎡᎬ  』❖
-┃❏*Cores:* 8
-┃❏*Threads:** 16
-┃❏*Base Clock Speed:* 3.8 GHz
-┃❏*Max Turbo Boost Speed:*5.1 ┃GHz
-┃❏ *Cache:* 16 MB Intel Smart ┃Cache
-┃❏*Lithography:* 14 nm
-┃❏*TDP (Thermal Design ┃Power):* 125 W
-┃❏*Socket:* LGA 1200
-┃❏*Memory Support:* ┃DDR4-2933
-┃❏*Integrated Graphics:* Intel ┃UHD Graphics 630
+┃❏Cores: 8
+┃❏Threads:16
+┃❏Base Clock Speed: 3.8 GHz
+┃❏Max Turbo Boost Speed:5.1 ┃GHz
+┃❏Cache:16 MB Intel Smart ┃Cache
+┃❏Lithography: 14 nm
+┃❏TDP (Thermal Design ┃Power): 125 W
+┃❏Socket: LGA 1200
+┃❏Memory Support: ┃DDR4-2933
+┃❏Integrated Graphics: Intel ┃UHD Graphics 630
 ┃❏Total Commands:-*_%totalfeatures_*
 ╰─────────────────❖
  `.trimStart(),
