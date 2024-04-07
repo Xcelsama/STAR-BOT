@@ -76,6 +76,14 @@ global.xmoji = '⤵️'
 global.multiplier = 69 
 global.maxwarn = '3' // máxima advertencias
 
+//management
+global.bug = '*!! Sorry 💢 !!*\nSomething went wrong 🌋'
+global.stop = '*!! 🎭 Unfortunately 💔 !!*\nBot system is not Responding 🙃'
+
+//TimeLines
+global.botdate = `*⫹⫺ Date:*  ${moment.tz('Asia/Kolkata').format('DD/MM/YY')}`
+global.bottime = `*⫹⫺ Time:* ${moment.tz('Asia/Kolkata').format('HH:mm:ss')}`
+
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
   unwatchFile(file)
