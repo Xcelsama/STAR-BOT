@@ -12,7 +12,7 @@ conn.reply(m.chat, wait, m)
   }
 };
 
-handler.help = ['grass', 'gmoxy'];
+handler.help = ['grassmsg', 'gmoxy'];
 handler.tags = ['logo'];
 handler.command = /^(grassmsg|gmoxy)$/i;
 
