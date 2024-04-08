@@ -618,7 +618,7 @@ import {
     const choice = m.text.trim();
 
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/LIuTHZK.jpeg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
