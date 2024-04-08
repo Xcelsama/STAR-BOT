@@ -10,6 +10,7 @@ global.owner = [
   ['234704535241', 'EXCEL', true], 
   ['234802179696', 'EXCEL', true], 
   ['234704503541', '⚡Excel', true],
+  ['233533763772', 'AB-DEV-DONT-CANTACT FOR NO REASON', true] ]
 
  //Number of owners
 
@@ -17,7 +18,7 @@ global.owner = [
 
 global.mods = ['2341', '2348021779696', '2347045035241','233533763772'] 
 global.prems = ['2347045035241','233208179431','233533763772']
-global.allowed = ['2348021779696', '2347045035241']
+global.allowed = ['2348021779696', '2347045035241','233533763772']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
