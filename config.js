@@ -8,7 +8,7 @@ import axios from 'axios'
 
 global.owner = [
   ['234704535241', 'EXCEL', true], 
-  ['2348021779696', 'EXCEL', true], 
+  ['234802179696', 'EXCEL', true], 
   ['234704503541', '⚡Excel', true],
 
 ] //Number of owners
@@ -55,7 +55,7 @@ global.APIKeys = { // APIKey Here
 global.botname = 'STAR-MD-V2'
 global.premium = 'true'
 global.packname = 'STAR-MD' 
-global.author = 'EXCEL' 
+global.author = '@Excel' 
 global.menuvid = 'https://i.imgur.com/1OajRHg.mp4'
 global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
 global.dygp='▢✓ Follow My channel\nhttps://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs\n'
@@ -68,7 +68,7 @@ global.thumb = fs.readFileSync('./STAR.jpg')
 
 global.wait = '*🕣 _STAR IS LOADING..._*\n*▰▰▰▱▱▱▱▱⭐*'
 global.rwait = '🔜'
-global.dmoji = '♻️'
+global.dmoji = '⚡'
 global.done = '☑️'
 global.error = '❎' 
 global.xmoji = '⤵️' 
