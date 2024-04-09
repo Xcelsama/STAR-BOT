@@ -14,6 +14,6 @@ if (response.ok) {
 }
 
 handler.tags = ['memes']
-handler.help = handler.command = ['fun']
+handler.help = handler.command = ['memes']
 
 export default handler
