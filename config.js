@@ -10,7 +10,7 @@ global.owner = [
   ['234704535241', 'EXCEL', true], 
   ['234802179696', 'EXCEL', true], 
   ['234704503541', '⚡Excel', true],
-  ['233533763772', 'AB-DEV-DONT-CANTACT FOR NO REASON', true] ]
+  ['2347045035241', 'Excel', true] ]
 
  //Number of owners
 
@@ -56,8 +56,8 @@ global.APIKeys = { // APIKey Here
 global.botname = 'STAR-MD-V2'
 global.premium = 'true'
 global.packname = 'STAR-MD' 
-global.author = '@Excel' 
-global.menuvid = 'https://i.imgur.com/1OajRHg.mp4'
+global.author = 'Excel' 
+global.menuvid = 'https://i.imgur.com/gZo9WY7.mp4'
 global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
 global.dygp='▢✓ Follow My channel\nhttps://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs\n'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
@@ -67,7 +67,7 @@ global.fglog = 'STAR.jpg'
 global.thumb = fs.readFileSync('./STAR.jpg')
 
 
-global.wait = '*🕣 _STAR IS LOADING..._*\n*▰▰▰▱▱▱▱▱⭐*'
+global.wait = '*🕣 _STAR IS LOADING..._*\n*▰▰▰▱▱▱▱▱🕗*'
 global.rwait = '🔜'
 global.dmoji = '⚡'
 global.done = '☑️'
