@@ -74,7 +74,11 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
   <a href="https://github.com/Xcelsama/STAR-MD-V2/fork" target="_blank">
   <img src="https://img.shields.io/badge/FORK STAR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
+❏SCAN-QR        
 
+<a href="https://star-qr-70e418af7eed.herokuapp.com/" target="_blank">
+  <img src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
+</a>
 
 
 
