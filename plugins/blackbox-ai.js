@@ -14,7 +14,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
 
     let res = {};
     try {
-      await m.reply('sᴛᴀʀ-ᴍᴅ-ᴠ2⌛ᴀɪ ɪs ᴛʜɪɴᴋɪɴɢ...');
+      await m.reply('ʀᴏᴍᴇᴋ-xᴅ-ʙᴏᴛ⌛ᴀɪ ɪs ᴛʜɪɴᴋɪɴɢ...');
       res = await axios.get(apiEndpoint);
     } catch (e) {
       console.error(e);
