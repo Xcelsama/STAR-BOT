@@ -194,8 +194,8 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 ## `CREDITS`
 Baileys by WhisjeySockets  & adiwajshing
-[![adiwajshing](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) 
+[![adiwajshing](https://github.com/WhiskeySockets.png?size=200)](https://github.com/WhiskeySockets) 
 Base by Guru-bot
-[![GURU](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) 
+[![GURU](https://github.com/Guru322.png?size=200)](https://github.com/Guru322) 
 Thanks to Salman & Team Xlicon
-[![Salman](https://github.com/salmanytofficial.png?size=100)](https://github.com/salmanytofficial)
+[![Salman](https://github.com/salmanytofficial.png?size=200)](https://github.com/salmanytofficial)
