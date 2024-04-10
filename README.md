@@ -190,16 +190,12 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-      <p align="center">[`📡Credits`](https://github.com/salmanytofficial)
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-## `CREDITS` 
-<div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
-<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
-<div><button id="boton" type="button">Base  - By GURU-BOT</button></div>
-<a href="https://github.com/Guru322"><img src="https://github.com/Guru322.png" width="150" height="150" alt="Guru"/></a>
 
 
+## `CREDITS`
+Baileys by WhisjeySockets  & adiwajshing
+[![adiwajshing](https://github.com/WhiskeySockets/Baileys.png?size=100)](https://github.com/WhiskeySockets) 
+Base by Guru-bot
+[![GURU](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) 
 ## Thanks to Salman & Team Xlicon
-[![Salman](https://github.com/salmanytofficial.png?size=300)](https://github.com/salmanytofficial)
+[![Salman](https://github.com/salmanytofficial.png?size=100)](https://github.com/salmanytofficial)
