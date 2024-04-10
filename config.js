@@ -7,10 +7,10 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['2347045035241', 'EXCEL', true], 
-  ['234802179696', 'EXCEL', true], 
-  ['07045035241', '⚡Excel', true],
-  ['2347045035241', 'Excel', true] ]
+  ['919341378016', 'ROMEK-XD', true], 
+  ['918433897160', 'ARYAN-XD', true], 
+  ['919341378016', 'ROMEK-XD', true],
+  ['918433897160', 'ARYAN-XD', true] ]
 
  //Number of owners
 
@@ -53,16 +53,16 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'STAR-MD-V2'
+global.botname = '𝑅𝛩𝛭𝛯𝛫-𝛸𝐷'
 global.premium = 'true'
-global.packname = 'STAR-MD' 
-global.author = 'Excel' 
-global.menuvid = 'https://i.imgur.com/XoR37ew.mp4'
-global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
-global.dygp='▢✓ Follow My channel\nhttps://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs\n'
+global.packname = 'ROMEK-XD' 
+global.author = '919341378016' 
+global.menuvid = 'https://i.imgur.com/aZoNiJV.mp4'
+global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaNdKNxK5cDKRztKXV3g\n' 
+global.dygp='▢✓ Follow My channel\nhttps://chat.whatsapp.com/Hbb23H4Ny4RIc3I83S9PEv\n'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
-global.fgyt = 'https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK'
-global.fgpyp = 'https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK'
+global.fgyt = 'https://chat.whatsapp.com/HsSmtZoETQMCfRdkyT1uih'
+global.fgpyp = 'https://chat.whatsapp.com/HsSmtZoETQMCfRdkyT1uih'
 global.fglog = 'STAR.jpg' 
 global.thumb = fs.readFileSync('./STAR.jpg')
 
