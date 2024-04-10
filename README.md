@@ -198,10 +198,4 @@ Baileys by WhisjeySockets  & adiwajshing
 Base by Guru-bot
 [![GURU](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) 
 Thanks to Salman & Team Xlicon
-
-
-
-
-
-
 [![Salman](https://github.com/salmanytofficial.png?size=100)](https://github.com/salmanytofficial)
