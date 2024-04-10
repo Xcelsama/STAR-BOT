@@ -200,6 +200,6 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 <div><button id="boton" type="button">Base  - By GURU-BOT</button></div>
 <a href="https://github.com/Guru322"><img src="https://github.com/Guru322.png" width="150" height="150" alt="Guru"/></a>
 
-By Salman &  Team Xlicon
+
 ## Thanks to Salman & Team Xlicon
 [![Salman](https://github.com/salmanytofficial.png?size=300)](https://github.com/salmanytofficial)
