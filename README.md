@@ -193,3 +193,9 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
       <p align="center">[`📡Credits`](https://github.com/salmanytofficial)
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
+## `CREDITS` 
+<div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
+<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
+<div><button id="boton" type="button">Base  - By GURU-BOT</button></div>
+<a href="https://github.com/Guru322"><img src="https://github.com/Guru322.png" width="150" height="150" alt="Guru"/></a>
