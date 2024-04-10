@@ -199,6 +199,7 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 <a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
 <div><button id="boton" type="button">Base  - By GURU-BOT</button></div>
 <a href="https://github.com/Guru322"><img src="https://github.com/Guru322.png" width="150" height="150" alt="Guru"/></a>
--</button></div>
-<a href="https://github.com/salmanytofficial"><img src="https://github.com/salmanytofficial.png" width="150" height "150"alt="Salman"/></a>
+
 By Salman &  Team Xlicon
+## Thanks to Salman & Team Xlicon
+[![Salman](https://github.com/salmanytofficial.png?size=300)](https://github.com/salmanytofficial)
