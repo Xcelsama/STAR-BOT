@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, args, command, text }) => {
     const mediaType = mediaData.type;
     const mediaURL = mediaData.url_download;
 
-    let cap = `HERE IS THE ${mediaType.toUpperCase()} >,<`;
+    let cap = `𝚁𝙾𝙼𝙴𝙺-𝚇𝙳 𝙱𝙾𝚃 ${mediaType.toUpperCase()} >,<`;
 
     if (mediaType === 'video') {
       
