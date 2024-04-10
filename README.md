@@ -75,15 +75,14 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
   <img src="https://img.shields.io/badge/FORK STAR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
 
-❏SCAN-QR        
-
+```❏SCAN-QR```        
 <a href="https://star-qr-70e418af7eed.herokuapp.com/" target="_blank">
   <img src="https://img.shields.io/badge/SCAN QR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
 
 
 
-❏GET SESSION ID 
+```❏GET SESSION ID``` 
 (PAIR-CODE)           
  
 <a href="https://replit.com/@HopeAmadi/STAR-MD-V2-PAIR-CODE?s=app" target="_blank">
