@@ -78,7 +78,7 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 ❏SCAN-QR        
 
 <a href="https://star-qr-70e418af7eed.herokuapp.com/" target="_blank">
-  <img src="https://img.shields.io/badge/SCAN-QR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
+  <img src="https://img.shields.io/badge/SCAN QR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
 
 
