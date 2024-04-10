@@ -1,16 +1,16 @@
 let handler = async m => m.reply(`
 
-╭⭑⭑⭑★✪•••*ՏͲᎪᎡ*•••✪★⭑⭑⭑
-│ 📂 *BOT Name:* _ՏͲᎪᎡ-ᎷᎠ-Ꮩ2_
-│ 📝 *Description:* _I'm STAR-MD-V2. A  
-┃MultiDevice WhatsApp bot with rich features  ┃Created BY +2347045035241._
-│ 👤 *Owner:* _乇乂匚乇ㄥ_
-│ 🌐 *Channel:* https://whatsapp.com/channel
+╭⭑⭑⭑★✪•••**•••✪★⭑⭑⭑
+│ 📂 *BOT Name:* _ʀᴏᴍᴇᴋ-xᴅ-ʙᴏᴛ _
+│ 📝 *Description:* _ɪ'ᴍ romek-xd. A  
+┃MultiDevice WhatsApp bot with rich features  ┃Created BY 919341378016._
+│ 👤 *Owner:* _ʀᴏᴍᴇᴋ-xᴅ 
+│ 🌐 *Channel:* https://whatsapp.com/channel/0029VaNdKNxK5cDKRztKXV3g
 ┃/0029Va9wmuz8F2pGIURwmo0m
 ╰━━━━━━━━━━━━━━━━╯
 `.trim())
 handler.help = ['channel']
 handler.tags = ['main']
-handler.command = ['star', 'channel' ] 
+handler.command = ['romek', 'channel' ] 
 
 export default handler
