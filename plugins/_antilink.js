@@ -14,7 +14,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
             const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
             if (m.text.includes(linkThisGroup)) return !0
         }
-        await conn.reply(m.chat, `*≡ ʟɪɴᴋ ᴅᴇᴛᴇᴄᴛᴇᴅ ʙʏ sᴛᴀʀ-ᴍᴅ-ᴠ2*
+        await conn.reply(m.chat, `*≡ ʟɪɴᴋ ᴅᴇᴛᴇᴄᴛᴇᴅ ʙʏ ʀᴏᴍᴇᴋ-xᴅ-ʙᴏᴛ*
             
 We do not allow links from other groups 
 I'm sorry *@${m.sender.split('@')[0]}*  you will be kicked out of the group ${isBotAdmin ? '' : '\n\nIM not an admin so I canT expel you :"v'}`, null, { mentions: [m.sender] } )
