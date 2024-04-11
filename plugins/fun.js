@@ -8,7 +8,7 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
 
 }
 handler.help = ["perv", "handsome", "hot", "sexy", "ugly", "cute", "playboy", "playgirl", "beautiful", "lesbian", "whore", "motherfucker", "sucker", "horny", "foolish", "nibba", "nibbi", "bitch", "waifu", "crackhead", "rascal", "idiot", "girlyboy", "tomboy", "gigachad", "mf", "introvert", "extrovert", "sigma", "psycho", "brainless", "useless", "singer"]
-handler.tags = ['fun']
+handler.tags = ['']
 handler.command = /^(perv|handsome|hot|sexy|ugly|cute|playboy|playgirl|beautiful|lesbian|whore|motherfucker|sucker|horny|foolish|nibba|nibbi|bitch|waifu|crackhead|rascal|idiot|girlyboy|tomboy|gigachad|mf|introvert|extrovert|sigma|psycho|brainless|useless|singer)/i
 handler.group = true
 export default handler
