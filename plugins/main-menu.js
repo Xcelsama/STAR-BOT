@@ -31,29 +31,29 @@ import {
 ┃❏_ᎻϴՏͲ_: ᏞᏆΝႮХ-ᏞᎪᏆᎡ
 ┃❏_ͲᎽᏢᎬ_: ᒪIᑎᑌ᙭
 ┃❏_ᏴᎪᏆᏞᎬᎽՏ_:ᗰᑌᒪTI-ᗪᗴᐯIᑕᗴ
-┃❐_ᏢᎡᎬҒᏆХ_: [ *%_p* ]
+┃❏_ᏢᎡᎬҒᏆХ_: [ *%_p* ]
 ┃❏_ႮᏢͲᏆᎷᎬ_: %muptime
 ┃❏_ᎠᎪͲᎪᏴᎪՏᎬ_:  %totalreg
 ╰─────────────────❖
 ┌─❖『ႮՏᎬᎡ』❖
-┃ ❏_ΝᎪᎷᎬ_: %name*
-┃ ❏_ᏀϴᏞᎠ_: %credit*
-┃ ❏_ᏞᎬᏙᎬᏞ_: [-1000xp to leveup]
-┃ ❏_ХᏢ_: %exp / %maxexp
+┃ ❏_ΝᎪᎷᎬ_: %name
+┃ ❏_ᏀϴᏞᎠ_: %credit
+┃ ❏_ᏞᎬᏙᎬᏞ_: [-999xp to leveup]
+┃ ❏_ХᏢ_*: %exp / %maxexp
 ┃ ❏_ͲϴͲᎪᏞ ХᏢ_: %totalexp
 ┃©ՏTᗩᖇ-ᗰᗪ-ᐯ2
 ╰─────────────────❖
 ┌─❖『ᏆΝͲᎬᏞ-ᏟϴᎡᎬ  』❖
 ┃❏Cores: 8
-┃❏Threads:16
-┃❏Base Clock Speed: 3.8 GHz
+┃❏Threads: 16
+┃❏Base Clock Speed:3.8 GHz
 ┃❏Max Turbo Boost Speed:5.1 ┃GHz
-┃❏Cache:16 MB Intel Smart ┃Cache
+┃❏Cache: 16 MB Intel Smart ┃Cache
 ┃❏Lithography: 14 nm
 ┃❏TDP (Thermal Design ┃Power): 125 W
 ┃❏Socket: LGA 1200
 ┃❏Memory Support: ┃DDR4-2933
-┃❏Integrated Graphics: Intel ┃UHD Graphics 630
+┃❏Integrated Graphics:* Intel ┃UHD Graphics 630
 ┃❏Total Commands:-*_%totalfeatures_*
 ╰─────────────────❖
  `.trimStart(),
@@ -70,7 +70,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "⤵️",
+ text: "✔️",
  key: m.key,
    }
   })
