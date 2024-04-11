@@ -42,8 +42,8 @@ let str = `
 🌠 *_quote of the day: ${quote}_* 🌠
 
 ┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Creator:* 𝚁𝙾𝙼𝙴𝙺-𝚇𝙳-𝙱𝙾𝚃
-┃ 🤡  *Bot Name:* ${𝗥𝗢𝗠𝗘𝗞-𝗫𝗗} 
+┃ 🏮  *Creator:* ROMEK-XD
+┃ 🤡  *Bot Name:* ${botname} 
 ┃ 💻  *Host:* Linux Lair
 ┃ 📣  *Prefix:* ${usedPrefix} 
 ┃ 🕓  *Uptime:* ${uptime}
@@ -59,7 +59,7 @@ let str = `
 ┏━😎 _User Info:_ 😎━┓
 ┃ 👾  *User Tag:* ${taguser} 
 ┃ 😇  *Name:* ${name} 
-┃ 🌟  *Master Mind:* ${𝗥𝗢𝗠𝗘𝗞-𝗫𝗗} 
+┃ 🌟  *Master Mind:* ${author} 
 ┃ 💎  *Diamonds:* ${diamond} 
 ┃ 🏆  *Rank:* ${role}
 ┃ 🎮  *XP:* ${exp} 
