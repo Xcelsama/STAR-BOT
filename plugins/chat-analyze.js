@@ -12,7 +12,7 @@ let text
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw "Input Texts"
+    } else throw "Input random number 1-100"
 var tes = await Analyze(text)
 var shipverdict = [
     "❤️  ❤️  ❤️  ❤️  ❤️", //1-20
