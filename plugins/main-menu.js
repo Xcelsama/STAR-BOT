@@ -15,52 +15,36 @@ import {
 
  const defaultMenu = {
   before: `
-❖────《 𝑆𝑇𝛥𝑅 》─────❖
-┃   
-┃█▀ ▀█▀ ▄▀█ █▀█
-┃▄█ ░█░ █▀█ █▀▄
-┃
-┃█▀▄▀█ █▀▄ ▄▄ █░█ ▀▀█
-┃█░▀░█ █▄▀ ░░ ▀▄▀ █▄▄
-┃©ᎬХᏟᎬᏞ ᎪᎷᎪᎠᏆ 
-╰─────────────────❖
-┌─❖『ᏴϴͲ-ᏆΝͲᎬᏞ』❖
-┃❏*_ᎠᎬᏙ_*:-ᎬХᏟᎬᏞ ᎪᎷᎪᎠᏆ
-┃❏*_ᏴϴͲ ΝᎪᎷᎬ_* :ՏͲᎪᎡ-ᎷᎠ-Ꮩ2
-┃❏*_ᎷϴᎠᎬ_*: %mode
-┃❏*_ᎻϴՏͲ_*: ᏞᏆΝႮХ-ᏞᎪᏆᎡ
-┃❏*_ͲᎽᏢᎬ_*: ᒪIᑎᑌ᙭
-┃❏*_ᏴᎪᏆᏞᎬᎽՏ_*:ᗰᑌᒪTI-ᗪᗴᐯIᑕᗴ
-┃❏*_ᏢᎡᎬҒᏆХ_*: [ *%_p* ]
-┃❏*_ႮᏢͲᏆᎷᎬ_*: %muptime
-┃❏*_ᎠᎪͲᎪᏴᎪՏᎬ_*:  %totalreg
-╰─────────────────❖
-┌─❖『ႮՏᎬᎡ』❖
-┃ ❏*_ΝᎪᎷᎬ_*: %name
-┃ ❏*_ᏀϴᏞᎠ_*: %credit
-┃ ❏*_ᏞᎬᏙᎬᏞ_*: [-1000xp to leveup]
-┃ ❏*_ХᏢ_*: %exp / %maxexp
-┃ ❏*_ͲϴͲᎪᏞ ХᏢ_*: %totalexp
-┃©ՏTᗩᖇ-ᗰᗪ-ᐯ2
-╰─────────────────❖
-┌─❖『ᏆΝͲᎬᏞ-ᏟϴᎡᎬ  』❖
-┃❏*Cores:* 8
-┃❏*Threads:** 16
-┃❏*Base Clock Speed:* 3.8 GHz
-┃❏*Max Turbo Boost Speed:*5.1 ┃GHz
-┃❏ *Cache:* 16 MB Intel Smart ┃Cache
-┃❏*Lithography:* 14 nm
-┃❏*TDP (Thermal Design ┃Power):* 125 W
-┃❏*Socket:* LGA 1200
-┃❏*Memory Support:* ┃DDR4-2933
-┃❏*Integrated Graphics:* Intel ┃UHD Graphics 630
-┃❏Total Commands:-*_%totalfeatures_*
-╰─────────────────❖
+  │✫ - 「🛡️ ${botname} 🛡️」 - ✫│\n
+  
+ 
+ 
+  ╭━━⊱『 *I N F O*』⊱━━╮
+  ⛥ *Mode:* %mode
+  ⛥ *Platform:* %platform
+  ⛥ *Type:* NodeJs
+  ⛥ *Baileys:* Multi Device
+  ⛥ *Prefix:* [ *%_p* ]
+  ⛥ *Uptime:* %muptime
+  ⛥ *Database:*  %totalreg
+  ╰━━━━━━━━━━━━━━━╯
+  
+ ╭━━⊱「 *U S E R*」⊱━━╮
+ ⛥ *Name:* %name
+ ╰━━━━━━━━━━━━━━━╯
+ 
+ *%ucpn*
+  
+  ╭━━⊱『 *I N F O  C M D*』⊱━━╮ 
+  │ *%totalfeatures* Commands
+  ╰──────────☆★
+ %readmore
  `.trimStart(),
- header: "┌─❖『 *_%category_* 』❖",
- body: "┃❏%cmd %isPremium %islimit",
- footer: "╰─────────────────❖",
+ header: "╭━━⊱ 「 *%category* 」⊱━━╮",
+ body: "  │✫ -  %cmd %isPremium %islimit",
+ footer: "╰━━━━━━━━━━━━━━━╯",
  after: "\n%me",
+
  }
  let handler = async (m, {
   conn,
@@ -70,7 +54,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "⚡",
+ text: "✅",
  key: m.key,
    }
   })
@@ -83,7 +67,7 @@ import {
    let glb = global.db.data.users
    let usrs = glb[m.sender]
    let tag = `@${m.sender.split("@")[0]}`
-   let mode = process.env.MODE || (global.opts["self"] ? "Private" : "Public");
+   let mode = global.opts["self"] ? "Private" : "Public"
    let _package = JSON.parse(await promises.readFile(join(__dirname, "../package.json")).catch(_ => ({}))) || {}
    let {
  age,
@@ -193,20 +177,20 @@ import {
  readmore: readMore
    }
    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, "g"), (_, name) => "" + replace[name])
-   const pp = './Assets/STAR-V2.jpg'
+   const pp = (thumb)
 
 
  let contact = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
   conn.sendMessage(m.chat, { video: { url: menuvid }, caption: text.trim(),  gifPlayback: true,
-  gifAttribution: 0}, { quoted: contact })
+  gifAttribution: 0}, { quoted: m })
 
   } catch (e) {
    await conn.reply(m.chat, " error", m)
    throw e
   }
  }
- handler.command = /^(menu|help|\?)$/i
+ handler.command = /^(menu2|h2|hh|help2|\?)$/i
 
 
 
@@ -241,7 +225,7 @@ import {
   const time = moment.tz("Asia/Kolkata").format("HH")
   let res = "Good morning ☀️"
   if (time >= 4) {
-   res = "Good Morning 🌄"
+   res = "Good Morning 🤗🌄"
   }
   if (time >= 10) {
    res = "Good Afternoon ☀️"
@@ -250,7 +234,7 @@ import {
    res = "Good Afternoon 🌇"
   }
   if (time >= 18) {
-   res = "Good Night 🌙"
+   res = "Good Night 🌙😴"
   }
   return res
  }
