@@ -37,9 +37,6 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
-
-🌠 *_quote of the day: ${quote}_* 🌠
 
 ┏━━🤖 _BOT STATUS:_🤖━━┓
 ┃ 🏮  *Creator:* Excel Amadi
@@ -549,8 +546,7 @@ let str = `
 ┌─❖『 *_conversion_* 』❖
 ┃❏*convert
 ╰─────────────────❖
-ℹ️EXCEL AMADI
-`
+𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸 𝙱𝚈 𝙴𝚇𝙲𝙴𝙻 𝙰𝙼𝙰𝙳𝙸`
 
 
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
