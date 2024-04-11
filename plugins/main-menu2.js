@@ -42,7 +42,7 @@ let str = `
 🌠 *_quote of the day: ${quote}_* 🌠
 
 ┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Creator:* Excel Amadi
+┃ 🏮  *Creator:* ROMEK-XD
 ┃ 🤡  *Bot Name:* ${botname} 
 ┃ 💻  *Host:* Linux Lair
 ┃ 📣  *Prefix:* ${usedPrefix} 
