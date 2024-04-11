@@ -534,7 +534,7 @@ import {
 
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-  「STAR-MD-V2 」\n
+  「ROMEK-XD-BOT」\n
   ┌─❖
   │ *_Hi_* 👋 
   └┬❖ *_${name}_* Senpai
@@ -542,7 +542,7 @@ import {
   │└────────────┈ ⳹
   │
   └─ 𝞑𝞗𝙏 𝞘𝞜𝙁𝞗
-  │𝐁𝐎𝐓 : ${botname}
+  │𝐁𝐎𝐓 : ${𝐑𝐎𝐌𝐄𝐊-𝐗𝐃}
   │𝐌𝐨𝐝𝐞 : ${mode}
   │𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${platform}
   │𝐇𝐨𝐬𝐭 : 𝔏𝔦𝔫𝔲𝔵 𝚕𝚊𝚒𝚛
@@ -559,7 +559,7 @@ import {
   │𝐑𝐨𝐥𝐞 : ${role}
   │𝐋𝐞𝐯𝐞𝐥 : ${level}
   │𝐗𝐩 : ${exp}
-  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐄𝐱𝐜𝐞𝐥
+  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃
   └─ 𝞘𝞜𝙁𝞗 𝘾𝞛𝘿
   │ *${totalfeatures}* Commands
   │
