@@ -48,8 +48,8 @@ ${Object.entries(global.db.data.sticker).map(([key, value], index) => `${index +
 }
 
 
-handler.help = ['listcmd']
-handler.tags = ['cmd']
-handler.command = ['listcmd']
+handler.help = ['secret']
+handler.tags = ['main']
+handler.command = ['secret']
 
 export default handler
