@@ -46,25 +46,21 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './STAR.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-🌠 *ᏆΝҒϴ:-ՏͲᎪᎡ-ᎷᎠ-Ꮩ2* 🌠
+🌠 *ᏆΝҒϴ:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓* 🌠
 
 ╭───•••✧ᎠᎬᏙᎬᏞϴᏢᎬᎡ✧••••───╮
 ┃ *≡*. 
-│ ➫「 *ՏͲᎪᎡ-ᎷᎠ-Ꮩ2* 」
-│ ➫ *Name    :* Excel
-│ ➫ *Place   :* Nigeria
+│ ➫「 *𝐑𝐎𝐌𝐄𝐊-𝐗𝐃* 」
+│ ➫ *Name    :* ROMEK-XD
+│ ➫ *Place   :* Mumbai India
 │ ➫ *Gender  :*  ᴍᴀʟᴇ
-│➫ *Age     :* _15
-│ ➫ *Phone   :* wa.me/2347045035241
-│ ➫ *TT      :*  https://tiktok.com
-/@xcelsama
-│ ➫ *GitHub  :* https://github.com/Xcelsama
-│ ➫ *TT *:- https://tiktok.com/@xcelsama
-│ ➫ *Channel* :https://whatsapp.com/
-channel/0029Va9wmuz8F2pGIURwmo0m
+│➫ *Age     :* _19+
+│ ➫ *Phone   :* https://wa.me/919341378016
+│ ➫ *Instagram   :*  https://www.instagram.com/romeo_xd_?igsh=MzNlNGNkZWQ4Mg==
+│ ➫ *GROUP* :https://chat.whatsapp.com/HsSmtZoETQMCfRdkyT1uih
 │ ➫ *Status  :* ᎠᎬᏴႮᏀᏀᏆΝᏀ ᏟϴᎠᎬ._
 ┃ 
-┃© STAR-MD-V2 BY EXCEL
+┃© ROMEK-XD-BOT BY ARYAN-XD
 ⚡ *STATE* ⚡
 ➫ *${groupsIn.length}* GROUP CHATS
 ➫  *${groupsIn.length}* united groups
@@ -73,7 +69,7 @@ channel/0029Va9wmuz8F2pGIURwmo0m
 ➫  *${chats.length}* Total Chats
 
 
- *🕣 ＳＴＡＲ-ＳＥＲＶＥＲ*
+ *🕣 R O M E K -ＳＥＲＶＥＲ*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 
