@@ -9,7 +9,7 @@
 [`ℹ️IN CASE OF HELP CONCERNING DEPLOYMENT
 `](https://wa.me/+2347045035241)
 
- 
+ [`If there's every error or no function is working consider using this`](https://github.com/EX-BOTS/STAR-MD-V2)
 
 ##  🌠```Bot Intro```🌠
 [![STAR-MD-V2](https://i.imgur.com/mQDfG3w.jpeg)](https://wa.me/2347045035241)
