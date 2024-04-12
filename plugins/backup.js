@@ -3,7 +3,7 @@
 let handler = async (m, { conn }) => {
     conn.reply(m.chat, `
 ┌─❖『 *_BACKUP_MENU_* 』❖
-┃❏*perv
+┃❏*tk
 ┃❏*handsome
 ┃❏*hot
 ┃❏*sexy
