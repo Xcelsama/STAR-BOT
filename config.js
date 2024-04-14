@@ -57,7 +57,7 @@ global.botname = 'STAR-MD-V2'
 global.premium = 'true'
 global.packname = 'STAR-MD' 
 global.author = 'Excel' 
-global.menuvid = 'https://i.imgur.com/XoR37ew.mp4'
+global.menuvid = 'https://i.imgur.com/p7sdeTT.mp4'
 global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
 global.dygp='▢✓ Follow My channel\nhttps://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs\n'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
@@ -67,7 +67,7 @@ global.fglog = 'STAR.jpg'
 global.thumb = fs.readFileSync('./STAR.jpg')
 
 
-global.wait = '*🕣 _STAR IS LOADING..._*\n*▰▰▰▱▱▱▱▱🕗*'
+global.wait = '*🕣 _STAR IS LOADING..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '🔜'
 global.dmoji = '⚡'
 global.done = '✅'
