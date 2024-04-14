@@ -15,22 +15,11 @@ import {
 
  const defaultMenu = {
   before: `
-  │✫ - 「🌟 ${botname} 🌟」 - ✫│\n
   
- 
- 
-  ╭━━⊱『 *I N F O*』⊱━━╮
-  ⛥ *Mode:* %mode
-  ⛥ *Platform:* %platform
-  ⛥ *Type:* NodeJs
-  ⛥ *Baileys:* Multi Device
-  ⛥ *Prefix:* [ *%_p* ]
-  ⛥ *Uptime:* %muptime
-  ⛥ *Database:*  %totalreg
-  ╰━━━━━━━━━━━━━━━╯
-  
+
+    STAR-MD-V2
  ╭━━⊱「 *U S E R*」⊱━━╮
- ⛥ *Name:* %name
+ ▶*Name:* %name
  ╰━━━━━━━━━━━━━━━╯
  
  *%ucpn*
@@ -41,7 +30,7 @@ import {
  %readmore
  `.trimStart(),
  header: "╭━━⊱ 「 *%category* 」⊱━━╮",
- body: "  │✫ -  %cmd %isPremium %islimit",
+ body: "  │ %cmd %isPremium %islimit",
  footer: "╰━━━━━━━━━━━━━━━╯",
  after: "\n%me",
 
@@ -54,7 +43,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "✅",
+ text: "📜",
  key: m.key,
    }
   })
@@ -190,7 +179,7 @@ import {
    throw e
   }
  }
- handler.command = /^(menu2|h2|hh|help2|\?)$/i
+ handler.command = /^(Excel|h2|hh|list|\?)$/i
 
 
 
