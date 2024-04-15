@@ -8,12 +8,12 @@ let handler = async m => m.reply(`
 
 Group1:
 _____________________
-https://chat.whatsapp.com/HsSmtZoETQMCfRdkyT1uih
+https://chat.whatsapp.com/DpwQMl9PrT545z3841Ld5I
 _______________________
 
 Group2:
 _______________________
-https://chat.whatsapp.com/HsSmtZoETQMCfRdkyT1uih"
+https://chat.whatsapp.com/DpwQMl9PrT545z3841Ld5I"
 _________________________
 
 *DEVELOPER*/
@@ -41,6 +41,6 @@ _______________________
 `.trim())
 handler.help = ['gpguru']
 handler.tags = ['main']
-handler.command = ['groups', 'groupguru', 'gugp', 'ggp', 'gpguru'] 
+handler.command = ['groups', 'groupromek', 'gugp', 'ggp', 'gprk','gpromek'] 
 
 export default handler
