@@ -7,7 +7,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     var vn = "./Assets/ALIVE.mp3"
     let url = "https://github.com/Xcelsama"
     let murl = "https://YouTube.com"
-    let img = "https://i.imgur.com/mQDfG3w.jpeg"
+    let img = "https://i.imgur.com/5owtm8m.jpeg"
     let con = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     let doc = {
         audio: {
@@ -23,8 +23,8 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
           externalAdReply: {
           title: "ROMEK-XD IS ALIVE 🌟",
           body: "STAR-MD",
-          thumbnailUrl: img,
-          sourceUrl: 'https://chat.whatsapp.com/HsSmtZoETQMCfRdkyT1uih',
+          thumbnailUrl: img,'https://i.imgur.com/5owtm8m.jpeg'
+          sourceUrl: 'https://chat.whatsapp.com/DpwQMl9PrT545z3841Ld5I',
           mediaType: 1,
           renderLargerThumbnail: true
           }}
