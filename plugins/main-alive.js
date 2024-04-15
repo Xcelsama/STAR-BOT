@@ -23,7 +23,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
           externalAdReply: {
           title: "ROMEK-XD IS ALIVE 🌟",
           body: "STAR-MD",
-          thumbnailUrl: img,'https://i.imgur.com/5owtm8m.jpeg'
+          thumbnailUrl: img,
           sourceUrl: 'https://chat.whatsapp.com/DpwQMl9PrT545z3841Ld5I',
           mediaType: 1,
           renderLargerThumbnail: true
