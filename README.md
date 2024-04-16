@@ -1,4 +1,6 @@
- [`ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
+
+a href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://www.opensourceagenda.com/projects/star-md-v2/reviews/badge.svg" alt="Open Source Agenda"></a> 
+[`ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
 `](https://github.com/Xcelsama)
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
       <p align="center">[🇸 🇹 🇦 🇷 -🇲 🇩 ](https://wa.me/+2347045035241)
