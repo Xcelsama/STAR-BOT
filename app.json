@@ -56,7 +56,7 @@
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
       "required": false,
-      "value": ""
+      "value": "dKK5KVz3KdVDd3HZfSV8xbHv"
     }
     },
     "buildpacks": [
