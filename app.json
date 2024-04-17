@@ -11,7 +11,7 @@
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
-      "value": "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority"
+      "value": "mongodb+srv://xcelsama:derby@xcelsama.cyxyblt.mongodb.net/?retryWrites=true&w=majority&appName=Xcelsama"
     },
     "SESSION_ID": {
       "description": "your session id",
