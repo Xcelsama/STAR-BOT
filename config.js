@@ -62,7 +62,7 @@ global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2'
 global.fgyt = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m'
 global.fgpyp = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m'
 global.fglog = 'STAR.jpg' 
-global.thumb = fs.readFileSync('./XLICON.jpg')
+global.thumb = fs.readFileSync('./STAR.jpg')
 
 
 global.wait = '*🕣 _STAR IS LOADIND..._*\n*▰▰▰▱▱▱▱▱⭐*'
