@@ -1,7 +1,7 @@
 {
-    "name": "STAR-MD",
+    "name": "gurubot",
     "version": "2.0.0",
-    "description": "Advanced Multifunctional WhatsApp Bot",
+    "description": "Advanced WhatsApp Bot",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -25,21 +25,21 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Xcelsama/STAR-MD-V2",
+    "homepage": "https://github.com/Guru322/GURU-BOT",
     "author": {
         "name": "GURU"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Xcelsama/STAR-MD-V2.git"
+        "url": "git+https://github.com/Guru322/GURU-BOT.git"
     },
     "bugs": {
-        "url": "https://github.com/Xcelsama/STAR-MD-V2"
+        "url": "https://github.com/Guru322/GURU-BOT/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
-        "@bochilteam/scraper":"^4.0.22-alpha.0",    "@shizodevs/wabotmodule": "1.6.0",
+        "@bochilteam/scraper": "^4.0.22-alpha.0",
         "@google/generative-ai": "0.1.3",
         "@shineiichijo/marika": "^2.0.6",
         "@vitalets/google-translate-api": "^9.2.0",
