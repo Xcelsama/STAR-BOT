@@ -1,3 +1,4 @@
+
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
@@ -7,18 +8,15 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['23470505241', 'EXCEL', true], 
-  ['234802696', 'EXCEL', true], 
-  ['070435241', '⚡Excel', true],
-  ['2347035241', 'Excel', true] 
-
- //Number of owners
+  ['2347045035241', 'Excel', true], 
+  ['2377021779696', 'xcel-bot', true], 
+] //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['2341', '2348021779696', '2347045035241','233533763772'] 
-global.prems = ['2347045035241','233208179431','233533763772']
-global.allowed = ['2348021779696', '2347045035241','233533763772']
+global.mods = ['2347045035241'] 
+global.prems = ['2347045035241']
+global.allowed = ['2347045035241']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -46,33 +44,33 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
-  'https://api.neoxr.my.id': `${keysneoxr}`,        
+  'https://api.neoxr.my.id': `${keysneoxr}`,	
   'https://violetics.pw': 'beta',
   'https://zenzapis.xyz': `${keysxxx}`, 
   'https://api-fgmods.ddns.net': 'fg-dylux'
 }
 
 // Sticker WM
-global.botname = 'STAR-MD-V2'
+global.botname = 'STAR-V2'
 global.premium = 'true'
-global.packname = 'STAR-MD' 
-global.author = 'Excel' 
-global.menuvid = 'https://i.imgur.com/p7sdeTT.mp4'
+global.packname = 'EX-BOTS_TEAM' 
+global.author = '@EXCEL' 
+global.menuvid = 'https://telegra.ph/file/325630f66abc968eda8e2.mp4'
 global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
-global.dygp='▢✓ Follow My channel\nhttps://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs\n'
+global.dygp = 'https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
-global.fgyt = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m'
-global.fgpyp = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m'
+global.fgyt = ''
+global.fgpyp = ''
 global.fglog = 'STAR.jpg' 
-global.thumb = fs.readFileSync('./STAR.jpg')
+global.thumb = fs.readFileSync('./XLICON.jpg')
 
 
-global.wait = '*🕣 _STAR IS LOADING..._*\n*▰▰▰▱▱▱▱▱*'
-global.rwait = '🔜'
-global.dmoji = '⚡'
-global.done = '✅'
-global.error = '❎' 
-global.xmoji = '⤵️' 
+global.wait = '*🕣 _STAR IS LOADIND..._*\n*▰▰▰▱▱▱▱▱⭐*'
+global.rwait = '⌛'
+global.dmoji = '🤭'
+global.done = '✔️'
+global.error = '❌' 
+global.xmoji = '🔥' 
 
 global.multiplier = 69 
 global.maxwarn = '3' // máxima advertencias
