@@ -55,12 +55,12 @@ global.botname = 'STAR-V2'
 global.premium = 'true'
 global.packname = 'EX-BOTS_TEAM' 
 global.author = '@EXCEL' 
-global.menuvid = 'https://telegra.ph/file/325630f66abc968eda8e2.mp4'
-global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
+global.menuvid = 'https://i.imgur.com/p7sdeTT.mp4'
+global.igfg = '▢✓ Follow My channel_ https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m\n' 
 global.dygp = 'https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
-global.fgyt = ''
-global.fgpyp = ''
+global.fgyt = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
+global.fgpyp = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m'
 global.fglog = 'STAR.jpg' 
 global.thumb = fs.readFileSync('./XLICON.jpg')
 
