@@ -7,10 +7,8 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 
 
-global.owner = [
-  ['2347045035241', 'Excel', true], 
-  ['2377021779696', 'xcel-bot', true], 
-] //Number of owners
+global.owner = ['2347045035241', 'Excel', true]
+ //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 
