@@ -6,14 +6,14 @@ let handler = async m => m.reply(`
 ⎯꯭̽ *GROUPS*⎯꯭̽.
 ─━━━✧✿✧━━━─
 
-Group1:
+channel:
 _____________________
-https://chat.whatsapp.com/DpwQMl9PrT545z3841Ld5I
+https://whatsapp.com/channel/0029VaNdKNxK5cDKRztKXV3g/101
 _______________________
 
-Group2:
+Group:
 _______________________
-https://chat.whatsapp.com/DpwQMl9PrT545z3841Ld5I"
+https://chat.whatsapp.com/DRF5FIqF2Wl5a3QVC6OTGv"
 _________________________
 
 *DEVELOPER*/
