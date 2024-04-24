@@ -61,8 +61,8 @@ global.menuvid = 'https://i.imgur.com/aZoNiJV.mp4'
 global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaNdKNxK5cDKRztKXV3g\n' 
 global.dygp='▢✓ Follow My channel\nhttps://chat.whatsapp.com/Hbb23H4Ny4RIc3I83S9PEv\n'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
-global.fgyt = 'https://chat.whatsapp.com/DpwQMl9PrT545z3841Ld5I'
-global.fgpyp = 'https://chat.whatsapp.com/DpwQMl9PrT545z3841Ld5I'
+global.fgyt = 'https://whatsapp.com/channel/0029VaNdKNxK5cDKRztKXV3g'
+global.fgpyp = 'https://whatsapp.com/channel/0029VaNdKNxK5cDKRztKXV3g'
 global.fglog = 'STAR.jpg' 
 global.thumb = fs.readFileSync('./STAR.jpg')
 
