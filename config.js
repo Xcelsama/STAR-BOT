@@ -59,8 +59,8 @@ global.dygp = 'https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
 global.fgyt = 'https://whatsapp.com/channel/0029VaYi5xz5a243J3KvQB0Z'
 global.fgpyp = 'https://whatsapp.com/channel/0029VaYi5xz5a243J3KvQB0Z'
-global.fglog = 'STAR.jpg' 
-global.thumb = fs.readFileSync('./STAR.jpg')
+global.fglog = '30cb7188e407e26c821fc0195bf6fe12.jpg' 
+global.thumb = fs.readFileSync('./30cb7188e407e26c821fc0195bf6fe12.jpg')
 
 
 global.wait = '*🕣 _STAR IS LOADIND..._*\n*▰▰▰▱▱▱▱▱⭐*'
