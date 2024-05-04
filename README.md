@@ -11,10 +11,7 @@
 
 
 
-[`ℹ️IN CASE OF HELP CONCERNING DEPLOYMENT
-`](https://wa.me/+2347045035241)
 
- 
 
 ##  ℹ️```Bot Intro```ℹ️
 [![STAR-MD-V2](https://i.imgur.com/FSEN4pE.jpeg)](https://wa.me/2347045035241)
