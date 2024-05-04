@@ -73,7 +73,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 ## 🛠️ `Installation Procedure`🛠
 
 
-`✪FORK THE REPOSITORY`
+```✪FORK THE REPOSITORY```
   <a href="https://github.com/Xcelsama/STAR-MD-V2/fork" target="_blank">
   <img src="https://img.shields.io/badge/FORK STAR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
@@ -84,7 +84,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 
 
-`✪SCAN-QR`  
+```✪SCAN-QR```  
 
 <a href="https://star-v2-qr-2ada4eff2d9d.herokuapp.com/" target="_blank">
   <img src="https://img.shields.io/badge/SCAN QR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
@@ -95,14 +95,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 
 
-
-
-
-
-
-
-
-`✪PAIR-CODE`
+```✪PAIR-CODE```
 <a href="https://star-v2-qr-2ada4eff2d9d.herokuapp.com/" target="_blank">
   <img src="https://img.shields.io/badge/PAIR CODE-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
