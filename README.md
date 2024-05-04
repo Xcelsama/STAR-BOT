@@ -57,7 +57,7 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://www.opensourceagenda.com/projects/star-md-v2/reviews/badge.svg" alt="Open Source Agenda"></a> 
 
 
-🛟𝙵𝙴𝙰𝚃𝚄𝚃𝙴𝚂🛟
+🛟𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒🛟
 
 ◉ Multi-Device Support  
 ◉ AI Photo Enhancement  
