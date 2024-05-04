@@ -8,19 +8,16 @@
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-      <p align="center">[🇸 🇹 🇦 🇷 -🇲 🇩 ](https://wa.me/+2347045035241)
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 
 
 [`ℹ️IN CASE OF HELP CONCERNING DEPLOYMENT
 `](https://wa.me/+2347045035241)
 
- [`If there's every error or no function is working consider using this`](https://github.com/EX-BOTS/STAR-MD-V2)
+ 
 
-##  🌠```Bot Intro```🌠
-[![STAR-MD-V2](https://i.imgur.com/mQDfG3w.jpeg)](https://wa.me/2347045035241)
+##  ℹ️```Bot Intro```ℹ️
+[![STAR-MD-V2](https://i.imgur.com/FSEN4pE.jpeg)](https://wa.me/2347045035241)
 </p>
       <p align="center">
   <a href="https://wa.me//+2347045035241" target="_blank">
@@ -44,11 +41,11 @@
   </a>
 
 
-<h1 align="center"> 🌠𝗦𝗧𝗔𝗥-𝗠𝗗-𝗩𝟮🌠
+<h1 align="center"> 🫶𝗦𝗧𝗔𝗥-𝗠𝗗-𝗩𝟮🫶
 </p>
    
 ### ℹ️ **ABOUT STAR-MD-V2**
-***STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the talented [Excel Amadi](https://github.com/Xcelsama) It offers a wide array of features, making it an advanced and user-friendly bot for various purposes. 🎉📱 With its intuitive interface and robust capabilities, users can unlock endless possibilities 🚀 and streamline their communication across devices with ease.***
+***STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the talented [Excel Amadi](https://github.com/Xcelsama) It offers a wide array of features, making it an advanced 📡 and user-friendly bot for various purposes. 🎉📱 With its intuitive interface and robust capabilities, users can unlock endless possibilities 🚀 and streamline their communication across devices with ease.***
 
 </a>
    <a aria-label="STAR-MD-V2 is free to use" href="https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X" target="_blank">
@@ -57,14 +54,13 @@
 
 
 ## ⭐ `Star This Repo`
-If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appreciation,Support.
+If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appreciation,Support.🤝
 
 <a 
 href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://www.opensourceagenda.com/projects/star-md-v2/reviews/badge.svg" alt="Open Source Agenda"></a> 
 
 
-🚀𝙵𝙴𝙰𝚃𝚄𝚃𝙴𝚂🚀
-
+🛟𝙵𝙴𝙰𝚃𝚄𝚃𝙴𝚂🛟
 
 ◉ Multi-Device Support  
 ◉ AI Photo Enhancement  
@@ -77,7 +73,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 ◉ Audio/Video Editor Commands                   
 ◉ Others...... 
 
-## 🛠️ `Installation Procedure`
+## 🛠️ `Installation Procedure`🛠
 
 
 ```❏FORK THE REPOSITORY``` 
@@ -93,12 +89,8 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 
 
-
-
-
-
-
-## 🚀 `Deployments`
+
+## 🎈 `Deployments`🎈
 #### DEPLOY TO HEROKU 
 
 ☉ If You don't have a account in Heroku. Create a account.
@@ -107,7 +99,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 ☉Now Deploy
     <br>
-<a href='https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD-V-2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 #### DEPLOY TO REPLIT
  If You don't have an account in Replit. Create a account.
@@ -194,7 +186,7 @@ NOW Deploy👇
 Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 
-## `Reminder`
+## ℹ️`Reminder`ℹ️
   
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
 - I am not responsible for banning your account.
