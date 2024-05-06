@@ -52,13 +52,13 @@ global.APIKeys = { // APIKey Here
 global.botname = 'Watson-xd'
 global.premium = 'true'
 global.packname = 'EX-BOTS_TEAM' 
-global.author = '@EXCEL' 
+global.author = '@Tinashe-xd' 
 global.menuvid = 'https://i.imgur.com/p7sdeTT.mp4'
-global.igfg = '▢✓ Follow My channel_ https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m\n' 
+global.igfg = '▢✓ Follow My channel_ https://https://chat.whatsapp.com/DNq1MpbdndX5ujuIKlOYaq' 
 global.dygp = 'https://chat.whatsapp.com/DNq1MpbdndX5ujuIKlOYaq'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
 global.fgyt = 'https://https://chat.whatsapp.com/DNq1MpbdndX5ujuIKlOYaq
-global.fgpyp = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m'
+global.fgpyp = 'https://https://chat.whatsapp.com/DNq1MpbdndX5ujuIKlOYaq'
 global.fglog = 'STAR.jpg' 
 global.thumb = fs.readFileSync('./STAR.jpg')
 
