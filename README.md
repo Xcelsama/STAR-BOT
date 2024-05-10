@@ -57,7 +57,7 @@ If you find STAR-MD-V2 helpful, consider giving it a star ⭐ to show your appre
 href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://www.opensourceagenda.com/projects/star-md-v2/reviews/badge.svg" alt="Open Source Agenda"></a> 
 
 
-🛟𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒🛟
+📡ＦＥＡＴＵＲＥＳ📡
 
 ◉ Multi-Device Support  
 ◉ AI Photo Enhancement  
@@ -109,7 +109,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 
 
-## 🎈 `Deployments`🎈
+## ⚔️ `Deployments`⚔️
 #### DEPLOY TO HEROKU 
 
 ☉ If You don't have a account in Heroku. Create a account.
