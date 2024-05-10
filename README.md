@@ -38,7 +38,7 @@
   </a>
 
 
-<h1 align="center"> 🫶𝗦𝗧𝗔𝗥-𝗠𝗗-𝗩𝟮🫶
+<h1 align="center"> 🚀ＳＴＡＲ-ＭＤ-Ｖ２🚀
 </p>
    
 ### ℹ️ **ABOUT STAR-MD-V2**
