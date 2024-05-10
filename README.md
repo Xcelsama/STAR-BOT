@@ -14,7 +14,7 @@
 
 
 ##  ℹ️```Bot Intro```ℹ️
-[![STAR-MD-V2](https://i.imgur.com/FSEN4pE.jpeg)](https://wa.me/2347045035241)
+[![STAR-MD-V2](https://telegra.ph/file/10722549ba7233055e711.jpg)](https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X)
 </p>
       <p align="center">
   <a href="https://wa.me//+2347045035241" target="_blank">
