@@ -612,7 +612,7 @@ import {
     const choice = m.text.trim();
 
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/LIuTHZK.jpeg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/s9Big2U.jpeg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
