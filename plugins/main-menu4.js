@@ -534,7 +534,7 @@ import {
 
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-  「ROMEK-XD-BOT」\n
+  「𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓 」\n
   ┌─❖
   │ *_Hi_* 👋 
   └┬❖ *_${name}_* Senpai
@@ -542,7 +542,7 @@ import {
   │└────────────┈ ⳹
   │
   └─ 𝞑𝞗𝙏 𝞘𝞜𝙁𝞗
-  │𝐁𝐎𝐓 : ${𝐑𝐎𝐌𝐄𝐊-𝐗𝐃}
+  │𝐁𝐎𝐓 : ${botname}
   │𝐌𝐨𝐝𝐞 : ${mode}
   │𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${platform}
   │𝐇𝐨𝐬𝐭 : 𝔏𝔦𝔫𝔲𝔵 𝚕𝚊𝚒𝚛
@@ -559,7 +559,7 @@ import {
   │𝐑𝐨𝐥𝐞 : ${role}
   │𝐋𝐞𝐯𝐞𝐥 : ${level}
   │𝐗𝐩 : ${exp}
-  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃
+  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓
   └─ 𝞘𝞜𝙁𝞗 𝘾𝞛𝘿
   │ *${totalfeatures}* Commands
   │
@@ -622,71 +622,71 @@ import {
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: ownermenu
       }, { quoted:fcontact });
       } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: funmenu
       }, { quoted:fcontact });
       } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: reactmenu
       }, { quoted:fcontact });
       } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: dlmenu
       }, { quoted:fcontact });
       } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: logomenu
       }, { quoted:fcontact });
       } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: stickermenu
       }, { quoted:fcontact });
       } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: audiomenu
       }, { quoted:fcontact });
       } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: newsmenu
       }, { quoted:fcontact });
       } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: economy
       }, { quoted:fcontact });
       } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: animemenu
       }, { quoted:fcontact });
       } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: nsfwmenu
       }, { quoted:fcontact });
       } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: toolsmenu
       }, { quoted:fcontact });
       } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: Aimenu
       }, { quoted:fcontact });
       } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: religionmenu
       }, { quoted:fcontact });
       } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg' },
         caption: pluginmenu
       }, { quoted:fcontact });
       } else {
@@ -745,4 +745,4 @@ import {
      res = "Good Night 🌙"
     }
     return res
-   }
+}
