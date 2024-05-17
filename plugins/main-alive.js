@@ -7,7 +7,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     var vn = "./Assets/ALIVE.mp3"
     let url = "https://github.com/Xcelsama"
     let murl = "https://YouTube.com"
-    let img = "https://i.imgur.com/ooDrItZ.mp4"
+    let img = "https://i.imgur.com/s9Big2U.jpeg"
     let con = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     let doc = {
         audio: {
