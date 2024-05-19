@@ -9,7 +9,7 @@
 
 
 
-## `⭐``Star This Repo``⭐`
+## `⭐Star This Repo⭐`
 
 
 
