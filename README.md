@@ -99,12 +99,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 
 
-```✪SCAN-QR```  
 
-
-<a href="https://star-multidevice-bot-qr-d70c39602209.herokuapp.com/" target="_blank">
-  <img src="https://img.shields.io/badge/SCAN QR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
-</a>
 
 
 
