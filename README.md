@@ -148,5 +148,18 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=70&pause=1000&color=FF0000&center=true&width=900&height=28&lines=;%20𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗%20𝗕𝗬%20𝗥𝗢𝗠𝗘𝗞%20𝗫𝗗)
 <p align="center">
