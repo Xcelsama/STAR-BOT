@@ -1,49 +1,41 @@
-import {
-    promises,
-    readFileSync
-   } from "fs"
-   import {
-    join
-   } from "path"
-   import {
-    xpRange
-   } from "../lib/levelling.js"
-   import moment from "moment-timezone"
-   import os from "os"
+import { promises, readFileSync } from 'fs'
+import { join } from 'path'
+import { xpRange } from '../lib/levelling.js'
+import moment from 'moment-timezone'
+import os from 'os'
 
-
-   let groupmenu = `
+let groupmenu = `
    ✦ ───『 *group* 』─── ⚝
-  ➫ .getbio <@tag/reply>  Ⓛ
-  ➫ .animequote
-  ➫ .Setdesc <text>
-  ➫ .setname <text>
-  ➫ .add
-  ➫ .delete
-  ➫ .delwarn @user
-  ➫ .demote (@tag)
-  ➫ .infogp
-  ➫ .hidetag
-  ➫ .invite <917xxx>
-  ➫ .kick @user
-  ➫ .link
-  ➫ .poll question|option|option
-  ➫ .profile
-  ➫ .promote
-  ➫ .resetlink
-  ➫ .setbye <text>
-  ➫ .group *open/close*
-  ➫ .setwelcome <text>
-  ➫ .simulate <event> @user
-  ➫ .staff
-  ➫ .tagall
-  ➫ .totag
-  ➫ .warn @user
-  ➫ .warns
-  ➫ .main
+  ◈ .getbio <@tag/reply>  Ⓛ
+  ◈ .animequote
+  ◈ .Setdesc <text>
+  ◈ .setname <text>
+  ◈ .add
+  ◈ .delete
+  ◈ .delwarn @user
+  ◈ .demote (@tag)
+  ◈ .infogp
+  ◈ .hidetag
+  ◈ .invite <917xxx>
+  ◈ .kick @user
+  ◈ .link
+  ◈ .poll question|option|option
+  ◈ .profile
+  ◈ .promote
+  ◈ .resetlink
+  ◈ .setbye <text>
+  ◈ .group *open/close*
+  ◈ .setwelcome <text>
+  ◈ .simulate <event> @user
+  ◈ .staff
+  ◈ .tagall
+  ◈ .totag
+  ◈ .warn @user
+  ◈ .warns
+  ◈ .main
   ╰──────────⳹`
 
-  let ownermenu = `
+let ownermenu = `
   ✦ ───『 *owner* 』─── ⚝
   ◈ .addprem <@tag>
   ◈ .addowner @user
@@ -75,7 +67,7 @@ import {
   ◈ .deleteplugin <name>
   ╰──────────⳹`
 
-  let funmenu = `
+let funmenu = `
   ✦ ───『 *fun* 』─── ⚝
   ◈ .afk <reason>
   ◈ .tomp3
@@ -97,7 +89,7 @@ import {
   ◈ .quote
   ╰──────────⳹`
 
-  let reactmenu = `
+let reactmenu = `
   ✦ ───『 *reaction* 』─── ⚝
   ◈ .bully @tag
   ◈ .cuddle @tag
@@ -127,7 +119,7 @@ import {
   ◈ .cringe @tag
   ╰──────────⳹`
 
-  let dlmenu = `
+let dlmenu = `
   ✦ ───『 *downloader* 』─── ⚝
   ◈ .facebook <url>
   ◈ .gdrive 🅟
@@ -150,7 +142,7 @@ import {
   ◈ .wallpaper <query>
   ╰──────────⳹`
 
-  let gamemenu = `
+let gamemenu = `
   ✦ ───『 *game* 』─── ⚝
   ◈ .slot <amount>
   ◈ .chess [from to]
@@ -163,7 +155,7 @@ import {
   ◈ .ppt <rock/paper/scissors>
   ◈ .tictactoe <tag number>
   ╰──────────⳹`
-  let logomenu = `
+let logomenu = `
   ✦ ───『 *maker* 』─── ⚝
   ◈ .blur
   ◈ .difuminar2
@@ -190,7 +182,7 @@ import {
   ◈ .ytcomment <comment>
   ╰──────────⳹`
 
-  let stickermenu = `
+let stickermenu = `
   ✦ ───『 *sticker* 』─── ⚝
   ◈ .emojimix <emoji+emoji>
   ◈ .getsticker
@@ -213,7 +205,7 @@ import {
   ◈ .take <name>|<author>
   ╰──────────⳹`
 
-  let audiomenu = `
+let audiomenu = `
   ✦ ───『 *audio* 』─── ⚝
   ◈ .bass [vn]
   ◈ .blown [vn]
@@ -229,15 +221,14 @@ import {
   ◈ .tupai [vn]
   ╰──────────⳹`
 
-
-  let newsmenu = `
+let newsmenu = `
   ✦ ───『 *news* 』─── ⚝
   ◈ .news
   ◈ .technews
   ◈ .ndtv
   ╰──────────⳹
   `
-  let economy = `
+let economy = `
   ✦ ───『 *economy* 』─── ⚝
   ◈ .addgold <@user>
   ◈ .addxp <@user>
@@ -258,7 +249,7 @@ import {
   ◈ .withdraw
   ◈ .work
   ╰──────────⳹`
-  let animemenu = `
+let animemenu = `
   ✦ ───『 *anime* 』─── ⚝
   ◈ .anime
   ◈ .akira
@@ -304,7 +295,7 @@ import {
   ◈ .trace
   ╰──────────⳹
   `
-  let nsfwmenu = `
+let nsfwmenu = `
   ✦ ───『 *nsfw* 』─── ⚝
   ◈ .genshin
   ◈ .swimsuit
@@ -388,7 +379,7 @@ import {
   ◈ .xnxx
   ╰──────────⳹`
 
-  let toolsmenu = `
+let toolsmenu = `
   ✦ ───『 *tools* 』─── ⚝
   ◈ .nowa
   ◈ .qr <text>
@@ -428,7 +419,7 @@ import {
   ◈ .wikipedia
   ╰──────────⳹`
 
-  let Aimenu = `
+let Aimenu = `
   ✦ ───『 *AI* 』─── ⚝
   ◈ .bing
   ◈ .dalle
@@ -439,15 +430,17 @@ import {
   ◈ .ai
   ◈ .bard
   ◈ .alexa
+  ◈ .bingimg
+  ◈ .gemini
   ╰──────────⳹
   `
-  let religionmenu = `
-    ✦ ───『 *plugin* 』─── ⚝
-  ◈ .plugins
-  ◈ .install <Gist URL>
+let religionmenu = `
+  ✦ ───『 *religion* 』─── ⚝
+  ◈ .gita [verse_number]
+  ◈ .quran [surah_number|surah_name]
   ╰──────────⳹`
 
-  let botmenu = `
+let botmenu = `
   ✦ ───『 *Bot Menu* 』─── ⚝
   ◈ .ping
   ◈ .runtime
@@ -470,125 +463,136 @@ import {
   ◈ .unreg 
   ╰──────────⳹
   `
-  let pluginmenu = `
+let pluginmenu = `
   ✦ ───『 *plugin* 』─── ⚝
   ◈ .plugins
   ◈ .install <Gist URL>
   ╰──────────⳹
   `
 
-  const handler = async (m, {
-    conn,
-    command,
-    text,
-    args,
-    usedPrefix
-  }) => {
+const handler = async (m, { conn, command, text, args, usedPrefix }) => {
+  let glb = global.db.data.users
+  let usrs = glb[m.sender]
+  let tag = `@${m.sender.split('@')[0]}`
+  let mode = global.opts['self'] ? 'Private' : 'Public'
 
+  let { age, exp, limit, level, role, registered, credit } = glb[m.sender]
+  let { min, xp, max } = xpRange(level, global.multiplier)
+  let name = await conn.getName(m.sender)
+  let premium = glb[m.sender].premiumTime
+  let prems = `${premium > 0 ? 'Premium' : 'Free'}`
+  let platform = os.platform()
 
-   let glb = global.db.data.users
-   let usrs = glb[m.sender]
-   let tag = `@${m.sender.split("@")[0]}`
-   let mode = global.opts["self"] ? "Private" : "Public"
+  let ucpn = `${ucapan()}`
 
-   let {
-  age,
-  exp,
-  limit,
-  level,
-  role,
-  registered,
-  credit
-   } = glb[m.sender]
-   let {
-  min,
-  xp,
-  max
-   } = xpRange(level, global.multiplier)
-   let name = await conn.getName(m.sender)
-   let premium = glb[m.sender].premiumTime
-   let prems = `${premium > 0 ? "Premium": "Free"}`
-   let platform = os.platform()
+  let _uptime = process.uptime() * 1000
+  let _muptime
+  if (process.send) {
+    process.send('uptime')
+    _muptime =
+      (await new Promise(resolve => {
+        process.once('message', resolve)
+        setTimeout(resolve, 1000)
+      })) * 1000
+  }
+  let muptime = clockString(_muptime)
+  let uptime = clockString(_uptime)
 
+  let totalfeatures = Object.values(global.plugins).filter(v => v.help && v.tags).length
+  let totalreg = Object.keys(glb).length
 
-   let ucpn = `${ucapan()}`
+  conn.gurumenu = conn.gurumenu ? conn.gurumenu : {}
 
-   let _uptime = process.uptime() * 1000
-   let _muptime
-   if (process.send) {
-  process.send("uptime")
-  _muptime = await new Promise(resolve => {
-  process.once("message", resolve)
-  setTimeout(resolve, 1000)
-  }) * 1000
-   }
-   let muptime = clockString(_muptime)
-   let uptime = clockString(_uptime)
+  global.fcontact = {
+    key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
+    message: {
+      contactMessage: {
+        displayName: `${name}`,
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+      },
+    },
+  }
+  const infoText = `
+   > ${botname} あ⁩ 」\n
+- Hii ${name} Senpai
+    
+- *${ucpn}* 
+   
+乂───『 *U S E R*』───乂
+⛥ *Name:* ${name}
+⛥ *Gold:* ${credit}
+⛥ *Role:* ${role}
+⛥ *Level:* ${level}
+⛥ *Xp:* ${exp}
+╰──────────⳹
+   
+乂───『 *I N F O*』───乂
+⛥ *Bot Name:* ${botname}
+⛥ *Mode:* ${mode}
+⛥ *Platform:* ${platform}
+⛥ *Type:* NodeJs
+⛥ *Baileys:* Multi Device
+⛥ *Prefix:* [ *${usedPrefix}* ]
+⛥ *Uptime:* ${muptime}
+⛥ *Database:*  ${totalreg}
+╰──────────⳹
+> © ROMEK-XD-BOT\n\n
+${readMore}
+乂───『 *I N F O  C M D*』───乂 
+│ *${totalfeatures}* Commands
+╰──────────⳹
+     
 
-
-   let totalfeatures = Object.values(global.plugins).filter((v) => v.help && v.tags).length;
-   let totalreg = Object.keys(glb).length
-
-    conn.gurumenu = conn.gurumenu ? conn.gurumenu : {};
-
-
-    global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
-    const infoText = `
-  「𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓 」\n
-  ┌─❖
-  │ *_Hi_* 👋 
-  └┬❖ *_${name}_* Senpai
-  ┌┤✑ *${ucpn}* 😄
-  │└────────────┈ ⳹
-  │
-  └─ 𝞑𝞗𝙏 𝞘𝞜𝙁𝞗
-  │𝐁𝐎𝐓 : ${botname}
-  │𝐌𝐨𝐝𝐞 : ${mode}
-  │𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${platform}
-  │𝐇𝐨𝐬𝐭 : 𝔏𝔦𝔫𝔲𝔵 𝚕𝚊𝚒𝚛
-  │𝐓𝐲𝐩𝐞 : NodeJs
-  │𝐁𝐚𝐢𝐥𝐞𝐲𝐬 : Multi Device
-  │𝐏𝐫𝐞𝐟𝐢𝐱 : [ *${usedPrefix}* ]
-  │𝐒𝐩𝐞𝐞𝐝 : 0.00001 miliseconds
-  │𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${muptime}
-  │𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : ${totalreg}
-   𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓
-      ${readMore}
-  └─ 𝙐𝙎𝞢𝞒 𝞘𝞜𝙁𝞗
-  │𝐍𝐚𝐦𝐞 : ${name}
-  │𝐆𝐨𝐥𝐝 : ${credit}
-  │𝐑𝐨𝐥𝐞 : ${role}
-  │𝐋𝐞𝐯𝐞𝐥 : ${level}
-  │𝐗𝐩 : ${exp}
-  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓
-  └─ 𝞘𝞜𝙁𝞗 𝘾𝞛𝘿
-  │ *${totalfeatures}* Commands
- 
-┌──────────────┈ ⳹
-│ *1.*  ❏ Bot Menu
-│ *2.*  ❏ Owner Menu
-│ *3.*  ❏ Group Menu
-│ *4.*  ❏ Fun Menu
-│ *5.*  ❏ Reaction Menu
-│ *6.*  ❏ Downloader Menu
-│ *7.*  ❏ Game Menu
-│ *8.*  ❏ Logo Menu
-│ *9.*  ❏ Sticker Menu
-│ *10.* ❏ Audio Menu
-│ *11.* ❏ News Menu
-│ *12.* ❏ Economy Menu 
-│ *13.* ❏ Anime Menu 
-│ *14.* ❏ Coming Soon
-│ *15.* ❏ Tools Menu 
-│ *16.* ❏ Ai Menu 
-│ *17.* ❏ Plugin Menu 
-└─────────────────┈⳹
- ${readMore}` 
-;
-
-
-  const { result, key, timeout } = await conn.sendMessage(m.chat, { video: { url: menuvid }, caption: infoText.trim(),  gifPlayback: true,
-  gifAttribution: 0}, { quoted: fcontact })
+乂───『 *INFO*』───乂 
+│*Reply with the number*
+│ to get respected Menu*
+╰───────⳹
+╭───────⳹
+│ *1.* Bot Menu
+│ *2.* Owner Menu
+│ *3.* Group Menu
+│ *4.* Fun Menu
+│ *5.* Reaction Menu
+│ *6.* Downloader Menu
+│ *7.* Game Menu
+│ *8.* Logo Menu
+│ *9.* Sticker Menu
+│ *10.* Audio Menu
+│ *11.* News Menu
+│ *12.* Economy Menu
+│ *13.* Anime Menu
+│ *14.* NSFW Menu
+│ *15.* Tools Menu
+│ *16.* AI Menu
+│ *17.* Religion Menu
+│ *18.* Plugin Menu
+╰───────⳹
+ `
+  const { result, key, timeout } = await conn.sendMessage(
+    m.chat,
+    { video: { url: menuvid }, caption: infoText.trim(),
+    contextInfo: {
+      mentionedJid: [m.sender],
+      isForwarded: true,
+      forwardedNewsletterMessageInfo: {
+        newsletterJid: '120363178281296360@newsletter',
+        newsletterName: 'Click Here or u Gay',
+        serverMessageId: -1,
+      },
+      forwardingScore: 999,
+      externalAdReply: {
+        title: 'ＲＯＭＥＫ-ＸＤ-ＢＯＴ',
+        body: 'ᴍᴇɴᴜ',
+        thumbnailUrl: 'https://i.pinimg.com/736x/67/4b/41/674b416d858ce262be0c53253b3f1dcc.jpg',
+        sourceUrl: 'https://guruapi.tech',
+        mediaType: 1,
+        renderLargerThumbnail: false,
+      },
+    },
+    
+    gifPlayback: true, gifAttribution: 0 },
+    { quoted: fcontact }
+  )
 
   // Save the menu options to gurumenu
   conn.gurumenu[m.sender] = {
@@ -596,147 +600,198 @@ import {
     key,
     timeout: setTimeout(() => {
       conn.sendMessage(m.chat, {
-          delete: key
-      });
-      delete conn.gurumenu[m.sender];
-  }, 60 * 1000),
-  };
-  };
+        delete: key,
+      })
+      delete conn.gurumenu[m.sender]
+    }, 150 * 1000),
+  }
+}
 
+handler.before = async (m, { conn }) => {
+  conn.gurumenu = conn.gurumenu ? conn.gurumenu : {}
+  if (m.isBaileys || !(m.sender in conn.gurumenu)) return
+  const { result, key, timeout } = conn.gurumenu[m.sender]
+  if (!m.quoted || m.quoted.id !== key.id || !m.text) return
+  const choice = m.text.trim()
 
-  handler.before = async (m, { conn }) => {
-    conn.gurumenu = conn.gurumenu ? conn.gurumenu : {};
-    if (m.isBaileys || !(m.sender in conn.gurumenu)) return;
-    const { result, key, timeout } = conn.gurumenu[m.sender];
-    if (!m.quoted || m.quoted.id !== key.id || !m.text) return;
-    const choice = m.text.trim();
+  if (choice === '1') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: botmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '2') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: ownermenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '3') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: groupmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '4') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: funmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '5') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: reactmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '6') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: dlmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '7') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: groupmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '8') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: logomenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '9') {
+    await conn.sendMessage(
+      m.chat,
+      {
+        image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg },
+        caption: stickermenu,
+      },
+      { quoted: fcontact }
+    )
+  } else if (choice === '10') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: audiomenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '11') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: newsmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '12') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: economy },
+      { quoted: fcontact }
+    )
+  } else if (choice === '13') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: animemenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '14') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: nsfwmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '15') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: toolsmenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '16') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: Aimenu },
+      { quoted: fcontact }
+    )
+  } else if (choice === '17') {
+    await conn.sendMessage(
+      m.chat,
+      {
+        image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg },
+        caption: religionmenu,
+      },
+      { quoted: fcontact }
+    )
+  } else if (choice === '18') {
+    await conn.sendMessage(
+      m.chat,
+      { image: { url: 'https://telegra.ph/file/7b868d4c2a7a24367b8b6.jpg }, caption: pluginmenu },
+      { quoted: fcontact }
+    )
+  } else {
+    m.reply('Invalid choice. Please reply with a valid number.')
+  }
+}
 
-    if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/s9Big2U.jpeg' },
-        caption: botmenu
-      }, { quoted:fcontact });
-      } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: ownermenu
-      }, { quoted:fcontact });
-      } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: groupmenu
-      }, { quoted:fcontact });
-      } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: funmenu
-      }, { quoted:fcontact });
-      } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: reactmenu
-      }, { quoted:fcontact });
-      } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: dlmenu
-      }, { quoted:fcontact });
-      } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: groupmenu
-      }, { quoted:fcontact });
-      } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: logomenu
-      }, { quoted:fcontact });
-      } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: stickermenu
-      }, { quoted:fcontact });
-      } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: audiomenu
-      }, { quoted:fcontact });
-      } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: newsmenu
-      }, { quoted:fcontact });
-      } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: economy
-      }, { quoted:fcontact });
-      } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: animemenu
-      }, { quoted:fcontact });
-      } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: nsfwmenu
-      }, { quoted:fcontact });
-      } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: toolsmenu
-      }, { quoted:fcontact });
-      } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: Aimenu
-      }, { quoted:fcontact });
-      } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: religionmenu
-      }, { quoted:fcontact });
-      } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/308d449dd1d6e9dee4bca.jpg' },
-        caption: pluginmenu
-      }, { quoted:fcontact });
-      } else {
-        m.reply('Invalid choice. Please reply with a valid number.');
-      }
+handler.help = ['play']
+handler.tags = ['downloader']
+handler.command = /^(menu)$/i
+handler.limit = true
+export default handler
 
-  };
+function pickRandom(list) {
+  return list[Math.floor(Math.random() * list.length)]
+}
 
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
 
-  handler.help = ["play"];
-  handler.tags = ["downloader"];
-  handler.command = /^(menu)$/i;
-  handler.limit = true;
-  export default handler;
+function clockString(ms) {
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [h, ' H ', m, ' M ', s, ' S '].map(v => v.toString().padStart(2, 0)).join('')
+}
 
+function clockStringP(ms) {
+  let ye = isNaN(ms) ? '--' : Math.floor(ms / 31104000000) % 10
+  let mo = isNaN(ms) ? '--' : Math.floor(ms / 2592000000) % 12
+  let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000) % 30
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [
+    ye,
+    ' *Years 🗓️*\n',
+    mo,
+    ' *Month 🌙*\n',
+    d,
+    ' *Days ☀️*\n',
+    h,
+    ' *Hours 🕐*\n',
+    m,
+    ' *Minute ⏰*\n',
+    s,
+    ' *Second ⏱️*',
+  ]
+    .map(v => v.toString().padStart(2, 0))
+    .join('')
+}
 
-
-
-  function pickRandom(list) {
-    return list[Math.floor(Math.random() * list.length)]
-   }
-
-   const more = String.fromCharCode(8206)
-   const readMore = more.repeat(4001)
-
-   function clockString(ms) {
-    let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000)
-    let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60
-    let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
-    return [h, " H ", m, " M ", s, " S "].map(v => v.toString().padStart(2, 0)).join("")
-   }
-
-   function clockStringP(ms) {
-    let ye = isNaN(ms) ? "--" : Math.floor(ms / 31104000000) % 10
-    let mo = isNaN(ms) ? "--" : Math.floor(ms / 2592000000) % 12
-    let d = isNaN(ms) ? "--" : Math.floor(ms / 86400000) % 30
-    let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000) % 24
-    let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60
-    let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
-    return [ye, " *Years 🗓️*\n", mo, " *Month 🌙*\n", d, " *Days ☀️*\n", h, " *Hours 🕐*\n", m, " *Minute ⏰*\n", s, " *Second ⏱️*"].map(v => v.toString().padStart(2, 0)).join("")
-   }
-
-   function ucapan() {
-    const time = moment.tz("Asia/Kolkata").format("HH")
-    let res = "Good morning ☀️"
-    if (time >= 4) {
-     res = "Good Morning 🌄"
-    }
-    if (time >= 10) {
-     res = "Good Afternoon ☀️"
-    }
-    if (time >= 15) {
-     res = "Good Afternoon 🌇"
-    }
-    if (time >= 18) {
-     res = "Good Night 🌙"
-    }
-    return res
+function ucapan() {
+  const time = moment.tz('Asia/Kolkata').format('HH')
+  let res = 'Good morning ☀️'
+  if (time >= 4) {
+    res = 'Good Morning 🌄'
+  }
+  if (time >= 10) {
+    res = 'Good Afternoon ☀️'
+  }
+  if (time >= 15) {
+    res = 'Good Afternoon 🌇'
+  }
+  if (time >= 18) {
+    res = 'Good Night 🌙'
+  }
+  return res
 }
