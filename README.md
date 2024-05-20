@@ -53,9 +53,7 @@
 
 
 
-
-<a 
-href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://www.opensourceagenda.com/projects/star-md-v2/reviews/badge.svg" alt="Open Source Agenda"></a> 
+ 
 
 
 📡ＦＥＡＴＵＲＥＳ📡
@@ -144,4 +142,5 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 [![GURU](https://github.com/Rushmaster12.png?size=180)](https://github.com/Rushmaster12)
 
 
- 
+  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=70&pause=1200&color=FFFE5822&center=true&width=900&height=100&lines=𝗜𝗧𝗦%20𝗥𝗢𝗠𝗘𝗞-𝗫𝗗-𝗕𝗢𝗧;
+<p align="center">
