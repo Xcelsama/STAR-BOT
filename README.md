@@ -138,11 +138,8 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 
-## ℹ️`Reminder`ℹ️
-  
-- This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
-- I am not responsible for banning your account.
-- Use at your own risk by keeping this warning in mind.
-Base by Guru-bot
-[![GURU](https://github.com/Romeofaiz.png?size=200)](https://github.com/Romeofaiz) 
+
+`OWNER` 🥴
+
+[![ROMEK](https://github.com/Romeofaiz.png?size=200)](https://github.com/Romeofaiz) 
 
