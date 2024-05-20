@@ -1,5 +1,5 @@
-
-
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=4F00FF&center=true&width=900&height=100&lines;%20𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗%20𝗕𝗬%20𝗥𝗢𝗠𝗘𝗞%20𝗫𝗗)
+<p align="center">
 
 [`ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
 `]https://github.com/Romeofaiz)
