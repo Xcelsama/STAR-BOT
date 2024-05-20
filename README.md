@@ -135,9 +135,13 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 *`ＯＷＮＥＲ`* 😎
 
-[![ROMEK](https://github.com/Romeofaiz.png?size=200)](https://github.com/Romeofaiz), `ＨＥＬＰＩＮＧ`
+[![ROMEK](https://github.com/Romeofaiz.png?size=300)](https://github.com/Romeofaiz), 
 
-[![GURU](https://github.com/Rushmaster12.png?size=200)](https://github.com/Rushmaster12)
+🤖`ＨＥＬＰＩＮＧ`
+
+
+
+[![GURU](https://github.com/Rushmaster12.png?size=180)](https://github.com/Rushmaster12)
 
 
  
