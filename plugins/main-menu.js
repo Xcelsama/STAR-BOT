@@ -12,7 +12,7 @@ import {
    import os from "os"
 
 
-   let 𝗚𝗥𝗢𝗨𝗣-𝗠𝗘𝗡𝗨 = `
+   let groupmenu = `
    ✦ ───『 *group* 』─── ⚝
   ➫ .getbio <@tag/reply>  Ⓛ
   ➫ .animequote
@@ -43,7 +43,7 @@ import {
   ➫ .main
   ╰──────────⳹`
 
-  let 𝗢𝗪𝗡𝗘𝗥-𝗠𝗘𝗡𝗨 = `
+  let ownermenu = `
   ✦ ───『 *owner* 』─── ⚝
   ◈ .addprem <@tag>
   ◈ .addowner @user
@@ -75,7 +75,7 @@ import {
   ◈ .deleteplugin <name>
   ╰──────────⳹`
 
-  let 𝗙𝗨𝗡-𝗠𝗘𝗡𝗨 = `
+  let funmenu = `
   ✦ ───『 *fun* 』─── ⚝
   ◈ .afk <reason>
   ◈ .tomp3
@@ -97,7 +97,7 @@ import {
   ◈ .quote
   ╰──────────⳹`
 
-  let 𝗥𝗘𝗔𝗖𝗧-𝗠𝗘𝗡𝗨 = `
+  let reactmenu = `
   ✦ ───『 *reaction* 』─── ⚝
   ◈ .bully @tag
   ◈ .cuddle @tag
@@ -127,7 +127,7 @@ import {
   ◈ .cringe @tag
   ╰──────────⳹`
 
-  let 𝗗𝗟-𝗠𝗘𝗡𝗨 = `
+  let dlmenu = `
   ✦ ───『 *downloader* 』─── ⚝
   ◈ .facebook <url>
   ◈ .gdrive 🅟
@@ -150,7 +150,7 @@ import {
   ◈ .wallpaper <query>
   ╰──────────⳹`
 
-  let 𝗚𝗔𝗠𝗘-𝗠𝗘𝗡𝗨 = `
+  let gamemenu = `
   ✦ ───『 *game* 』─── ⚝
   ◈ .slot <amount>
   ◈ .chess [from to]
@@ -163,7 +163,7 @@ import {
   ◈ .ppt <rock/paper/scissors>
   ◈ .tictactoe <tag number>
   ╰──────────⳹`
-  let 𝗟𝗢𝗚𝗢-𝗠𝗘𝗡𝗨 = `
+  let logomenu = `
   ✦ ───『 *maker* 』─── ⚝
   ◈ .blur
   ◈ .difuminar2
@@ -190,7 +190,7 @@ import {
   ◈ .ytcomment <comment>
   ╰──────────⳹`
 
-  let 𝗦𝗧𝗜𝗖𝗞𝗘𝗥-𝗠𝗘𝗡𝗨= `
+  let stickermenu = `
   ✦ ───『 *sticker* 』─── ⚝
   ◈ .emojimix <emoji+emoji>
   ◈ .getsticker
@@ -213,7 +213,7 @@ import {
   ◈ .take <name>|<author>
   ╰──────────⳹`
 
-  let 𝗔𝗨𝗗𝗜𝗢-𝗠𝗘𝗡𝗨= `
+  let audiomenu = `
   ✦ ───『 *audio* 』─── ⚝
   ◈ .bass [vn]
   ◈ .blown [vn]
@@ -230,14 +230,14 @@ import {
   ╰──────────⳹`
 
 
-  let 𝗡𝗘𝗪𝗦-𝗠𝗘𝗡𝗨 = `
+  let newsmenu = `
   ✦ ───『 *news* 』─── ⚝
   ◈ .news
   ◈ .technews
   ◈ .ndtv
   ╰──────────⳹
   `
-  let 𝗘𝗖𝗢𝗡𝗢𝗠𝗬 = `
+  let economy = `
   ✦ ───『 *economy* 』─── ⚝
   ◈ .addgold <@user>
   ◈ .addxp <@user>
@@ -258,7 +258,7 @@ import {
   ◈ .withdraw
   ◈ .work
   ╰──────────⳹`
-  let 𝗔𝗡𝗜𝗠𝗘-𝗠𝗘𝗡𝗨 = `
+  let animemenu = `
   ✦ ───『 *anime* 』─── ⚝
   ◈ .anime
   ◈ .akira
@@ -304,7 +304,7 @@ import {
   ◈ .trace
   ╰──────────⳹
   `
-  let 𝗡𝗦𝗙𝗪-𝗠𝗘𝗡𝗨= `
+  let nsfwmenu = `
   ✦ ───『 *nsfw* 』─── ⚝
   ◈ .genshin
   ◈ .swimsuit
@@ -388,7 +388,7 @@ import {
   ◈ .xnxx
   ╰──────────⳹`
 
-  let 𝗧𝗢𝗢𝗟𝗦-𝗠𝗘𝗡𝗨-𝗡𝗛 = `
+  let toolsmenu = `
   ✦ ───『 *tools* 』─── ⚝
   ◈ .nowa
   ◈ .qr <text>
@@ -428,7 +428,7 @@ import {
   ◈ .wikipedia
   ╰──────────⳹`
 
-  let 𝗔𝗜-𝗠𝗘𝗡𝗨 = `
+  let Aimenu = `
   ✦ ───『 *AI* 』─── ⚝
   ◈ .bing
   ◈ .dalle
@@ -447,8 +447,8 @@ import {
   ◈ .install <Gist URL>
   ╰──────────⳹`
 
-  let 𝗕𝗢𝗧-𝗠𝗘𝗡𝗨 = `
-  ✦ ───『 *𝗕𝗢𝗧-𝗠𝗘𝗡𝗨* 』─── ⚝
+  let botmenu = `
+  ✦ ───『 *Bot Menu* 』─── ⚝
   ◈ .ping
   ◈ .runtime
   ◈ .script
@@ -470,7 +470,7 @@ import {
   ◈ .unreg 
   ╰──────────⳹
   `
-  let 𝗣𝗟𝗨𝗚𝗜𝗡-𝗠𝗘𝗡𝗨 = `
+  let pluginmenu = `
   ✦ ───『 *plugin* 』─── ⚝
   ◈ .plugins
   ◈ .install <Gist URL>
@@ -534,7 +534,7 @@ import {
 
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-  「 ＲＯＭＥＫ-ＸＤ-ＢＯＴ」\n
+  「𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓 」\n
   ┌─❖
   │ *_Hi_* 👋 
   └┬❖ *_${name}_* Senpai
@@ -552,24 +552,18 @@ import {
   │𝐒𝐩𝐞𝐞𝐝 : 0.00001 miliseconds
   │𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${muptime}
   │𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : ${totalreg}
-  │  ${readMore}
+   𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓
+      ${readMore}
   └─ 𝙐𝙎𝞢𝞒 𝞘𝞜𝙁𝞗
   │𝐍𝐚𝐦𝐞 : ${name}
   │𝐆𝐨𝐥𝐝 : ${credit}
   │𝐑𝐨𝐥𝐞 : ${role}
   │𝐋𝐞𝐯𝐞𝐥 : ${level}
   │𝐗𝐩 : ${exp}
-  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:- 尺ㄖ爪乇Ҝ-乂ᗪ-乃ㄖㄒ
+  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓
   └─ 𝞘𝞜𝙁𝞗 𝘾𝞛𝘿
   │ *${totalfeatures}* Commands
-  │
-  └─ 𝞘𝞜𝙁𝞗 
-  │ *_Reply With the Number_*
-  │ *_To Get Respected Menu_*
-  │${readMore}
-  ┬────────────┈ ⳹
-  │✑  Please Reply *MENU Number*
-  │✑  Given *BELOW*
+ 
 ┌──────────────┈ ⳹
 │ *1.*  ❏ Bot Menu
 │ *2.*  ❏ Owner Menu
@@ -618,7 +612,7 @@ import {
     const choice = m.text.trim();
 
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/yaPQsrF.jpeg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/s9Big2U.jpeg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
@@ -745,4 +739,4 @@ import {
      res = "Good Night 🌙"
     }
     return res
-   }
+}
