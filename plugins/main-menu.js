@@ -535,12 +535,10 @@ import {
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
   「𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓 」\n
-  ┌─❖
   │ *_Hi_* 👋 
   └┬❖ *_${name}_* Senpai
   ┌┤✑ *${ucpn}* 😄
-  │└────────────┈ ⳹
-  │
+  │└────────────┈
   └─ 𝞑𝞗𝙏 𝞘𝞜𝙁𝞗
   │𝐁𝐎𝐓 : ${botname}
   │𝐌𝐨𝐝𝐞 : ${mode}
@@ -552,17 +550,23 @@ import {
   │𝐒𝐩𝐞𝐞𝐝 : 0.00001 miliseconds
   │𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${muptime}
   │𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : ${totalreg}
-   𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓
-      ${readMore}
-  └─ 𝙐𝙎𝞢𝞒 𝞘𝞜𝙁𝞗
+ └─ 𝙐𝙎𝞢𝞒 𝞘𝞜𝙁𝞗
   │𝐍𝐚𝐦𝐞 : ${name}
   │𝐆𝐨𝐥𝐝 : ${credit}
   │𝐑𝐨𝐥𝐞 : ${role}
   │𝐋𝐞𝐯𝐞𝐥 : ${level}
   │𝐗𝐩 : ${exp}
-  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:-𝐑𝐎𝐌𝐄𝐊-𝐗𝐃-𝐁𝐎𝐓
+  │𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳:- 尺ㄖ爪乇Ҝ-乂ᗪ-乃ㄖㄒ
   └─ 𝞘𝞜𝙁𝞗 𝘾𝞛𝘿
   │ *${totalfeatures}* Commands
+  │
+  └─ 𝞘𝞜𝙁𝞗 
+  │ *_Reply With the Number_*
+  │ *_To Get Respected Menu_*
+  │${readMore}
+  ┬────────────┈ ⳹
+  │✑  Please Reply *MENU Number*
+  │✑  Given *BELOW*
  
 ┌──────────────┈ ⳹
 │ *1.*  ❏ Bot Menu
@@ -583,7 +587,7 @@ import {
 │ *16.* ❏ Ai Menu 
 │ *17.* ❏ Plugin Menu 
 └─────────────────┈⳹
- ${readMore}` 
+ ${©尺ㄖ爪乇Ҝ-乂ᗪ}` 
 ;
 
 
