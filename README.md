@@ -16,12 +16,6 @@
 ##  ℹ️```Bot Intro```ℹ️
 [![STAR-MD-V2](https://telegra.ph/file/90db75d05675c7fae7dd0.jpg)](https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X)
 </p>
-
->STAR-MD-V2 is based on :
->- [GURU BOT](https://github.com/Guru322/GURU-BOT) by [Guru](https://github.com/Guru322) (License: Apache License 2.0)
->
-> :octocat: Don't forget to check out! :point_right: [GURU BOT](https://github.com/Guru322/GURU-BOT)
-
       <p align="center">
   <a href="https://wa.me//+2347045035241" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
