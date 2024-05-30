@@ -53,7 +53,7 @@ _STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the ta
 </p>
 
 
-##
+
 
 
 
@@ -87,13 +87,12 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 ---------
 
 ---------
----------
 
 ---------
 
 
 
-## 🛠️ `Installation Procedure`🛠
+## 📲`Installation Process`📲
 
 
 ```✪FORK THE REPOSITORY```
