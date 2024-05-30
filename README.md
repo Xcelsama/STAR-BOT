@@ -6,7 +6,7 @@
 
 
 - [ＴＵＴＯＲＩＡＬ](https://github.com/Xcelsama/HOW-TO-DEPLOY-STAR-MD-V2) 
-- [ＤＯ ＹＯＵ ＮＥＥＤ ＨＥＬＰ? ](#ℹ️ Do-you-need-help-? )
+- [ＤＯ ＹＯＵ ＮＥＥＤ ＨＥＬＰ? ](#ℹ️Do-you-need-help-? )
 
 - [ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
 ](https://github.com/Xcelsama)
