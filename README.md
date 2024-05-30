@@ -1,11 +1,11 @@
 
 
 
-[`ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
+- [`ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
 `](https://github.com/Xcelsama)
 <p align="center">
 
-[TUTORIAL](https://github.com/Xcelsama/HOW-TO-DEPLOY-STAR-MD-V2) 
+- [TUTORIAL](https://github.com/Xcelsama/HOW-TO-DEPLOY-STAR-MD-V2) 
 
 
 
