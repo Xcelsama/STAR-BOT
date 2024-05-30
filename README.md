@@ -68,20 +68,27 @@ _STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the ta
 
 <a 
 href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://www.opensourceagenda.com/projects/star-md-v2/reviews/badge.svg" alt="Open Source Agenda"></a> 
+---------
 
 
-📡ＦＥＡＴＵＲＥＳ📡
 
-◉ Multi-Device Support  
-◉ AI Photo Enhancement  
-◉ Downloader Commands  
-◉ Hidden NSFW Commands  
-◉ Logo Commands  
-◉ Anime Commands  
-◉ Economy Menu  
-◉ Various Games  
-◉ Audio/Video Editor Commands                   
-◉ Others...... 
+### Features
+
+- ✔️ | Simple
+- ✔️ | Fully Featured
+- ✔️ | Anti (call/sticker & more)
+- ✔️ | Nsfw 
+- ✔️ | Sticker 
+- ✔️ | Text Quotes
+- ✔️ | Pies
+- ✔️ | Anime 
+- ✔️ | Tools 
+
+---------
+
+---------
+
+
 
 ## 🛠️ `Installation Procedure`🛠
 
