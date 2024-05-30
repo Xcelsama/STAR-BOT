@@ -52,16 +52,16 @@ _STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the ta
 <h1 align="center"> 🛰𝖲𝖳𝖠𝖱-𝖬𝖣-𝖵𝟤🛰
 </p>
 
+</a>
+   <a aria-label="STAR-MD-V2 is free to use" href="https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X" target="_blank">
+ <p align="center"><img src="https://profile-counter.glitch.me/{xcelsama}/count.svg" alt="xcelsama:: Visitor's Count" /></p>
+
 
 
 
 #
 
 
-
-</a>
-   <a aria-label="STAR-MD-V2 is free to use" href="https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X" target="_blank">
- <p align="center"><img src="https://profile-counter.glitch.me/{xcelsama}/count.svg" alt="xcelsama:: Visitor's Count" /></p>
 
 
 
