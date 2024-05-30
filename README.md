@@ -27,6 +27,11 @@
 
 _STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the talented [Excel Amadi](https://github.com/Xcelsama) It offers a wide array of features, making it an advanced 📡 and user-friendly bot for various purposes. 🎉📱 With its intuitive interface and robust capabilities, users can unlock endless possibilities 🚀 and streamline their communication across devices with ease._
 
+---------
+
+
+---------
+
  
 <h1 align="center"> 🛰𝖲𝖳𝖠𝖱-𝖬𝖣-𝖵𝟤🛰
 </p>
@@ -98,7 +103,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 
 
-## ⚔️ `Deployments`⚔️
+##  ✒️Deployment Medium✒️
 #### DEPLOY TO HEROKU 
 
 ☉ If You don't have a account in Heroku. Create a account.
