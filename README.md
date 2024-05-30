@@ -5,7 +5,7 @@
 `](https://github.com/Xcelsama)
 <p align="center">
 
-
+[TUTORIAL](https://github.com/Xcelsama/HOW-TO-DEPLOY-STAR-MD-V2) 
 
 
 
