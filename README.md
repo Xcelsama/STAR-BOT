@@ -1,15 +1,16 @@
 
 
 
+
+
+## `⭐Star This Repo⭐`
+
 - [`ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
 `](https://github.com/Xcelsama)
 <p align="center">
 
-- [TUTORIAL](https://github.com/Xcelsama/HOW-TO-DEPLOY-STAR-MD-V2) 
+- [ＴＵＴＯＲＩＡＬ](https://github.com/Xcelsama/HOW-TO-DEPLOY-STAR-MD-V2) 
 
-
-
-## `⭐Star This Repo⭐`
 
 
 
