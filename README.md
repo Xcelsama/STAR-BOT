@@ -204,7 +204,7 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 ## `CREDITS`
 ___
-- BAILEYS BY   & ADIWAJSHAING
+- BAILEYS BY  WHISJEYSOCKETS & ADIWAJSHING
  
 - BASE BY GURU 
 
