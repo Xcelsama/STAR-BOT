@@ -3,15 +3,12 @@
 ## `⭐Star This Repo⭐`
 
 ___
-
-- [DO YOU NEED HELP ?](#do-you-need-help)
-___
-
 - [ℹ️ FOLLOW FOR UPDATES
 ](https://github.com/Xcelsama)
 <p align="center">
 
 ___
+
 
 ##  ℹ️```Bot Intro```ℹ️
 >[STAR-MD-V2](https://github.com/Xcelsama/STAR-MD-V2) is based on :
@@ -29,6 +26,7 @@ _STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the ta
 ---------
 
 
+- [DO YOU NEED HELP ?](#do-you-need-help)
 ---------
 
  
