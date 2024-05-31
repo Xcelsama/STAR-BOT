@@ -203,15 +203,15 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 
 ## `CREDITS`
-# BAILEYS BY   & ADIWAJSHAING
-[![adiwajshing](https://github.com/WhiskeySockets.png?size=200)](https://github.com/WhiskeySockets) 
+__
+ BAILEYS BY   & ADIWAJSHAING
+__
+ BASE BY GURU 
+__
 
-# BASE BY GURU 
-[![GURU](https://github.com/Guru322.png?size=200)](https://github.com/Guru322) 
-
-
+__
  ```THANKS TO TEAM XLICON```
-[![Salman](https://github.com/salmanytofficial.png?size=200)](https://github.com/salmanytofficial)
+__
 
 
 
