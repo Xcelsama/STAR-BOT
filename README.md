@@ -5,7 +5,7 @@
 ___
 - <p align="center">
 [ℹ️ FOLLOW FOR UPDATES
-](https://github.com/Xcelsama)
+](https://github.com/Xcelsama)<
 ___
 
 
