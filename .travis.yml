@@ -3,7 +3,7 @@ const path = require('path');
 
 // Function to replace "A word" with a link to "Do you need help"
 function replaceTextWithLink(filePath) {
-  const link = '[Do you need help](#do-you-need-help)';
+  const link = '[ＤＯ ＹＯＵ ＮＥＥＤ ＨＥＬＰ](#do-you-need-help)';
   const searchText = 'A word';
 
   // Read the file content
