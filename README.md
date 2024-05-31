@@ -1,8 +1,4 @@
-# README
-
-Some introductory text.
-
-
+# README.md
 
 
 
