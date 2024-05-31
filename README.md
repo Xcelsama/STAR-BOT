@@ -66,15 +66,14 @@ ___
 href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://www.opensourceagenda.com/projects/star-md-v2/reviews/badge.svg" alt="Open Source Agenda"></a> 
 ---------
 
----------
 
----------
+
 
 
 
 ## 📲`Installation Process`📲
 
-
+___
 - FORK THE REPOSITORY
 
 <a href="https://github.com/Xcelsama/STAR-MD-V2/fork" target="_blank">
@@ -101,7 +100,7 @@ ___
 
 ##  ✒️DEPLOYMENT✒️
 #### DEPLOY TO HEROKU 
-
+___
 ☉ If You don't have a account in Heroku. Create a account.
     <br>
 <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
