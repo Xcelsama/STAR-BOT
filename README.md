@@ -189,15 +189,16 @@ NOW Deploy👇
 
 
 
-## 🔒 `Reminder`
-Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 
-## ℹ️`Reminder`ℹ️
+## 📢`REMINDER`📢
 
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
+
+## 📝 `NOTE` 📝
+Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 
 ## `CREDITS`
