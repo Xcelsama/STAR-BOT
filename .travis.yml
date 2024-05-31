@@ -13,8 +13,14 @@ function replaceTextWithLink(filePath) {
       return;
     }
 
+    console.log("Original file content:");
+    console.log(data);
+
     // Replace the search text with the link
     const result = data.replace(new RegExp(searchText, 'g'), link);
+
+    console.log("Modified file content:");
+    console.log(result);
 
     // Write the updated content back to the file
     fs.writeFile(filePath, result, 'utf8', (err) => {
