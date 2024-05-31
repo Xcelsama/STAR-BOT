@@ -3,7 +3,7 @@
 ## `⭐Star This Repo⭐`
 
 ___
--[ℹ️ FOLLOW FOR UPDATES
+- [ℹ️ FOLLOW FOR UPDATES
 ](https://github.com/Xcelsama)
 ___
 
@@ -47,7 +47,7 @@ _STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the ta
 
 [](0) 
 
-- [DO YOU NEED HELP ?](#do-you-need-help)
+ [DO YOU NEED HELP ?](#do-you-need-help)
 ### Features
 
 - ✔️ | Simple
@@ -87,13 +87,6 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 <a href="https://replit.com/@HopeAmadi/STAR-MD-V2-PAIR-CODE?s=app" target="_blank">
   <img src="https://img.shields.io/badge/PAIR CODE-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
-
-
-
-
-
-
-
 
 
 
