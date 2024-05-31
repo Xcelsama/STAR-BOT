@@ -3,8 +3,7 @@
 ## `⭐Star This Repo⭐`
 
 ___
--
-[ℹ️ FOLLOW FOR UPDATES
+-[ℹ️ FOLLOW FOR UPDATES
 ](https://github.com/Xcelsama)
 ___
 
@@ -25,13 +24,13 @@ _STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the ta
 ---------
 
 
-- [DO YOU NEED HELP ?](#do-you-need-help)
----------
+
 
  
 <h1 align="center"> 🛰𝖲𝖳𝖠𝖱-𝖬𝖣-𝖵𝟤🛰
 </p>
  
+---------
 <h1 align="center"> 👀REPO VIEWS👀
 </p>
 
@@ -48,7 +47,7 @@ _STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the ta
 
 [](0) 
 
-
+- [DO YOU NEED HELP ?](#do-you-need-help)
 ### Features
 
 - ✔️ | Simple
