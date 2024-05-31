@@ -4,8 +4,7 @@
 
 ___
 - [ℹ️ FOLLOW FOR UPDATES
-](https://github.com/Xcelsama)
-<p align="center">
+](https://github.com/Xcelsama)<p align="center">
 
 ___
 
