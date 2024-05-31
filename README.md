@@ -7,7 +7,7 @@ ___
 - [DO YOU NEED HELP ?](#do-you-need-help)
 ___
 
-- [ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
+- [ℹ️ FOLLOW FOR UPDATES
 ](https://github.com/Xcelsama)
 <p align="center">
 
