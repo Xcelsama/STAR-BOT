@@ -204,13 +204,11 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
 ## `CREDITS`
 ___
- BAILEYS BY   & ADIWAJSHAING
-___
- BASE BY GURU 
-___
+- BAILEYS BY   & ADIWAJSHAING
+ 
+-BASE BY GURU 
 
-__
- THANKS TO TEAM XLICON
+- THANKS TO TEAM XLICON
 ___
 
 
