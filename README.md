@@ -1,12 +1,10 @@
-# README.md
-
 
 
 ## `⭐Star This Repo⭐`
 
 
 - [ＴＵＴＯＲＩＡＬ](https://github.com/Xcelsama/HOW-TO-DEPLOY-STAR-MD-V2) 
-- [DO YOU NEED HELP](#do-you-need-help)
+- [ＤＯ ＹＯＵ ＮＥＥＤ ＨＥＬＰ](#do-you-need-help)
 - [ℹ️ ＦＯＬＬＯＷ ＦＯＲ ＵＰＤＡＴＥＳ
 ](https://github.com/Xcelsama)
 <p align="center">
@@ -222,10 +220,7 @@ Base by Guru-bot
 Thanks to Salman & Team Xlicon
 [![Salman](https://github.com/salmanytofficial.png?size=200)](https://github.com/salmanytofficial)
 
-# README
 
-## Do you need help
-This is the section that provides you with help. 
 
 ## Do you need help
 This is the section that provides help. 
