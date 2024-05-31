@@ -79,7 +79,7 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 - FORK THE REPOSITORY
 
-  <a href="https://github.com/Xcelsama/STAR-MD-V2/fork" target="_blank">
+<a href="https://github.com/Xcelsama/STAR-MD-V2/fork" target="_blank">
   <img src="https://img.shields.io/badge/FORK STAR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
 
