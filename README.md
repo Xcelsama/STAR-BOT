@@ -191,9 +191,9 @@ NOW Deploy👇
 
 
 
-
+___
 ## 📢`REMINDER`📢
-
+___
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
