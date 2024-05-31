@@ -223,4 +223,7 @@ Base by Guru-bot
 Thanks to Salman & Team Xlicon
 [![Salman](https://github.com/salmanytofficial.png?size=200)](https://github.com/salmanytofficial)
 
-Do you need help?
+# README
+
+## Do you need help
+This is the section that provides you with help. 
