@@ -206,7 +206,7 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 ___
 - BAILEYS BY   & ADIWAJSHAING
  
--BASE BY GURU 
+- BASE BY GURU 
 
 - THANKS TO TEAM XLICON
 ___
