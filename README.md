@@ -210,7 +210,7 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 [![GURU](https://github.com/Guru322.png?size=200)](https://github.com/Guru322) 
 
 
-# THANKS TO TEAM XLICON
+# `THANKS TO TEAM XLICON`
 [![Salman](https://github.com/salmanytofficial.png?size=200)](https://github.com/salmanytofficial)
 
 
