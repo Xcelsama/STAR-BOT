@@ -1,4 +1,9 @@
- 
+# README
+
+Some introductory text.
+
+[A word](#do-you-need-help)
+
 
 
 
@@ -227,3 +232,6 @@ Thanks to Salman & Team Xlicon
 
 ## Do you need help
 This is the section that provides you with help. 
+
+## Do you need help
+This is the section that provides help. 
