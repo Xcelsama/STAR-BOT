@@ -215,7 +215,7 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 Baileys by WhisjeySockets  & adiwajshing
 [![adiwajshing](https://github.com/WhiskeySockets.png?size=200)](https://github.com/WhiskeySockets) 
 
-Base by Guru-bot
+# BASE BY GURU 
 [![GURU](https://github.com/Guru322.png?size=200)](https://github.com/Guru322) 
 
 
