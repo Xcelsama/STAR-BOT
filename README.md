@@ -97,9 +97,9 @@ href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://ww
 
 
 
+___
 
-
-##  ✒️Deployment Medium✒️
+##  ✒️DEPLOYMENT✒️
 #### DEPLOY TO HEROKU 
 
 ☉ If You don't have a account in Heroku. Create a account.
