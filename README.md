@@ -231,5 +231,5 @@ This is the section that provides help.
 
 
 
-## `OWNER` 
+## `💀DEVELOPER💀` 
 <a href="https://github.com/Xcelsama"><img src="https://github.com/Xcelsama.png" width="250" height="250" alt="Xcelsama"/></a>
