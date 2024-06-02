@@ -2,8 +2,6 @@
 
 ## `⭐Star This Repo⭐` 
 
-[-](https://github.com/Xcelsama/STAR-V2) 
-
 
 ___
 
