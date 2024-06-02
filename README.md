@@ -1,6 +1,7 @@
 # UNDER MAINTENANCE DO NOT DEPLOY
 
-## `⭐Star This Repo⭐`
+## `⭐Star This Repo⭐[-](https://github.com/Xcelsama/STAR-V2) 
+`
 
 ___
 - [ℹ️ FOLLOW FOR UPDATES
@@ -61,7 +62,6 @@ ___
 - ✔️ | Pies
 - ✔️ | Anime 
 - ✔️ | Tools 
-[-](https://github.com/Xcelsama/STAR-V2) 
 
 - 
 <a 
