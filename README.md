@@ -6,7 +6,8 @@
 
 
 ___
-- [ℹ️ FOLLOW FOR UPDATES
+
+[-](https://github.com/Xcelsama/STAR-V2) [ℹ️ FOLLOW FOR UPDATES
 ](https://github.com/Xcelsama)
 ___
 
