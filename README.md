@@ -54,17 +54,15 @@ ___
 
 ### Features
 
-- ✔️ | Simple
-- ✔️ | Fully Featured
-- ✔️ | Anti (call/sticker & more)
-- ✔️ | Nsfw 
-- ✔️ | Sticker 
-- ✔️ | Text Quotes
-- ✔️ | Pies
-- ✔️ | Anime 
-- ✔️ | Tools 
+- ✅ | EASY TO USE
+- ✅ | AI INTEGRATED
+- ✅ | NSFW
+- ✅ | STICKER
+- ✅ | GAMES 
+- ✅ | ANIME 
+- ✅ | TOOLS
 
-- 
+
 <a 
 href="https://www.opensourceagenda.com/projects/star-md-v2"><img src="https://www.opensourceagenda.com/projects/star-md-v2/reviews/badge.svg" alt="Open Source Agenda"></a> 
 ---------
