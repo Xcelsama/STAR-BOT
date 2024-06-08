@@ -85,9 +85,16 @@ ___
 <a href="https://github.com/Xcelsama/STAR-MD-V2/fork" target="_blank">
   <img src="https://img.shields.io/badge/FORK STAR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
+- 💐 PAIR-CODE  💐
 
 
-- 💐 PAIR-CODE 💐
+<a href="https://replit.com/@Xcelsama/cSTAR-MD-V2-PAIR?s=app" target="_blank">
+  <img src="https://img.shields.io/badge/PAIR CODE-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
+</a>
+
+
+
+- 💐 PAIR-CODE 2 💐
 
 
 
@@ -95,13 +102,6 @@ ___
   <img src="https://img.shields.io/badge/PAIR CODE-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
 
-
-- 💐 PAIR-CODE 2 💐
-
-
-<a href="https://replit.com/@Xcelsama/cSTAR-MD-V2-PAIR?s=app" target="_blank">
-  <img src="https://img.shields.io/badge/PAIR CODE-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
-</a>
 
 
 
