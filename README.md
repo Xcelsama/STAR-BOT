@@ -19,7 +19,7 @@ ___
 [![STAR-MD-V2](https://i.imgur.com/2gd0YRc.jpeg)](https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X)
 </p>
 
-  <h1 align="center"> ℹ️𝖠𝖡𝖮𝖴𝖳 𝖲𝖳𝖠𝖱-𝖬𝖣-𝖵𝟤
+  <h1 align="center"> ℹ️ABOUT STAR-MD-V2
 </p>
  
 #
