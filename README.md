@@ -21,7 +21,7 @@ ___
 
    
  
-# 
+
       <h1 align="center"> ℹ️ BOT INFO</p>
   
 ___
