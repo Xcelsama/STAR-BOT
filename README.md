@@ -86,6 +86,8 @@ ___
   <img src="https://img.shields.io/badge/FORK STAR-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
 
+___
+
 - 💐 PAIR-CODE 💐
 
 
@@ -93,6 +95,7 @@ ___
 <a href="https://replit.com/@Xcelsama/corSTAR-MD-PAIRor?s=app" target="_blank">
   <img src="https://img.shields.io/badge/PAIR CODE-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
+___
 
 
 - 💐 PAIR-CODE  2 💐
@@ -104,7 +107,7 @@ ___
 </a>
 
 
-
+___
 
 
 
