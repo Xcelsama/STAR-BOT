@@ -96,7 +96,6 @@ ___
   <img src="https://img.shields.io/badge/PAIR CODE-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 </a>
 
-___
 
 
 
@@ -104,7 +103,8 @@ ___
 
 
 
-___
+
+
 
 ##  ✒️DEPLOYMENT✒️
 ___
