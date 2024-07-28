@@ -1,7 +1,7 @@
 {
     "name": "starbot",
     "version": "2.0.0",
-    "description": "Advanced WhatsApp Bot",
+    "description": "Advanced WhatsApp Bot.",
     "main": "index.js",
     "type": "module",
     "directories": {
