@@ -10,7 +10,7 @@ global.owner = [
   ['917795906902', 'Demom Lord', true], 
   [' '], 
   [' '],
-  [' '] 
+  [' '],
 
  //Number of owners
 
