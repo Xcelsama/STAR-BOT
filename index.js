@@ -40,7 +40,12 @@ const basePath = new URL(import.meta.url).pathname;
 const htmlDir = path.join(path.dirname(basePath), 'Assets');
 
 const sendHtml = (res, req, page) => {
-  req.sendFile(path.join(htmlDir, page + ".html"));
+  try {
+    res.sendFile(path.join(htmlDir, page + ".html"));
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error sending file');
+  }
 };
 
 app.get('/', (req, res) => sendHtml(res, req, "guru"));
