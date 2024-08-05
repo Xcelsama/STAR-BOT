@@ -1,3 +1,4 @@
+
 # STAR-BOT 
 <a href="https://ibb.co/b2R24gk"><img src="https://i.ibb.co/z7H73hz/20240805-174110.jpg" alt="20240805-174110" border="0"></a>
 
@@ -41,7 +42,8 @@ Give STAR-BOT a star to show your appreciation and support 🌟 to the Developer
 
 
 ## 🎯 `Installation Procedure` 🎯
-- Get SESSION_ID 
+
+## ```Get SESSION_ID```
 
 <a href='https://replit.com/@Xcelsama/STAR-BOT-PAIRr?s=app' target="_blank"><img alt='Pair repl' src='https://img.shields.io/badge/-Pair_Code-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
