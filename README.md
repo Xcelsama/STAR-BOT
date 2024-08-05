@@ -42,4 +42,4 @@ Give STAR-BOT a star to show your appreciation and support 🌟 to the Developer
 
 ## 🎯 `Installation Procedure` 🎯
 
-<a href="https://ibb.co/f4HsVkk"><img src="https://i.ibb.co/BqB9Hyy/20240805-183933.jpg" alt="20240805-183933" border="0"></a>
+[<a href="https://ibb.co/f4HsVkk"><img src="https://i.ibb.co/BqB9Hyy/20240805-183933.jpg" alt="20240805-183933" border="0"></a>](https://replit.com/@Xcelsama/STAR-BOT-PAIRr?s=app)
