@@ -86,4 +86,4 @@ Add Environment Variables SESSION_ID & DATABASE_URL Then Click Deploy.
 
 <a href='https://dashboard.heroku.com/new?template=https://github.com/DigitalCen/Centio-Bot' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
  
-## 🤝 THANKS TO EVERYONE  THAT MADE THIS PROJECT POSSIBLE 
+## ```🤝 THANKS TO EVERYONE  THAT MADE THIS PROJECT POSSIBLE```
