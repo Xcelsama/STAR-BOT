@@ -7,7 +7,7 @@
 > :octocat: Don't forget to check out! :point_right: [GURU BOT](https://github.com/Guru322/GURU-BOT)
 >🤝Thanks to Salman & his team ☕
 
-## BOT-INTRO
+## `BOT-INTRO`
 STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the talented [Excel Amadi](https://github.com/Xcelsama) It offers a wide array of features, making it an advanced and user-friendly bot for various purposes. 🎉📱 With its intuitive interface and robust capabilities, users can unlock endless possibilities 🚀 and streamline their communication across devices with ease.
 
 ## Features
