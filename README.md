@@ -70,4 +70,12 @@ Add Environment Variables SESSION_ID & DATABASE_URL Then Click Deploy.
 
 <a href='https://dashboard.render.com/web/new' target="_blank"><img alt='IMPORT' src='https://img.shields.io/badge/IMPORT -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
 
+### HEROKU 
 
+>Create Account if You don't have 
+
+<a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+>Then Deploy
+
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-BOT target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
