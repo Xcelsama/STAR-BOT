@@ -41,9 +41,10 @@ Give STAR-BOT a star to show your appreciation and support 🌟 to the Developer
 
 
 ## 🎯 `Installation Procedure` 🎯
-
+- Get SESSION_ID 
 
 <a href='https://replit.com/@Xcelsama/STAR-BOT-PAIRr?s=app' target="_blank"><img alt='Pair repl' src='https://img.shields.io/badge/-Pair_Code-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+
 
  
 
