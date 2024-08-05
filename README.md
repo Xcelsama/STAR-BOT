@@ -42,6 +42,11 @@ Give STAR-BOT a star to show your appreciation and support 🌟 to the Developer
 
 
 ## 🎯 `Installation Procedure` 🎯
+## TODO: ```Fork STAR-BOT```
+
+   <a href="https://github.com/Xcelsama/STAR-BOT/fork
+"><img title="STAR" src="https://img.shields.io/badge/FORK STAR-BOT?color=black&style=for-the-badge&logo=stackshare"></a>
+
 
  ## TODO: ```Get SESSION_ID```
 
