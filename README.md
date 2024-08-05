@@ -6,3 +6,5 @@
 >
 > :octocat: Don't forget to check out! :point_right: [GURU BOT](https://github.com/Guru322/GURU-BOT)
 >🤝Thanks to Salman & his team ☕
+
+## BOT-INTRO
