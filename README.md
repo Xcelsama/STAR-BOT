@@ -3,3 +3,5 @@
 >
 > :octocat: Don't forget to check out! :point_right: [GURU BOT](https://github.com/Guru322/GURU-BOT)
 >🤝Thanks to Salman & his team ☕
+
+<a href="https://ibb.co/b2R24gk"><img src="https://i.ibb.co/z7H73hz/20240805-174110.jpg" alt="20240805-174110" border="0"></a>
