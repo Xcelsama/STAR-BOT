@@ -9,3 +9,37 @@
 
 ## BOT-INTRO
 STAR-MD-V2 is a 🌟 versatile Multi-Device WhatsApp bot 🤖 recoded by the talented [Excel Amadi](https://github.com/Xcelsama) It offers a wide array of features, making it an advanced and user-friendly bot for various purposes. 🎉📱 With its intuitive interface and robust capabilities, users can unlock endless possibilities 🚀 and streamline their communication across devices with ease.
+
+## Features
+
+
+| Function   | Confirmation |
+------------------|--------------
+|- Free Deployment|✅️|
+|- File Conversion|✅️|
+|-      Downloads |✅️|
+|-           Games|✅️|
+|-   Group Management|✅️|
+|-   Image features|✅️|
+|-   Weather Updates|✅️|
+|-   Reminders|✅️|
+|-   Translations|✅️|
+|-   Custom Commands|✅️|
+|-   Integration|✅️|
+|-   Customization|✅️|
+|-   Customizable | ✅️|
+
+## SETUP PROCEDURE 
+
+
+
+ ## ⭐️`Star This Repo` ⭐️
+
+Give STAR-BOT a star to show your appreciation and support 🌟 to the Developers.
+
+
+
+
+## 🎯 `Installation Procedure` 🎯
+
+
