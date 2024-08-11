@@ -16,5 +16,8 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner }) => {
     { asDocument: true }
   )
 }
-handler.command = /^topdf$/i
-export default handler
+handler.help = ['topdf','pdf'];
+handler.tags = ['tools'];
+handler.command = /^(topdf|pdf)$/i;
+
+export default handler;
