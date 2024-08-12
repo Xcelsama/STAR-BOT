@@ -3,7 +3,7 @@ export async function before(m) {
         if (new Date() * 1 - setting.status > 1000) {
                 let _uptime = process.uptime() * 1000
                 let uptime = clockString(_uptime);
-                let bio = `Im STAR-MD-V2🤖 || ⏰ Active Since ${uptime} || 🌎' : ' || 🎨 Created By Excel`
+                let bio = `Hey I'm Using Star-bot 🤩`
                 await this.updateProfileStatus(bio).catch(_ => _)
                 setting.status = new Date() * 1
         }
