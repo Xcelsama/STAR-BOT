@@ -375,7 +375,7 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
 
-    let msgf = `Hey 👋 Star 🌱 Congrats you have successfully deployed STAR-BOT\nJoin my support Channel for any Query\n https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X`
+    let msgf = `Hey 👋 Star Congrats you have successfully deployed STAR-BOT\nJoin my support Channel for Updates,Query.\n https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X`
 
     let gmes = conn.sendMessage(
       jid,
@@ -581,4 +581,4 @@ async function saafsafai() {
 
 setInterval(saafsafai, 10 * 60 * 1000)
 
-_quickTest().catch(console.error)🌱
+_quickTest().catch(console.error)
