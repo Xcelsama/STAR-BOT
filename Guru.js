@@ -263,7 +263,6 @@ const connectionOptions = {
 },
   msgRetryCounterCache,
   defaultQueryTimeoutMs: undefined,
-  syncFullHistory: false
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -375,7 +374,7 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
 
-    let msgf = `Hey 👋 Star Congrats you have successfully deployed STAR-BOT\nJoin my support Channel for Updates,Query.\n https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X`
+    let msgf = `Hey 👋 Star Congrats you have successfully deployed STAR-BOT\nJoin our support Channel for any Query & Updates\n `
 
     let gmes = conn.sendMessage(
       jid,
