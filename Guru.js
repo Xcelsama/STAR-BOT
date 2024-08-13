@@ -187,14 +187,14 @@ if (pairingCode && !conn.authState.creds.registered) {
   if (!!global.pairingNumber) {
     phoneNumber = global.pairingNumber.replace(/[^0-9]/g, '');
     if (!Object.keys(PHONENUMBER_MCC).some(_0x54e15c => phoneNumber.startsWith(_0x54e15c))) {
-      console.log(_0x52f29c.bgBlack(_0x52f29c.redBright("Start with your country's WhatsApp code, Example : 92xxx")));
+      console.log(_0x52f29c.bgBlack(_0x52f29c.redBright("Start with your country's WhatsApp code, Example : 234xxx")));
       process.exit(0x0);
     }
   } else {
     phoneNumber = await question(_0x52f29c.bgBlack(_0x52f29c.greenBright("Please type your WhatsApp number : ")));
     phoneNumber = phoneNumber.replace(/[^0-9]/g, '');
     if (!Object.keys(PHONENUMBER_MCC).some(_0x8d691c => phoneNumber.startsWith(_0x8d691c))) {
-      console.log(_0x52f29c.bgBlack(_0x52f29c.redBright("Start with your country's WhatsApp code, Example : 92xxx")));
+      console.log(_0x52f29c.bgBlack(_0x52f29c.redBright("Start with your country's WhatsApp code, Example : 234xxx")));
       phoneNumber = await question(_0x52f29c.bgBlack(_0x52f29c.greenBright("Please type your WhatsApp number : ")));
       phoneNumber = phoneNumber.replace(/[^0-9]/g, '');
       rl.close();
@@ -275,10 +275,10 @@ async function connectionUpdate(_0x34b739) {
       jid: _0x5735ca,
       name: _0x432d9e
     } = conn.user;
-    conn.logger.info(_0x52f29c.yellow("\n🚩 P R I N C E  I S  B O T  R E A D Y"));
+    conn.logger.info(_0x52f29c.yellow("\n🚩 ＳＴＡＲ   B O Ｔ ＩＳ  R E A D Y"));
   }
   if (_0x45fba8 == "close") {
-    conn.logger.error(_0x52f29c.yellow("\nconnection closed....Get a New Session"));
+    conn.logger.error(_0x52f29c.yellow("\nconnection closed....Get a New Session_id"));
   }
 }
 process.on("uncaughtException", console.error);
