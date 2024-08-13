@@ -1,3 +1,4 @@
+
 {
     "name": "starbot",
     "version": "2.0.0",
@@ -38,7 +39,7 @@
     },
     "license": "Apache License 2.0",
     "dependencies": {
-        "@adiwajshing/keyed-db": "^0.2.5",
+        "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "^4.0.23-alpha.0",
         "@google/generative-ai": "0.1.3",
         "@shineiichijo/marika": "^2.0.6",
