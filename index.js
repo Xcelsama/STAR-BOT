@@ -10,9 +10,9 @@ import fsModule from 'fs';
 import chalk from 'chalk';
 import cfonts from 'cfonts';
 
-const { say } =  cfonts;
+const { say } = cfonts;
 
-say("STAR - V2", {
+say("STAR-BOT", {
   'font': "block",
   'align': "center",
   'colors': ['#ff9900'],
@@ -23,7 +23,7 @@ say("STAR - V2", {
   'maxLength': '15'
 });
 
-say("STAR-BOT-V2 By Excel._.", {
+say("STAR-BOT By Excel._.", {
   'font': "chrome",
   'align': "center",
   'colors': ["red", "magenta"],
@@ -40,7 +40,7 @@ const basePath = new URL(import.meta.url).pathname;
 const htmlDir = path.join(path.dirname(basePath), 'Assets');
 
 const sendHtml = (res, req, page) => {
-  req.sendFile(path.join(htmlDir, page + ".html"));
+  res.sendFile(path.join(htmlDir, page + ".html"));
 };
 
 app.get('/', (req, res) => sendHtml(res, req, "guru"));
