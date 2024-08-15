@@ -1,137 +1,116 @@
-class Minesweeper {
-  constructor(rows, cols, mines) {
-    this.rows = rows;
-    this.cols = cols;
-    this.mines = mines;
-    this.board = this.initializeBoard();
-    this.revealed = this.initializeRevealed();
-    this.placeMines();
-    this.calculateNumbers();
-    this.gameOver = false;
-  }
+const handler = {
+  board: null,
+  gameStarted: false,
+  flaggedCells: [],
 
-  initializeBoard() {
-    return Array.from({ length: this.rows }, () => Array(this.cols).fill(0));
-  }
+  mine: async (message) => {
+    if (handler.gameStarted) {
+      message.reply("A game is already in progress. Use 'reset' to start a new game.");
+      return;
+    }
 
-  initializeRevealed() {
-    return Array.from({ length: this.rows }, () => Array(this.cols).fill(false));
-  }
+    handler.board = [];
+    const rows = 10;
+    const cols = 10;
+    const mines = 10;
 
-  placeMines() {
-    let minesPlaced = 0;
-    while (minesPlaced < this.mines) {
-      const row = Math.floor(Math.random() * this.rows);
-      const col = Math.floor(Math.random() * this.cols);
-      if (this.board[row][col] !== 'M') {
-        this.board[row][col] = 'M';
-        minesPlaced++;
+    for (let i = 0; i < rows; i++) {
+      handler.board[i] = [];
+      for (let j = 0; j < cols; j++) {
+        handler.board[i][j] = 0; // 0 = empty, 1 = mine
       }
     }
-  }
 
-  calculateNumbers() {
-    const directions = [
-      [-1, -1], [-1, 0], [-1, 1],
-      [0, -1], /*M*/  [0, 1],
-      [1, -1], [1, 0], [1, 1]
-    ];
-    for (let row = 0; row < this.rows; row++) {
-      for (let col = 0; col < this.cols; col++) {
-        if (this.board[row][col] === 'M') continue;
-        let mineCount = 0;
-        directions.forEach(([dx, dy]) => {
-          const newRow = row + dx;
-          const newCol = col + dy;
-          if (newRow >= 0 && newRow < this.rows && newCol >= 0 && newCol < this.cols) {
-            if (this.board[newRow][newCol] === 'M') mineCount++;
+    for (let i = 0; i < mines; i++) {
+      let row = Math.floor(Math.random() * rows);
+      let col = Math.floor(Math.random() * cols);
+      handler.board[row][col] = 1;
+    }
+
+    handler.gameStarted = true;
+    handler.flaggedCells = [];
+
+    message.reply(`Minesweeper game started! Use 'reveal <row> <col>' to play or 'flag <row> <col>' to flag a cell.`);
+    message.reply(`Board: ${handler.displayBoard()}`);
+  },
+
+  reveal: async (message, row, col) => {
+    if (!handler.gameStarted) {
+      message.reply("No game in progress. Use 'mine' to start a new game.");
+      return;
+    }
+
+    row = parseInt(row);
+    col = parseInt(col);
+
+    if (handler.board[row][col] === 1) {
+      message.reply(`Game Over! You hit a mine!`);
+      handler.gameStarted = false;
+    } else {
+      let count = 0;
+      for (let x = -1; x <= 1; x++) {
+        for (let y = -1; y <= 1; y++) {
+          let r = row + x;
+          let c = col + y;
+          if (r >= 0 && r < handler.board.length && c >= 0 && c < handler.board[0].length && handler.board[r][c] === 1) {
+            count++;
           }
-        });
-        this.board[row][col] = mineCount;
+        }
       }
+      message.reply(`You revealed a cell with ${count} adjacent mines!`);
+      message.reply(`Board: ${handler.displayBoard()}`);
     }
-  }
+  },
 
-  reveal(row, col) {
-    if (isNaN(row) || isNaN(col)) {
-      return 'Invalid input. Row and column must be numbers.';
-    }
-    if (row < 0 || row >= this.rows || col < 0 || col >= this.cols) {
-      return 'Invalid move. Row and column must be within the board boundaries.';
-    }
-    if (this.revealed[row][col]) {
-      return 'Invalid move. Cell already revealed.';
-    }
-    if (this.gameOver) {
-      return 'Game over. Start a new game.';
-    }
-
-    this.revealed[row][col] = true;
-    if (this.board[row][col] === 'M') {
-      this.gameOver = true;
-      this.revealAll();
-      return 'You hit a mine! Game over.';
-    }
-    if (this.board[row][col] === 0) {
-      const directions = [
-        [-1, -1], [-1, 0], [-1, 1],
-        [0, -1], /*M*/  [0, 1],
-        [1, -1], [1, 0], [1, 1]
-      ];
-      directions.forEach(([dx, dy]) => {
-        this.reveal(row + dx, col + dy);
-      });
-    }
-    return 'Keep going!';
-  }
-
-  revealAll() {
-    this.revealed = this.revealed.map(row => row.map(() => true));
-  }
-
-  display() {
-    const emojis = ['⬛', '1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟'];
-    return this.board.map((row, rowIndex) => 
-      row.map((cell, colIndex) => 
-        this.revealed[rowIndex][colIndex] ? (cell === 'M' ? '💣' : emojis[cell]) : '⬜️').join('')
-    ).join('\n');
-  }
-}
-
-// Integrate Minesweeper with the bot
-const handler = async (m, { conn, command, text }) => {
-  if (!global.minesweeper) {
-    global.minesweeper = new Minesweeper(8, 8, 10); // Create a new game with 8x8 board and 10 mines
-  }
-
-  if (command === 'mine') {
-    conn.reply(m.chat, 'Minesweeper game started!\n\n' + global.minesweeper.display(), m);
-  } else if (command.startsWith('reveal')) {
-    const args = text.split(' ');
-
-    // Check if the correct number of arguments is provided
-    if (args.length !== 3) {
-      conn.reply(m.chat, 'Usage: reveal <row> <col>\nExample: reveal 1 1', m);
+  flag: async (message, row, col) => {
+    if (!handler.gameStarted) {
+      message.reply("No game in progress. Use 'mine' to start a new game.");
       return;
     }
 
-    const rowNum = parseInt(args[1]);
-    const colNum = parseInt(args[2]);
+    row = parseInt(row);
+    col = parseInt(col);
 
-    // Check if parsed arguments are valid numbers
-    if (isNaN(rowNum) || isNaN(colNum)) {
-      conn.reply(m.chat, 'Please provide valid numbers for row and column.\nUsage: reveal <row> <col>\nExample: reveal 1 1', m);
-      return;
+    if (handler.flaggedCells.includes(`${row},${col}`)) {
+      handler.flaggedCells = handler.flaggedCells.filter(cell => cell !== `${row},${col}`);
+      message.reply(`Cell unflagged!`);
+    } else {
+      handler.flaggedCells.push(`${row},${col}`);
+      message.reply(`Cell flagged!`);
     }
 
-    const result = global.minesweeper.reveal(rowNum, colNum);
-    conn.reply(m.chat, result + '\n\n' + global.minesweeper.display(), m);
+    message.reply(`Board: ${handler.displayBoard()}`);
+  },
+
+  reset: async (message) => {
+    handler.board = null;
+    handler.gameStarted = false;
+    handler.flaggedCells = [];
+
+    message.reply("Game reset. Use 'mine' to start a new game.");
+  },
+
+  displayBoard: () => {
+    let boardStr = "";
+    for (let i = 0; i < handler.board.length; i++) {
+      for (let j = 0; j < handler.board[0].length; j++) {
+        if (handler.flaggedCells.includes(`${i},${j}`)) {
+          boardStr += "F ";
+        } else if (handler.board[i][j] === 1) {
+          boardStr += "X ";
+        } else {
+          boardStr += "_ ";
+        }
+      }
+      boardStr += "\n";
+    }
+    return boardStr;
   }
 };
 
-handler.help = ['mine', 'reveal <row> <col>'];
+handler.help = ['mine', 'reveal <row> <col>', 'flag <row> <col>', 'reset'];
 handler.tags = ['game'];
-handler.command = ['mine', 'reveal'];
+handler.command = ['mine', 'reveal', 'flag', 'reset'];
 handler.rowner = true;
 
 export default handler;
