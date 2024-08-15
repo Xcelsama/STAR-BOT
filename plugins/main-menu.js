@@ -12,69 +12,30 @@ import {
  import os from "os"
  import fs from "fs"
  import fetch from "node-fetch"
- 
+
  const defaultMenu = {
   before: `
-  「 ${botname} 🎁MD 」\n
-  *%ucpn*
-⍟────────────────⍟
-https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
-⍟────────────────⍟
-*©Excel Amadi*
-⍟────────────────⍟
-*_Salutations! Its STAR-MD A_* 
-*_Multi-Device Whatsapp BOT_*
-*_Recoded By EXCEL_*
-⍟────────────────⍟
-                                    
- ▄▀▀ ▀█▀  ▄▀▄ █▀▀▄ ░░
-░▀▄  ░█░  █▀█ █▐█▀ ▀▀
-▀▀░  ░▀░  ▀░▀ ▀░▀▀ ░░
-█▄░▄█ █▀▄
-█░█░█ █░█
-▀░░░▀ ▀▀░
- 
-╭─────────────────⦿
-┃    🔰〘 𝙄𝙉𝙁𝙊 〙🔰
-╰┬────────────────⦿
-┌┤
-┃
-┃ *_Developer_*: Excel Amadi
-┃ *_Bot Name_*: ${botname}
-┃ *_Mode_*: %mode
-┃ *_HOST_*: I-CLOUD☁
-┃ *_Type_*: LINUX
-┃ *_Baileys_*: Multi Device
-┃ *_Prefix_*: [ *%_p* ]
-┃ *_Uptime_*: %muptime
-┃ *_Database_*:  %totalreg
-┃
-╰──────────────────⦿
-╭──────────────────⦿
-┃    🔰〘 𝙐𝙎𝙀𝙍 〙🔰
-╰┬─────────────────⦿
-┌┤     
-┃
-┃ *_Name_*: %name
-┃ *_Gold_*: %credit
-┃ *_Role_*: 
-┃ *_Level_*: %level [ %xp4levelup Xp For Levelup]
-┃ *_Xp_*: %exp / %maxexp
-┃ *_Total Xp_*: %totalexp
-┃
-╰──────────────────⦿
-╭──────────────────⦿
-┃   🔰〘 𝑰𝑵𝑭𝑶 𝑪𝑴𝑫 〙🔰
-╰┬─────────────────⦿
-┌┤ 
-┃ *_%totalfeatures_* Commands
-╰──────────────────⦿
+╭━━━〔𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸〕━━━⌘
+┆❀┆𝚄𝚂𝙴𝚁: *%name*    
+┆❀┆𝙳𝙴𝚅: 𝙴𝚇𝙲𝙴𝙻
+┆❀┆𝙼𝙾𝙳𝙴: %mode
+┆❀┆𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼: %platform
+┆❀┆𝚃𝚈𝙿𝙴: 𝙽𝚘𝚍𝚎.𝚓𝚜
+┆❀┆𝙱𝙰𝙸𝙻𝙴𝚈𝚂: 𝙼𝚞𝚕𝚝𝚒𝚍𝚎𝚟𝚒𝚌𝚎
+┆❀┆𝙿𝚁𝙴𝙵𝙸𝚇: [ *%_p* ]
+┆❀┆𝚄𝙿𝚃𝙸𝙼𝙴: %muptime
+┆❀┆𝙳𝙰𝚃𝙰𝙱𝚂𝙴:  *%totalreg*
+┆❀┆𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂: *%totalfeatures* 
+┆❀┆𝚃𝙸𝙼𝙴: *%ucpn* 
+╎❀╰────────────⌘
+╰━━━━━━━━━━━━━━⌘
+ *🌱|©ＳＴＡＲ-ＭＤ-Ｖ２|🌱*
 
-
+  %readmore
  `.trimStart(),
- header: "┌─⦿『 *_%category_* 』⦿",
- body: "┃⬡▸ %cmd %isPremium %islimit",
- footer: "╰─────────────────⦿",
+ header: "┌─❋『 ```%category``` 』❋",
+ body: "┃➻ ```%cmd``` %isPremium %islimit",
+ footer: "╰───────────────❋",
  after: "\n%me",
  }
  let handler = async (m, {
@@ -85,15 +46,15 @@ https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "🌠",
+ text: "🎄",
  key: m.key,
    }
   })
-  
+
   let tags = {}
-  
+
   try {
-  
+
    /* Info Menu */
    let glb = global.db.data.users
    let usrs = glb[m.sender]
@@ -118,10 +79,10 @@ https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
    let premium = glb[m.sender].premiumTime
    let prems = `${premium > 0 ? "Premium": "Free"}`
    let platform = os.platform()
- 
- 
+
+
    let ucpn = `${ucapan()}`
-  
+
    let _uptime = process.uptime() * 1000
    let _muptime
    if (process.send) {
@@ -133,8 +94,8 @@ https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
    }
    let muptime = clockString(_muptime)
    let uptime = clockString(_uptime)
- 
-   
+
+
    let totalfeatures = Object.values(global.plugins).filter((v) => v.help && v.tags).length;
    let totalreg = Object.keys(glb).length
    let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
@@ -208,11 +169,11 @@ https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
  readmore: readMore
    }
    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, "g"), (_, name) => "" + replace[name])
-   const pp = './Assets/XLICON-V2.jpg'
-  
- 
+   const pp = './Assets/STAR-V2.jpg'
+
+
  let contact = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
- 
+
   conn.sendMessage(m.chat, { video: { url: menuvid }, caption: text.trim(),  gifPlayback: true,
   gifAttribution: 0}, { quoted: contact })
 
@@ -222,26 +183,26 @@ https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
   }
  }
  handler.command = /^(menu|help|\?)$/i
- 
 
- 
+
+
  export default handler
- 
- 
+
+
  function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
  }
- 
+
  const more = String.fromCharCode(8206)
  const readMore = more.repeat(4001)
- 
+
  function clockString(ms) {
   let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000)
   let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
   return [h, " H ", m, " M ", s, " S "].map(v => v.toString().padStart(2, 0)).join("")
  }
- 
+
  function clockStringP(ms) {
   let ye = isNaN(ms) ? "--" : Math.floor(ms / 31104000000) % 10
   let mo = isNaN(ms) ? "--" : Math.floor(ms / 2592000000) % 12
@@ -251,21 +212,21 @@ https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
   let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
   return [ye, " *Years 🗓️*\n", mo, " *Month 🌙*\n", d, " *Days ☀️*\n", h, " *Hours 🕐*\n", m, " *Minute ⏰*\n", s, " *Second ⏱️*"].map(v => v.toString().padStart(2, 0)).join("")
  }
- 
+
  function ucapan() {
-  const time = moment.tz("Africa/Lagos").format("HH")
-  let res = "Good morning ☀️"
+  const time = moment.tz("Nigeria/Lagos").format("HH")
+  let res = "🌞"
   if (time >= 4) {
-   res = "Good Morning 🌄"
+   res = "☀️"
   }
   if (time >= 10) {
-   res = "Good Afternoon ☀️"
+   res = "☀️"
   }
   if (time >= 15) {
-   res = "Good Afternoon 🌇"
+   res = "🌇"
   }
   if (time >= 18) {
-   res = "Good Night 🌙"
+   res = "🌙"
   }
   return res
  }

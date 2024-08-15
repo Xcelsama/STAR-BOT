@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: XLICON-V2-MD
+    name: STAR-V2-MD
     env: docker
     region: Frankfurt
     plan: free

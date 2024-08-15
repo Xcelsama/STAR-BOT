@@ -21,4 +21,4 @@ handler.tags = ['tools']
     export default handler
     function formatDate(n, locale = 'in') {
     let d = new Date(n)
-    return d.toLocaleDateString(locale, { timeZone: 'Asia/Kolkata' })}
+    return d.toLocaleDateString(locale, { timeZone: 'Africa/Lagos' })}

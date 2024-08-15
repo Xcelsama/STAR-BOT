@@ -42,28 +42,29 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let speed = neww - old
   let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './XLICON.jpg')
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './STAR.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-⭐ *INFO STAR-MD-V2BOT* ⭐
+🌠 *ᏆΝҒϴ:-ՏͲᎪᎡ-ᎷᎠ-Ꮩ2* 🌠
 
-  ╭───•✧✧•───╮
-  *≡*. 
-│ ➫「 *Developer* 」
+╭───•••✧ᎠᎬᏙᎬᏞϴᏢᎬᎡ✧••••───╮
+┃ *≡*. 
+│ ➫「 *ՏͲᎪᎡ-ᎷᎠ-Ꮩ2* 」
 │ ➫ *Name    :* Excel
 │ ➫ *Place   :* Nigeria
 │ ➫ *Gender  :*  ᴍᴀʟᴇ
-│ ➫ *Age     :* _15
+│➫ *Age     :* _15
 │ ➫ *Phone   :* wa.me/2347045035241
-│ ➫ *YouTube :* youtube.com/@s4salmanyt 
+│ ➫ *TT      :*  https://tiktok.com
+/@xcelsama
 │ ➫ *GitHub  :* https://github.com/Xcelsama
 │ ➫ *TT *:- https://tiktok.com/@xcelsama
-│ ➫ *Channel* :https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
-│ ➫ *Status  :* Debugging
- Code._
-© STAR-MD-V2 BY EXCEL
-
+│ ➫ *Channel* :https://whatsapp.com/
+channel/0029Va9wmuz8F2pGIURwmo0m
+│ ➫ *Status  :* ᎠᎬᏴႮᏀᏀᏆΝᏀ ᏟϴᎠᎬ._
+┃ 
+┃© STAR-MD-V2 BY EXCEL
 ⚡ *STATE* ⚡
 ➫ *${groupsIn.length}* GROUP CHATS
 ➫  *${groupsIn.length}* united groups
@@ -72,7 +73,7 @@ let infobt = `
 ➫  *${chats.length}* Total Chats
 
 
- *🕣 S E R V E R*
+ *🕣 ＳＴＡＲ-ＳＥＲＶＥＲ*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 

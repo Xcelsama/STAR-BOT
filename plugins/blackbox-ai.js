@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const endpoint = 'https://mzn-bbox.onrender.com/bb?ask=';
+const endpoint = 'https://api.maher-zubair.tech/ai/blackbox?q';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   try {

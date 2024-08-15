@@ -1,22 +1,40 @@
-//import Connection from '../lib/connection.js'
-import { randomBytes } from 'crypto'
-
-let handler = async (m, { conn, text }) => {
-  let chats = Object.entries(conn.chats).filter(([_, chat]) => chat.isChats).map(v => v[0])
-  let cc = conn.serializeM(text ? m : m.quoted ? await m.getQuotedObj() : false || m)
-  let teks = text ? text : cc.text
-  conn.reply(m.chat, `✅ BROADCAST done *Total:* ${chats.length} chats`, m)
-  for (let id of chats) await conn.copyNForward(id, conn.cMod(m.chat, cc, /bc|broadcast|tx/i.test(teks) ? teks : `*BROADCAST ┃ OWNER*\n_____________________\n ${teks} ` ), true).catch(_ => _)
-  m.reply('✅ Broadcast to all chats :)')
+let handler = async (m, { conn, isROwner, text }) => {
+  const delay = time => new Promise(res => setTimeout(res, time))
+  let getGroups = await conn.groupFetchAllParticipating()
+  let groups = Object.entries(getGroups)
+    .slice(0)
+    .map(entry => entry[1])
+  let anu = groups.map(v => v.id)
+  var pesan = m.quoted && m.quoted.text ? m.quoted.text : text
+  if (!pesan) throw '*ENTER THE MESSAGE YOU WANT TO BROADCAST*'
+  for (let i of anu) {
+    await delay(500)
+    conn
+      .relayMessage(
+        i,
+        {
+          liveLocationMessage: {
+            degreesLatitude: 35.685506276233525,
+            degreesLongitude: 139.75270667105852,
+            accuracyInMeters: 0,
+            degreesClockwiseFromMagneticNorth: 2,
+            caption: '[ATTENTION]\n\n' + pesan + '\n\nTHIS IS AN OFFICIAL STATEMENT',
+            sequenceNumber: 2,
+            timeOffset: 3,
+            contextInfo: m,
+          },
+        },
+        {}
+      )
+      .catch(_ => _)
+  }
+  m.reply(
+    `*MESSAGE SENT TO ${anu.length} GROUP/S*\n\n*NOTE: THIS COMMAND MAY FAIL AND NOT BE SENT TO ALL CHATS, SORRY FOR THE TIME BEING*`
+  )
 }
-handler.help = ['tx']
+handler.help = ['broadcastgroup', 'bcgc'].map(v => v + ' <text>')
 handler.tags = ['owner']
-handler.command = /^(broadcast|bc|tx)$/i
+handler.command = /^(broadcast|bc)(group|grup|gc)$/i
 handler.owner = true
 
 export default handler
-
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-
-const randomID = length => randomBytes(Math.ceil(length * .5)).toString('hex').slice(0, length)

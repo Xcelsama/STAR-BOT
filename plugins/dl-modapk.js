@@ -2,8 +2,8 @@ import { download } from 'aptoide-scraper';
 
 let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
   try {
-    if (command === 'modapk') {
-      if (!text) throw `*[❗] Please provide the APK Name you want to download.*`;
+    if (command === 'apk') {
+      if (!text) throw `*[❗] Please provide the APP Name you want to download.*`;
 
       await conn.reply(m.chat, global.wait, m);
       let data = await download(text);
@@ -27,7 +27,7 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
   }
 };
 
-handler.help = ['modapk']
+handler.help = ['apk']
 handler.tags = ['downloader']
-handler.command = /^modapk$/i;
+handler.command = /^apk$/i;
 export default handler;

@@ -12,7 +12,8 @@ const Minimum_Temperature = res.data.main.temp_min + "°C"
 const Maximum_Temperature = res.data.main.temp_max + "°C"
 const Humidity = res.data.main.humidity + "%"
 const Wind = res.data.wind.speed + "km/h"
-const wea = sᴛᴀʀ-ᴍᴅ-ᴠ2 ᴡᴇᴀᴛʜᴇʀ sᴇᴀʀᴄʜ`「 📍 」PLACE: ${name}\n「 🗺️ 」COUNTRY: ${Country}\n「 🌤️ 」VIEW: ${Weather}\n「 🌡️ 」TEMPERATURE: ${Temperature}\n「 💠 」 MINIMUM TEMPERATURE: ${Minimum_Temperature}\n「 📛 」 MAXIMUM TEMPERATURE: ${Maximum_Temperature}\n「 💦 」HUMIDITY: ${Humidity}\n「 🌬️ 」 WINDSPEED: ${Wind}`
+const wea = `「 📍 」PLACE: ${name}\n「 🗺️ 」COUNTRY: ${Country}\n「 🌤️ 」VIEW: ${Weather}\n「 🌡️ 」TEMPERATURE: ${Temperature}\n「 💠 」 MINIMUM TEMPERATURE: ${Minimum_Temperature}\n「 📛 」 MAXIMUM TEMPERATURE: ${Maximum_Temperature}\n「 💦 」HUMIDITY: ${Humidity}\n「 🌬️ 」 WINDSPEED: ${Wind}
+©STAR-MD WEATHER`
 m.reply(wea)
 } catch {
 return "*ERROR*"}}

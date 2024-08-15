@@ -8,17 +8,14 @@ let handler = async m => m.reply(`
 
 Group1:
 _____________________
-https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
+https://chat.whatsapp.com/IZ2ThCp54bE8pqZkI85WI7
 _______________________
 
 Group2:
 _______________________
-https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08"
-_________________________
-
-*DEVELOPER*/
-
-1:__________________🔰 *MOD'S* 🔰_
+https://chat.whatsapp.com/BYUKtcVPwa9AW48vepO3pw"
+_______________________
+- DEVELOPER
 wa.me/2347045035241
 *AMADI EXCEL*
 _______________________
@@ -39,8 +36,8 @@ _______________________
  ♥️     ✍🏻ㅤ   📩     📤 
  *_ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ   ˢᵃᵛᵉ    ˢʰᵃʳᵉ_*
 `.trim())
-handler.help = ['gpguru']
+handler.help = ['gpexcel']
 handler.tags = ['main']
-handler.command = ['groups', 'groupguru', 'gugp', 'ggp', 'gpguru'] 
+handler.command = ['groups', 'groupexcel', 'gpz', 'ggp', 'gpexcel'] 
 
 export default handler

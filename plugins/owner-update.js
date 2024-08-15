@@ -1,76 +1,38 @@
-// by mznking (https://github.com/mznking)
-import axios from 'axios';
-import { exec } from 'child_process';
+import { execSync } from 'child_process';
+import { existsSync } from 'fs';
+import { join } from 'path';
 
-let handler = async (m, { conn, isOwner }) => {
-  if (!isOwner) {
-    return conn.reply(m.chat, '❌ Only the owner can use this command.', m);
-  }
+const repoUrl = 'https://github.com/Xcelsama/STAR-V2';
+const repoDir = join(process.cwd(), 'STAR-V2'); // Directory where the repo will be cloned
 
-  const repositoryURL = 'https://api.github.com/repos/salmanytofficial/XLICON-V2-MD';
+const handler = async (m, { conn, text }) => {
+  if (conn.user.jid === conn.user.jid) {
+    // Function to check if the directory is a Git repository
+    const isGitRepository = (directory) => {
+      return existsSync(join(directory, '.git'));
+    };
 
-  try {
-    const command = m.text.toLowerCase();
-    
-    if (command === 'update') {
-      await checkForUpdates(conn, repositoryURL, m);
-    } else if (command === 'update now') {
-      await updateBot(conn, m);
-    } else {
-      conn.reply(m.chat, '❌ Invalid command. Use `update` to check for updates or `update now` to update the bot.', m);
+    try {
+      if (!existsSync(repoDir)) {
+        // Clone the repository if it does not exist
+        execSync(`git clone ${repoUrl} ${repoDir}`);
+        conn.reply(m.chat, 'Repository cloned successfully.', m);
+      } else if (isGitRepository(repoDir)) {
+        // Pull the latest changes if it is already a Git repository
+        execSync('git pull', { cwd: repoDir });
+        conn.reply(m.chat, 'Repository updated successfully.', m);
+      } else {
+        conn.reply(m.chat, 'Error: The directory exists but is not a git repository.', m);
+      }
+    } catch (error) {
+      conn.reply(m.chat, `Error occurred: ${error.message}`, m);
     }
-  } catch (error) {
-    console.error('An error occurred:', error.message);
-    conn.reply(m.chat, `❌ An error occurred: ${error.message}`, m);
   }
 };
 
-async function checkForUpdates(conn, repositoryURL, m) {
-  try {
-    const commitHistoryResponse = await axios.get(`${repositoryURL}/commits/main`);
-
-    if (commitHistoryResponse.status === 200) {
-      const commitHistory = commitHistoryResponse.data;
-      const latestCommitSHA = commitHistory[0]?.sha;
-
-      const localBotVersion = '1.0.0'; // Replace with your logic to fetch the version dynamically
-
-      if (latestCommitSHA !== localBotVersion) {
-        conn.reply(m.chat, '🔄 Bot update available! Use `update now` to update the bot.', m);
-      } else {
-        conn.reply(m.chat, '✅ Bot is already up to date.', m);
-      }
-    } else {
-      console.error('Unable to fetch commit history:', commitHistoryResponse.statusText);
-      conn.reply(m.chat, '❌ Unable to fetch commit history.', m);
-    }
-  } catch (error) {
-    throw error;
-  }
-}
-
-async function updateBot(conn, m) {
-  try {
-    conn.reply(m.chat, '🔄 Updating bot, please wait...', m);
-
-    exec('git pull origin main', (error, stdout, stderr) => {
-      if (error) {
-        console.error('Error updating bot:', error.message);
-        conn.reply(m.chat, `❌ Error updating bot: ${error.message}`, m);
-        return;
-      }
-
-      console.log('Bot updated successfully:', stdout);
-      conn.reply(m.chat, '✅ Bot updated successfully!', m);
-    });
-  } catch (error) {
-    throw error;
-  }
-}
-
-handler.help = ['update', 'update now'];
+handler.help = ['update'];
 handler.tags = ['owner'];
-handler.command = ['update'];
-handler.owner = true;
+handler.command = ['update', 'actualizar', 'fix', 'fixed'];
+handler.rowner = true;
 
 export default handler;

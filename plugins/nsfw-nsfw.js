@@ -50,8 +50,8 @@ case 'cosplay':
 default:
  }
 }
-// handler.help = ['ass', 'boobs', 'lesbian', 'pussy', 'pack']
-// handler.tags = ['nsfw']
+ handler.help = ['ass', 'boobs', 'lesbian', 'pussy', 'pack']
+ handler.tags = ['nsfw']
 handler.command = /^(ass|gand|boobs|boobies|lesbian|lesbians|pussy|chut|cosplay|pack)$/i
 handler.diamond = true
 handler.register = true

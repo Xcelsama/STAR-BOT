@@ -1,7 +1,7 @@
 import JavaScriptObfuscator from 'javascript-obfuscator'
 
 let handler = async(m, { conn, text }) => {
-if (!text) return m.reply(`*${lenguajeGB['smsAvisoMG']()}Past the code you want to encrypt*`) 
+if (!text) return m.reply(`*${lenguajeGB['smsAvisoMG']()}Paste the code you want to encrypt*`) 
 function obfuscateCode(code) {
   return JavaScriptObfuscator.obfuscate(code, { compact: false, controlFlowFlattening: true, deadCodeInjection: true, simplify: true, numbersToExpressions: true }).getObfuscatedCode();
 }

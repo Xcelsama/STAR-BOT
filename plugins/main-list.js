@@ -2,13 +2,13 @@ let handler = async (m, { conn, usedPrefix, command}) => {
       let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
       if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`;
     
-      let pp = './XLICON.jpg'
+      let pp = './STAR.jpg'
       let more = String.fromCharCode(8206);
       let readMore = more.repeat(850); 
     
       let lkr;
       switch (command) {
-        case 'list':
+        case 'list2':
 lkr = "*Get excited, here are your options:*\n\n" +
 "🤖 *" + usedPrefix + "botmenu* - The Bot's secret control panel. What's your command, oh great one?\n\n" +
 "👑 *" + usedPrefix + "ownermenu* - The sacred scroll only for the chosen one. Yep, that's you, Boss!\n\n" +    
@@ -77,7 +77,7 @@ break;
 ╰───𝙎𝙏𝘼𝙍─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓🤖
-┃➣👾_${usedPrefix}kick *<@tag>*_
+┃➣👾_${usedPrefix}kick_
 ┃➣👾_${usedPrefix}promote *<@tag>*_
 ┃➣👾 _${usedPrefix}demote *<@tag>*_
 ┃➣👾 _${usedPrefix}infogroup_
@@ -358,7 +358,7 @@ break;
           lkr = `use command ${usedPrefix}nsfw`; // 
           break;
           case 'logomenu':
-          lkr = `use ${usedPrefix}logo to see all options \ngfx cmd upto 12`; // 
+          lkr = `use ${usedPrefix}gfx to see all options \ngfx cmd upto 12`; // 
           break;
         default:
           lkr = `Invalid command. Type ${usedPrefix}list to see available options.`;
@@ -372,7 +372,7 @@ break;
     
     handler.help = ['list', 'botmenu', 'ownermenu', 'groupmenu', 'dlmenu', 'downloadermenu', 'economymenu', 'funmenu', 'gamemenu', 'stickermenu', 'nsfwmenu', 'logomenu', 'toolmenu','animemenu2','animemenu'];
     handler.tags = ['main'];
-    handler.command = ['list', 'botmenu', 'ownermenu', 'groupmenu', 'dlmenu', 'downloadermenu', 'economymenu', 'funmenu', 'gamemenu', 'stickermenu', 'nsfwmenu', 'logomenu', 'toolmenu','animemenu2','animemenu'];
+    handler.command = ['list2', 'botmenu', 'ownermenu', 'groupmenu', 'dlmenu', 'downloadermenu', 'economymenu', 'funmenu', 'gamemenu', 'stickermenu', 'nsfwmenu', 'logomenu', 'toolmenu','animemenu2','animemenu'];
     
     export default handler
     

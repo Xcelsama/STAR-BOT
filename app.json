@@ -3,7 +3,7 @@
   "description": "A whatsapp bot with rich functions created by Excel",
     "logo": "https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg",
   "keywords": [
-    "whatsapp bot"
+    "STAR-MD-V2"
   ],
   "repository": "https://github.com/Xcelsama/STAR-MD-V2/main",
   "stack": "container",
@@ -11,12 +11,12 @@
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
-      "value": "mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority"
+      "value": "mongodb+srv://starmd:xcelsama@excel.xmckecq.mongodb.net"
     },
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "Xlicon_7f23553c-49be-4ede-8b4a-93b0203bfe53"
     },
     "MODE": {
       "description": "mode public or private",
@@ -31,7 +31,7 @@
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
-      "value": ""
+      "value":" 8cf895b5-dbdf-4d5d-b2a1-b31319db8aa6"
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
@@ -56,7 +56,7 @@
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
       "required": false,
-      "value": ""
+      "value": "neLbXXrp8bSDcohnp1CW5UEa"
     }
     },
     "buildpacks": [
