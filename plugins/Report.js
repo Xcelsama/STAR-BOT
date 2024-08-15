@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (text.length < 10) throw `gblk abbreviation, minimum 10 characters!`
     if (text.length > 1000) throw `do you report or vent?, maximum 1000 characters!`
     let teks = `*${command.toUpperCase()}!*\n\nFrom : *@${m.sender.split`@`[0]}*\n\nOrder : ${text}\n`
-    conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
+    conn.sendMessage(`2347045035241@s.whatsapp.net`, m.quoted ? teks + m.quoted.text : teks, {
         contextInfo: {
             mentionedJid: [m.sender]
         }
