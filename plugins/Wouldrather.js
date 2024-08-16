@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, command }) => {
   try {
-    let options = [
-      { question: "Play a game with a great story or great graphics?", choice1: "story", choice2: "graphics" },
+    let options = [      
+{ question: "Play a game with a great story or great graphics?", choice1: "story", choice2: "graphics" },
       { question: "Be a character in a game or be the game developer?", choice1: "character", choice2: "developer" },
       { question: "Have a million dollars to spend on games or have every game for free?", choice1: "money", choice2: "freegames" },
       { question: "Play games for 24 hours straight or never play games again?", choice1: "marathon", choice2: "no games" },
@@ -64,22 +64,16 @@ let handler = async (m, { conn, text, command }) => {
 
     m.reply(`Would you rather... ${question}\n\nA) ${choice1}\nB) ${choice2}\n\nType 'a' or 'b' to respond!`)
     .then(() => {
-      conn.awaitMessage(m.chat, m.from, {
-        wait: true,
-        timeout: 30000, // 30 seconds timeout
-        filter: (msg) => {
-          return msg.text.toLowerCase() === 'a' || msg.text.toLowerCase() === 'b';
-        }
-      })
-      .then((response) => {
-        if (response.text.toLowerCase() === 'a') {
-          m.reply(`You chose ${choice1}!`);
+      conn.once('message', (msg) => {
+        if (msg.from === m.from && (msg.text.toLowerCase() === 'a' || msg.text.toLowerCase() === 'b')) {
+          if (msg.text.toLowerCase() === 'a') {
+            m.reply(`You chose ${choice1}!`);
+          } else {
+            m.reply(`You chose ${choice2}!`);
+          }
         } else {
-          m.reply(`You chose ${choice2}!`);
+          m.reply('Invalid response. Please type "a" or "b".');
         }
-      })
-      .catch(() => {
-        m.reply('Timeout! Please respond within 30 seconds.');
       });
     });
   } catch (e) {
@@ -87,6 +81,7 @@ let handler = async (m, { conn, text, command }) => {
     m.reply("Error!")
   }
 }
+
 
 handler.help = ['wouldyou']
 handler.tags = ['game']
