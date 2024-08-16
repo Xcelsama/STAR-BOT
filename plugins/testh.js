@@ -1,9 +1,10 @@
 import axios from "axios"
+
 let handler = async (m, { args }) => {
-  if (!args[0]) throw "*Start a new game by thinking of an object*"
+  if (!args[0]) throw "*Start a new game*"
   if (args[0].toLowerCase() === "new") {
-    thinkOfObject()
-    m.reply("I'm thinking of an object. You can ask me up to 20 yes or no questions to try to guess what it is.")
+    startGame()
+    m.reply("Let's play! I'll ask you 20 yes or no questions.")
   } else {
     try {
       const response = handleInput(args[0])
@@ -14,58 +15,40 @@ let handler = async (m, { args }) => {
   }
 }
 
-let object = ""
 let questionsAsked = 0
 let maxQuestions = 20
+let questions = []
 
-function thinkOfObject() {
-  // For this example, let's just choose a random object from an array
-  const objects = ["apple", "car", "house", "dog", "book"]
-  object = objects[Math.floor(Math.random() * objects.length)]
+async function startGame() {
+  const response = await axios.get('https://opentdb.com/api.php?amount=20&type=boolean')
+  questions = response.data.results
 }
 
-function handleInput(input) {
-  // Check if the user wants to ask a question
-  if (input.startsWith("is")) {
-    // Extract the question from the input
-    const question = input.substring(2).trim()
-    // Check if the question is yes or no
-    if (question === "it alive?" || question === "it a living thing?") {
-      // Answer the question
-      if (object === "dog") {
-        return "Yes"
+async function handleInput(input) {
+  if (questionsAsked < maxQuestions) {
+    const question = questions[questionsAsked]
+    if (input.toLowerCase() === "yes" || input.toLowerCase() === "y") {
+      if (question.correct_answer === "True") {
+        return "Correct!"
       } else {
-        return "No"
+        return "Incorrect. The correct answer is No."
       }
-    } else if (question === "it a fruit?" || question === "it edible?") {
-      if (object === "apple") {
-        return "Yes"
+    } else if (input.toLowerCase() === "no" || input.toLowerCase() === "n") {
+      if (question.correct_answer === "False") {
+        return "Correct!"
       } else {
-        return "No"
+        return "Incorrect. The correct answer is Yes."
       }
     } else {
-      // If the question is not recognized, respond with a hint
-      return "I'm not sure what you mean by that. Try asking a yes or no question!"
+      return "Please respond with either 'yes' or 'no'."
     }
-  } else if (input === "guess") {
-    // If the user wants to make a guess, check if they're correct
-    const guess = input.substring(5).trim()
-    if (guess === object) {
-      return " Congratulations! You guessed it!"
-    } else {
-      return "Sorry, that's not correct. You can ask more questions or try again."
-    }
+    questionsAsked++
   } else {
-    // If the input is not recognized, respond with a hint
-    return "I didn't understand that. Try asking a yes or no question or making a guess!"
-  }
-  questionsAsked++
-  if (questionsAsked === maxQuestions) {
-    return `You ran out of questions! The object was ${object}.`
+    return "You've reached the end of the game. Thanks for playing!"
   }
 }
 
-handler.help = ['20q *<question>*', '20q new']
+handler.help = ['20q *<answer>*', '20q new']
 handler.tags = ['games']
 handler.command = /^(20q|twentyquestions)$/i
 export default handler
