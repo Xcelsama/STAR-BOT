@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, command }) => {
       { question: "Have a million dollars to spend on games or have every game for free?", choice1: "money", choice2: "freegames" },
       { question: "Play games for 24 hours straight or never play games again?", choice1: "marathon", choice2: "no games" },
       { question: "Have a 10-minute conversation with a historical figure or spend 10 minutes in a place that no longer exists?", choice1: "historical figure", choice2: "lost place" },
-      { question: "Be able to speak any language fluently or be able to play any musical instrument perfectly?", choice1: "language", choice2: "instrument" },
+{ question: "Be able to speak any language fluently or be able to play any musical instrument perfectly?", choice1: "language", choice2: "instrument" },
       { question: "Have a photographic memory or be able to learn any new skill in a day?", choice1: "memory", choice2: "new skill" },
       { question: "Be able to breathe underwater or be able to fly?", choice1: "underwater", choice2: "fly" },
       { question: "Have a private island or have a private jet?", choice1: "island", choice2: "jet" },
@@ -55,16 +55,36 @@ let handler = async (m, { conn, text, command }) => {
       { question: "Be able to turn anything into a joke or be able to turn anything into a pun?", choice1: "joke", choice2: "pun" },
       { question: "Have a 5-minute conversation with a famous comedian or spend 5 minutes in a famous comedian's comedy club?", choice1: "comedian", choice2: "comedy club" },
 // Add more options here
-]
-     let randomOption = options[Math.floor(Math.random() * options.length)]
+    ]
+
+    let randomOption = options[Math.floor(Math.random() * options.length)]
     let question = randomOption.question
     let choice1 = randomOption.choice1
     let choice2 = randomOption.choice2
 
-    m.reply(`Would you rather... ${question}\n\nA) ${choice1}\nB) ${choice2}\n\nType 'A' or 'B' to respond!`)
+    m.reply(`Would you rather... ${question}\n\nA) ${choice1}\nB) ${choice2}\n\nType 'a' or 'b' to respond!`)
+    .then(() => {
+      conn.awaitMessage(m.chat, m.from, {
+        wait: true,
+        timeout: 30000, // 30 seconds timeout
+        filter: (msg) => {
+          return msg.text.toLowerCase() === 'a' || msg.text.toLowerCase() === 'b';
+        }
+      })
+      .then((response) => {
+        if (response.text.toLowerCase() === 'a') {
+          m.reply(`You chose ${choice1}!`);
+        } else {
+          m.reply(`You chose ${choice2}!`);
+        }
+      })
+      .catch(() => {
+        m.reply('Timeout! Please respond within 30 seconds.');
+      });
+    });
   } catch (e) {
     console.error(e)
-    m.reply("Error! 😕")
+    m.reply("Error!")
   }
 }
 
