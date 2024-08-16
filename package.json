@@ -67,6 +67,7 @@
         "fb-downloader-scrapper": "^1.0.1",
         "fg-ig": "^0.0.2",
         "file-type": "^18.0.0",
+        "figlet": "^1.7.0",
         "fluent-ffmpeg": "^2.1.2",
         "formdata-node": "^5.0.0",
         "g-i-s": "^2.1.6",
