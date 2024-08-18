@@ -7,7 +7,7 @@ import path from 'path'
 import { fileURLToPath } from 'url';
 
 figlet(
-  'PRINCE BOT',
+  'STAR BOT',
   {
     font: 'Ghost',
     horizontalLayout: 'default',
@@ -87,7 +87,7 @@ async function start(file) {
 
     fs.watchFile(args[0], () => {
       fs.unwatchFile(args[0])
-      start('main.js')
+      start('Guru.js')
     })
   })
 
