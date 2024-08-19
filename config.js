@@ -5,28 +5,28 @@ import fs from 'fs'
 import fetch from 'node-fetch'
 import axios from 'axios'
 
+
 global.owner = [
-  ['918360234087', 'WHITE', true], 
-  ['233208179431', 'Abraham Dwamena', true],
-  ['923184070915', '𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 -(𝘼𝙝𝙢𝙢𝙞)', true], 
-  ['94789481495', '𝙼𝚉𝙽 𝙺𝙸𝙽𝙶 ⚡', true],
-  ['233533763772', 'Abraham Dwamena2', true],
-  ['233268374753', 'Abraham Dwamena3', true]
+  ['2347045035241', 'EXCEL', true],
+  ['23433436666', 'Excel', true], 
+  [''] 
 ] //Number of owners
 
-global.mods = ['923184070915', '94789481495', '923184474176', '233268374753', '233508488192'] 
-global.prems = ['923184070915', '233208179431', '94789481495', '918360234087', '233268374753']
-global.allowed = ['923184070915', '233208179431', '94789481495', '918360234087', '233268374753']
+//global.pairingNumber = "2347045035241" //put your bot number here
+
+global.mods = ['2347045035241','2348021779696'] 
+global.prems = ['2347045035241', '2348021779696', '2347045038687']
+global.allowed = ['2347045035241', '2348021779696', '2347045038687']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
-global.keysxxx = global.keysZens[Math.floor(global.keysZens.length * Math.random())]
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
-global.keysxteam = global.keysxteammm[Math.floor(global.keysxteammm.length * Math.random())]
+global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
-global.keysneoxr = global.keysneoxrrr[Math.floor(global.keysneoxrrr.length * Math.random())]
+global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
-global.beta = 'mLxstUwm'
 
 global.APIs = { // API Prefix
+  // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
   dzx: 'https://api.dhamzxploit.my.id',
   lol: 'https://api.lolhuman.xyz',
@@ -36,42 +36,44 @@ global.APIs = { // API Prefix
   akuari: 'https://api.akuari.my.id',
   akuari2: 'https://apimu.my.id',
   nrtm: 'https://fg-nrtm.ddns.net',
-  bg: 'http://bochil.ddns.net',
+  bg: 'http://bochil.ddns.net', 
   fgmods: 'https://api-fgmods.ddns.net'
 }
-
 global.APIKeys = { // APIKey Here
+  // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
-  'https://api.neoxr.my.id': global.keysneoxr,
+  'https://api.neoxr.my.id': `${keysneoxr}`,        
   'https://violetics.pw': 'beta',
-  'https://zenzapis.xyz': global.keysxxx, 
+  'https://zenzapis.xyz': `${keysxxx}`, 
   'https://api-fgmods.ddns.net': 'fg-dylux'
 }
 
 // Sticker WM
-global.botname = 'XLICON-V2'
+global.botname = '©STAR-MD-V2'
 global.premium = 'true'
-global.packname = 'XLICON TEAM' 
-global.author = '@XLICON-V2' 
-global.menuvid = 'https://telegra.ph/file/325630f66abc968eda8e2.mp4'
-global.igfg = '▢✓ Follow Our channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
-global.dygp = 'https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW'
-global.fgsc = 'https://github.com/salmanytofficial/XLICON-V2-MD' 
-global.fgyt = 'https://youtube.com/@s4salmanyt'
-global.fgpyp = 'https://youtube.com/@s4salmanyt'
-global.fglog = 'XLICON.jpg' 
-global.thumb = fs.readFileSync('./XLICON.jpg')
+global.packname = '©𝚂𝚃𝙰𝚁-𝙼𝙳' 
+global.author = '@𝙴𝚡𝚌𝚎𝚕' 
+global.menuvid = 'https://i.imgur.com/BPQbguA.mp4'
+global.Channel = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X' 
+global.dygp = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X'
+global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
+global.Channel2 = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X'
+global.Wa = 'https://wa.me/2347045035241'
+global.fglog = 'STAR.jpg' 
+global.thumb = fs.readFileSync('./STAR.jpg')
+global.shizokeys = 'shizo'
 
-global.wait = '*🕣 _XLICON IS LOADING..._*\n*▰▰▰▱▱▱▱▱⭐*'
-global.rwait = '⌛'
-global.dmoji = '🤭'
-global.done = '✔️'
-global.error = '❌' 
-global.xmoji = '🔥' 
+
+global.wait = '*🕒 _STAR IS  LOADING WAIT..._*\n*▰▰▰▱▱▱▱▱ 💫*'
+global.rwait = '🔜'
+global.dmoji = '⤵️'
+global.done = '☑️'
+global.error = '❎' 
+global.xmoji = '⚡' 
 
 global.multiplier = 69 
-global.maxwarn = '3' // maximum warnings
+global.maxwarn = '3' 
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
@@ -79,5 +81,3 @@ watchFile(file, () => {
   console.log(chalk.redBright("Update 'config.js'"))
   import(`${file}?update=${Date.now()}`)
 })
-
-
