@@ -6,12 +6,12 @@ import { existsSync, readFileSync, readdirSync, unlinkSync, watch } from 'fs'
 import { createRequire } from 'module'
 import path, { join } from 'path'
 import { platform } from 'process'
-import { fileURLToPath, pathToFileURL } from 'url'
+import { fileURLToPath, pathToFileURL } from 'URL'
 import * as ws from 'ws'
 import processTxtAndSaveCredentials from './lib/makesession.js'
 import clearTmp from './lib/tempclear.js'
-global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') {
-  return rmPrefix
+global.__filename = function filename(path URL = import.meta.url, rmPrefix = platform !== 'win32') {
+  return prefix
     ? /file:\/\/\//.test(pathURL)
       ? fileURLToPath(pathURL)
       : pathURL
@@ -374,7 +374,7 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
 
-    let msgf = `Hai🤩${name} Congrats you have successfully deployed xlicon-v2-BOT\nJoin my support Channel for any Query\n https://whatsapp.com/channel/0029VaMGgVL3WHTNkhzHik3c`
+    let msgf = `Hey Star Congrats you have successfully deployed STAR-BOT\nfollow my support Channel for any Query,updates\n https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X`
 
     let gmes = conn.sendMessage(
       jid,
