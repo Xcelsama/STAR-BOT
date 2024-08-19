@@ -12,7 +12,7 @@ import cfonts from 'cfonts';
 
 const { say } = cfonts;
 
-say("XLICON - V2", {
+say("STAR-BOT", {
   'font': "block",
   'align': "center",
   'colors': ['#ff9900'],
@@ -23,7 +23,7 @@ say("XLICON - V2", {
   'maxLength': '15'
 });
 
-say("Xlicon-BOT-V2 By Salman._.", {
+say("STAR-BOT By Excel._.", {
   'font': "chrome",
   'align': "center",
   'colors': ["red", "magenta"],
@@ -84,7 +84,7 @@ async function start(scriptName) {
     }
     fs.watchFile(scriptArgs[0x0], () => {
       fs.unwatchFile(scriptArgs[0x0]);
-      start("XLICON.js");
+      start("STAR.js");
     });
   });
 
@@ -92,7 +92,7 @@ async function start(scriptName) {
     console.error(chalk.red("Error: " + err));
     childProcess.kill();
     isRunning = false;
-    start('XLICON.js');
+    start('STAR.js');
   });
 
   const pluginsDir = path.join(path.dirname(currentScriptPath), "plugins");
@@ -113,15 +113,15 @@ async function start(scriptName) {
   });
 }
 
-start('XLICON.js');
+start('STAR.js');
 
 process.on("unhandledRejection", () => {
   console.error(chalk.red("Unhandled promise rejection. Bot will restart..."));
-  start("XLICON.js");
+  start("STAR.js");
 });
 
 process.on("exit", exitCode => {
   console.error(chalk.red("Exited with code: " + exitCode));
   console.error(chalk.red("Bot will restart..."));
-  start("XLICON.js");
+  start("STAR.js");
 });
