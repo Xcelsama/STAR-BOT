@@ -1,3 +1,4 @@
+
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
 import './config.js'
 
@@ -10,7 +11,7 @@ import { fileURLToPath, pathToFileURL } from 'URL'
 import * as ws from 'ws'
 import processTxtAndSaveCredentials from './lib/makesession.js'
 import clearTmp from './lib/tempclear.js'
-global.__filename = function filename(path URL = import.meta.url, rmPrefix = platform !== 'win32') {
+global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') {
   return prefix
     ? /file:\/\/\//.test(pathURL)
       ? fileURLToPath(pathURL)
@@ -103,7 +104,7 @@ async function gandu() {
       process.exit(1)
     } else {
       console.log(`${endi}`)
-      console.log(chalk.bgBlack(chalk.redBright('initializing Guru Bot')))
+      console.log(chalk.bgBlack(chalk.redBright('initializing Star Bot')))
     }
   } catch (error) {
     console.error('Error:', error)
