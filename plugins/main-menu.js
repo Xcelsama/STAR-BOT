@@ -46,7 +46,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "🎄",
+ text: "✅️",
  key: m.key,
    }
   })
