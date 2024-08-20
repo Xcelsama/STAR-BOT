@@ -22,8 +22,8 @@ The wind: ${json.wind.speed} km/jam
     `.trim())
 }
 
-handler.help = ['cuaca']
-handler.tags = ['internet']
-handler.command = /^(cuaca|water)$/i
+handler.help = ['forecast]
+handler.tags = ['tools']
+handler.command = /^(forecast|weather)$/i
 
 export default handler
