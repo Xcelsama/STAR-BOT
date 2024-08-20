@@ -47,7 +47,7 @@ const handler = async (m, { conn, args, command }) => {
 };
 
 handler.help = ['all'].map((v) => v + ' <url>');
-handler.tags = ['new'];
+handler.tags = ['internet'];
 // handler.command = /^(fb(dl)?|facebook)$/i;
 handler.command = /^(all|semua)$/i;
 
