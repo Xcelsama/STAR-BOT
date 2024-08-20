@@ -70,7 +70,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "enhance");
-					conn.sendFile(m.chat, This, "", "𝐒𝐓𝐀𝐑-𝐌𝐃-𝐕𝟐 𝐇𝐃 𝐄𝐧𝐡𝐚𝐧𝐜𝐞𝐫...", m);
+					conn.sendFile(m.chat, This, "", "Image Improved✅️...", m);
 				} catch (er) {
 					error = true;
 				} finally {
@@ -84,7 +84,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 	}
 };
 handler.help = ["dehaze","recolor","hdr"];
-handler.tags = ["tools"];
+handler.tags = ["photo tools"];
 handler.command = ["dehaze","recolor","hdr"];
 export default handler;
 
