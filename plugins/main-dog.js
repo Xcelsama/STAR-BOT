@@ -10,7 +10,7 @@ const handler = async (m, {conn, text}) => {
   }
 };
 handler.help = ['dog'];
-handler.tags = ['random'];
+handler.tags = ['img'];
 handler.command = /^dog$/i;
 handler.fail = null;
 export default handler;
