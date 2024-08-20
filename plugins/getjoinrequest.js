@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 };
 
 handler.help = ['getjoinreq'];
-handler.tags = ['group', 'admins'];
+handler.tags = ['group'];
 handler.command = /^(getjoinreq)$/i;
 handler.admin = true;
 handler.group = true;
