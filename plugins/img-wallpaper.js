@@ -52,7 +52,7 @@ function getRandomIndexes(max, count) {
 }
 
 handler.help = [''].map(v => 'wallpaper' + v + ' <query>');
-handler.tags = ['downloader'];
+handler.tags = ['img'];
 handler.command = /^(wall|wallpaper)$/i
 
 export default handler;
