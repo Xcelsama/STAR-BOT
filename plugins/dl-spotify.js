@@ -38,7 +38,7 @@ let handler = async (m, { conn, text }) => {
     await conn.sendMessage(m.chat, doc, { quoted: m });
 }
 handler.help = ['spotify'];
-handler.tags = ['downloader'];
+handler.tags = ['internet'];
 handler.command = /^(spotify|song)$/i;
 
 export default handler;
