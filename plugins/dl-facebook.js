@@ -33,7 +33,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
 };
 
 handler.help = ['facebook <url>'];
-handler.tags = ['downloader'];
+handler.tags = ['internet'];
 handler.command = /^((facebook|fb)(downloder|dl)?)$/i;
 handler.diamond = true;
 
