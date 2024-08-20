@@ -70,7 +70,7 @@ handler.before = async (m, {
 };
 
 handler.help = ["play"];
-handler.tags = ["downloader"];
+handler.tags = ["internet"];
 handler.command = /^(google)$/i;
 handler.limit = true;
 export default handler;
