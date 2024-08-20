@@ -27,8 +27,8 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 await conn.sendButtonImg(m.chat, datathumb, otaku, wm, 'menu', '.menu', m)
 }
 
-handler.help = ['otakudesu'].map(v => v + ' <Apa>')
-handler.tags = ['new']
-handler.command = /^(otakudesu)$/i
+handler.help = ['anime'].map(v => v + ' <anime name>')
+handler.tags = ['anime']
+handler.command = /^(anime)$/i
 
 export default handler
