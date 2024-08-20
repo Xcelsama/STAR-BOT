@@ -14,7 +14,7 @@ let handler = async (message, { conn, args, usedPrefix, command, text }) => {
 
   // Show bot's thinking status
   await message.react('thinking...');
-  await message.react('');
+  await message.react('🫠');
 
   // Encode the text to be used in a URL
   const encodedText = encodeURIComponent(text);
