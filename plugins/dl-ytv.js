@@ -48,7 +48,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 };
 
 handler.help = ['ytmp4 <yt-link>'];
-handler.tags = ['downloader'];
+handler.tags = ['internet'];
 handler.command = ['ytmp4', 'video', 'ytv'];
 handler.diamond = false;
 
