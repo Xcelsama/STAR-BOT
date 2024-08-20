@@ -22,7 +22,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       'https://telegra.ph/file/c3f9e4124de1f31c1c6ae.jpg', 
       [['Script', `.sc`]], 
       null, 
-      [['Follow Me', `https://github.com/Guru322`]], 
+      [['Follow Me', `https://github.com/Xcelsama `]], 
       m
     );
   } catch (error) {
