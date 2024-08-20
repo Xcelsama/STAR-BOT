@@ -14,46 +14,50 @@ let handler = async (message, { conn, args, usedPrefix, command, text }) => {
 
   // Show bot's thinking status
   await message.react('thinking...');
-  await message.react('🤔');
+  await message.react('');
 
   // Encode the text to be used in a URL
   const encodedText = encodeURIComponent(text);
 
-  // Fetch the response from the Bing AI service
-  let response = await fetchBingResponse(encodedText);
+  // Fetch the response from the Copilot service
+  let response = await fetchCopilotResponse(encodedText);
 
   // If no response is received, throw an error
   if (!response) {
-    throw new Error('No valid JSON response from Bing');
+    throw new Error('No valid JSON response from Copilot');
   }
 
-  // Reply with the result from Bing
-  await conn.reply(message.chat, response.result, message);
+  // Reply with the result from Copilot
+  await conn.reply(message.chat, response.response, message);
 };
 
 // Handler metadata
 handler.tags = ['ai'];
-handler.help = ['bing'];
-handler.command = /^(bing)$/i;
+handler.help = ['copilot'];
+handler.command = /^(copilot)$/i;
 export default handler;
 
-// Function to call the Bing API
-async function fetchBingResponse(query) {
-  const url = `https://aemt.me/bingai?text=${query}`;
+// Function to call the Copilot API
+async function fetchCopilotResponse(query) {
+  const url = `https://api.copilot.io/v1/converse`;
   const headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36',
-    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+    'Content-Type': 'application/json'
   };
-  
+
+  const data = {
+    'prompt': query
+  };
+
   const response = await fetch(url, {
-    method: 'GET',
-    headers: headers
+    method: 'POST',
+    headers: headers,
+    body: JSON.stringify(data)
   });
 
   if (!response.ok) {
     throw new Error('Network response was not ok');
   }
 
-  const data = await response.json();
-  return data;
+  const jsonData = await response.json();
+  return jsonData;
 }
