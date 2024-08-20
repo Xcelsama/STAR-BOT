@@ -30,7 +30,7 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
 };
 
 handler.help = ['ytmp3 <url>']
-handler.tags = ['downloader']
+handler.tags = ['internet']
 handler.command = ['ytmp3', 'yta'] 
 
 export default handler
