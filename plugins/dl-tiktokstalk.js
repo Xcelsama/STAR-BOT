@@ -17,7 +17,7 @@ let handler = async (m, { conn, text, args }) => {
   await conn.sendFile(m.chat, res.profile, 'tt.png', txt, m)
 }
 handler.help = ['tiktokstalk']
-handler.tags = ['downloader']
+handler.tags = ['internet']
 handler.command = /^t(tstalk|iktokstalk)$/i
 
 export default handler
