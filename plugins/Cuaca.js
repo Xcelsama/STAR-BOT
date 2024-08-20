@@ -22,7 +22,7 @@ The wind: ${json.wind.speed} km/jam
     `.trim())
 }
 
-handler.help = ['forecast]
+handler.help = ['forecast']
 handler.tags = ['tools']
 handler.command = /^(forecast|weather)$/i
 
