@@ -12,7 +12,7 @@ console.log(e)
 throw '*Error!*'
 }}
 handler.help = ['cat']
-handler.tags = ['random']
+handler.tags = ['img']
 handler.command = /^cat$/i
 handler.fail = null
 export default handler
