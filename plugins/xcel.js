@@ -12,7 +12,7 @@ key: {
  text: `${text}`}}, { messageId: m.id })
  }
  handler.help = ['react <emoji>']
-handler.tags = ['tools']
+handler.tags = ['fun']
 handler.command = /^(react)$/i
 
 export default handler
