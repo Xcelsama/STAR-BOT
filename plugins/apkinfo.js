@@ -13,6 +13,11 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         let opt = { contextInfo: { externalAdReply: { title, body: summary, thumbnail: (await conn.getFile(icon)).data, sourceUrl: res.url }}}
         conn.sendMessage(m.chat, { image: { url: screenshots.getRandom() }, caption: str, ...opt }, { quoted: m })
 }
-handler.command = /^(apk(info|detail))$/i
+handler.help = ['apkinfo','apkdetail']
 
+handler.tags = ['tools']
+
+handler.limit = false
+
+handler.command = /^(apkinfo|apkdetail)$/i
 export default handler
