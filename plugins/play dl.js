@@ -8,9 +8,9 @@ if (!text) throw `What to search?\nExample: ${usedPrefix + command} mujhey kis b
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
-if (command === 'play') {
+if (command === 'play4') {
 additionalText = 'audio 🔊'
-} else if (command === 'play2') {
+} else if (command === 'play4') {
 additionalText = 'video 🎥'}
 let texto1 = `*◉——⌈ YOUTUBE ⌋——◉*\n
 ❏ 📌 *Title:* ${yt_play[0].title}
@@ -304,7 +304,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     }
   }
 };
-handler.help = ["play", "play2"].map((v) => v + " < busqueda >");
+handler.help = ["play4", "play4"].map((v) => v + " < busqueda >");
 handler.tags = ["downloader"];
-handler.command = /^play2?$/i;
+handler.command = /^play4?$/i;
 export default handler;*/
