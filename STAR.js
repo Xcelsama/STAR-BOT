@@ -103,7 +103,7 @@ async function gandu() {
       process.exit(1)
     } else {
       console.log(`${endi}`)
-      console.log(chalk.bgBlack(chalk.redBright('initializing Star Bot')))
+      console.log(chalk.bgBlack(chalk.redBright('initializing Guru Bot')))
     }
   } catch (error) {
     console.error('Error:', error)
@@ -213,10 +213,10 @@ global.loadDatabase = async function loadDatabase() {
 loadDatabase()
 global.authFolder = `session`
 const { state, saveCreds } = await useMultiFileAuthState(global.authFolder)
-let { version, isLatest } = await fetchLatestWaWebVersion()
+//let { version, isLatest } = await fetchLatestWaWebVersion()
 
 const connectionOptions = {
-  version,
+  version: [2, 3000, 1015901307],
   logger: Pino({
     level: 'fatal',
   }),
@@ -239,11 +239,11 @@ const connectionOptions = {
     let msg = await store.loadMessage(jid, key.id)
     return msg?.message || ''
   },
-  patchMessageBeforeSending: (message) => {
+patchMessageBeforeSending: message => {
     const requiresPatch = !!(
-        message.buttonsMessage 
-        || message.templateMessage
-        || message.listMessage
+        message.buttonsMessage ||
+        message.templateMessage ||
+        message.listMessage
     );
     if (requiresPatch) {
         message = {
@@ -258,11 +258,12 @@ const connectionOptions = {
             },
         };
     }
-
-    return message;
+    return message; // Ensure return is outside the if block
 },
+
   msgRetryCounterCache,
   defaultQueryTimeoutMs: undefined,
+  syncFullHistory: false,
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -360,10 +361,14 @@ async function connectionUpdate(update) {
   const code =
     lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
   if (code && code !== DisconnectReason.loggedOut && conn?.ws.socket == null) {
-    conn.logger.info(await global.reloadHandler(true).catch(console.error))
+    try {
+      conn.logger.info(await global.reloadHandler(true))
+    } catch (error) {
+      console.error('Error reloading handler:', error)
+    }
   }
-  if (code && code == DisconnectReason.restartRequired) {
-    conn.logger.info(chalk.yellow('\n🚩Restart Required... Restarting'))
+  if (code && (code === DisconnectReason.restartRequired || code === 428)) {
+    conn.logger.info(chalk.yellow('\n🚩 Restart Required... Restarting'))
     process.send('reset')
   }
 
@@ -374,18 +379,9 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
 
-    let msgf = `Hey Star Congrats you have successfully deployed STAR-BOT\nJoin my support Channel for Updates & Query\n https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X`
+ const msg = `Hey👋 Star Congrats you have successfully deployed STAR-BOT\nJoin my support Channel for  Query & Updates\n https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X`
 
-    let gmes = conn.sendMessage(
-      jid,
-      {
-        text: msgf,
-        mentions: [jid],
-      },
-      {
-        quoted: null,
-      }
-    )
+    await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
     conn.logger.info(chalk.yellow('\n🚩 R E A D Y'))
   }
