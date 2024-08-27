@@ -3,7 +3,7 @@
 
 
 ### Forever in my heart  😭
-<p style="text-align:center">STAR-MD-V2</p>
+<p align="center">STAR-MD-V2</p>
 
 
 
