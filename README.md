@@ -2,7 +2,7 @@
 # [STAR-BOT](https://github.com/Xcelsama)
 
 
-<p align="center"> 𝗙𝗼𝗿𝗲𝘃𝗲𝗿 𝗜𝗻 𝗺𝘆 𝗛𝗲𝗮𝗿𝘁/p> 
+<p align="center"> 𝗙𝗼𝗿𝗲𝘃𝗲𝗿 𝗜𝗻 𝗺𝘆 𝗛𝗲𝗮𝗿𝘁 😭 </p> 
 <p align="center">STAR-MD-V2</p>
 
 
